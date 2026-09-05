@@ -1,0 +1,25 @@
+# Python and uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Sphinx
+build/
+dist/
+
+# Node and generated Tailwind output
+node_modules/
+source/_static/css/site.css
+
+# Generated downloads
+source/_static/pdfs/
+
+# Local configuration and editor files
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Local source materials used to generate the public study files
+/resources/

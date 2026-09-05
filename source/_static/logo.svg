@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="64" viewBox="0 0 240 64" role="img" aria-labelledby="title">
+  <title id="title">计算机考研 408 资料站</title>
+  <rect width="64" height="64" rx="14" fill="#0f2740"/>
+  <path d="M14 38h24M32 18v28M18 18v13h22V18" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="46" cy="23" r="4" fill="#14b8a6"/>
+  <circle cx="46" cy="41" r="4" fill="#3b82f6"/>
+  <text x="78" y="40" fill="currentColor" font-family="ui-monospace, monospace" font-size="25" font-weight="800">408 LAB</text>
+</svg>

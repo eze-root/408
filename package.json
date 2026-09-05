@@ -1,0 +1,13 @@
+{
+  "name": "kaoyan-408-styles",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:css": "bash scripts/build_css.sh",
+    "dev:css": "tailwindcss -i source/_static/css/src/site.css -o source/_static/css/site.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
