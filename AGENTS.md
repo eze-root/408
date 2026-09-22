@@ -8,7 +8,7 @@
 
 ## 内容组织
 
-- `source/lectures/`：四科知识地图与章节梳理；
+- `source/lectures/`：四科复习提纲与章节梳理；
 - `source/labs/`：选择题、计算题与算法题专项训练；
 - `source/assignments/`：历年真题索引、套卷方法与复盘模板；
 - `source/resources/`：笔记、试卷、解析和速查资料；
@@ -75,3 +75,5 @@
 - 涉及试卷内容或版式时，额外执行 `uv run python scripts/check_papers.py`，检查题号、A4 尺寸、页边界和原始标记泄漏，并抽查实际页面。
 - OCR 服务只能显式调用；原始资料与任务回执保留在忽略的 `resources/`，不由 CI 上传。`convert_materials.py` 导入到待校对目录，不覆盖人工编辑的试卷。
 - `.github/workflows/site.yml` 负责测试、PDF、网站构建与 GitHub Pages 部署；PR 不部署，主分支成功后部署。Pages 的 Source 使用 GitHub Actions。
+- Actions 组件固定到具体提交并注明版本；更新时核对官方 release。PR 可取消旧检查，主分支不能中断正在进行的发布。
+- 手动运行可取消 `deploy`，只构建检查。失败日志保留 7 天，PDF 下载包保留 14 天；运行摘要中查看各项检查结果。

@@ -60,7 +60,7 @@ html_js_files = ["js/paper-library.js"]
 html_logo = "_static/logo.svg"
 html_favicon = "_static/favicon.svg"
 html_meta = {
-    "description": "计算机考研 408 知识框架、专项训练、历年真题与复盘资料站。",
+    "description": "计算机考研 408 四科复习提纲、练习方法、历年试卷与答题纸下载。",
 }
 
 copybutton_prompt_text = r">>> |\.\.\. |\$ |In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "

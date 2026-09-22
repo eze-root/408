@@ -15,18 +15,18 @@ tags: [408, 首页, 考研]
 
 ::::{div} hero-408
 
-<span class="hero-kicker">COMPUTER SCIENCE · 408</span>
+<span class="hero-kicker">计算机学科专业基础</span>
 
-## 把知识学明白，把真题做扎实
+## 408 复习资料与历年真题
 
-从四科知识地图，到一张可以认真落笔的试卷。按章节学、按题型练，再用 180 分钟检验一次自己。
+这里有四科复习提纲、题型练习方法，以及 2009—2024 年试卷。试题册和答题纸分开提供，下载后可直接打印。
 
 :::{div} hero-actions
-[选一套真题](assignments/index){.hero-button .primary} [打开知识地图](lectures/index){.hero-button}
+[下载真题](assignments/index){.hero-button .primary} [查看复习提纲](lectures/index){.hero-button}
 :::
 
 :::{div} hero-stats
-<span><strong>4</strong> 门核心科目</span>
+<span><strong>4</strong> 门考试科目</span>
 <span><strong>150</strong> 分试卷总分</span>
 <span><strong>180</strong> 分钟答题时间</span>
 :::
@@ -35,13 +35,13 @@ tags: [408, 首页, 考研]
 ::::{div} featured-paper
 
 :::{div} featured-copy
-<span class="section-eyebrow">PAPER COLLECTION / 历年真题</span>
+<span class="section-eyebrow">历年真题 · 2009—2024</span>
 
-## 关掉答案，给自己一场完整的模拟
+## 历年试卷与答题纸
 
-2009—2024 年试题册，配套独立答题纸。黑白排版、清晰题号，下载后即可按 A4 原尺寸打印。
+试卷按年份整理，不附答案。使用 A4 纸按实际大小打印；做完后，可用复盘模板记录得分、用时和错题。
 
-{doc}`挑选年份与下载试卷 → </assignments/index>`
+{doc}`按年份下载 → </assignments/index>`
 
 <span class="quiet-note">2023、2024 年回忆资料单独标注缺项。</span>
 :::
@@ -55,7 +55,7 @@ tags: [408, 首页, 考研]
 :::
 ::::
 
-## 四科知识地图
+## 四科复习提纲
 
 ::::{grid} 1 2 2 2
 :gutter: 2
@@ -65,7 +65,7 @@ tags: [408, 首页, 考研]
 :link-type: doc
 :class-card: subject-card subject-ds
 
-线性表、树与图、查找排序。重点训练算法思想、复杂度分析与代码阅读。
+线性表、树、图、查找和排序。练习算法过程、复杂度分析与代码阅读。
 
 **45 分 · 建议 55 分钟**
 :::
@@ -75,7 +75,7 @@ tags: [408, 首页, 考研]
 :link-type: doc
 :class-card: subject-card subject-co
 
-数据表示、存储系统、指令系统、CPU 与总线 I/O，建立完整硬件数据通路。
+数据表示、存储系统、指令系统、CPU、总线与 I/O。练习地址划分、指令执行和流水线计算。
 
 **45 分 · 建议 55 分钟**
 :::
@@ -85,7 +85,7 @@ tags: [408, 首页, 考研]
 :link-type: doc
 :class-card: subject-card subject-os
 
-进程线程、同步互斥、内存、文件与 I/O，把机制、算法和计算题连起来。
+进程与线程、同步互斥、内存、文件和 I/O。练习信号量、调度、地址转换和页面置换。
 
 **35 分 · 建议 40 分钟**
 :::
@@ -95,60 +95,60 @@ tags: [408, 首页, 考研]
 :link-type: doc
 :class-card: subject-card subject-cn
 
-按五层体系理解协议，抓住可靠传输、路由、子网划分和应用层流程。
+网络分层、可靠传输、路由与应用层协议。练习子网划分、时延计算和 TCP 窗口变化。
 
 **25 分 · 建议 30 分钟**
 :::
 ::::
 
-## 现在从哪里开始
+## 按复习进度使用
 
 ::::{grid} 1 2 2 3
 :gutter: 2
 
-:::{grid-item-card} ① 搭建框架
+:::{grid-item-card} ① 按章复习
 :link: lectures/index
 :link-type: doc
 :class-card: action-card
 
-按四科目录过一遍核心考点，先知道“考什么”，再进入细节。
+查看各科章节和练习重点，对照考纲标出尚未学过的内容。
 :::
 
-:::{grid-item-card} ② 专项突破
+:::{grid-item-card} ② 按题型练习
 :link: labs/index
 :link-type: doc
 :class-card: action-card
 
-按选择题、计算题和算法题拆分训练，记录每次失分的真实原因。
+选择题、计算题和算法题分别练习。订正时记下错误步骤和遗漏条件。
 :::
 
-:::{grid-item-card} ③ 真题闭环
+:::{grid-item-card} ③ 限时做套卷
 :link: assignments/index
 :link-type: doc
 :class-card: action-card
 
-整套限时作答，按知识点归因，不把“看懂答案”当成“已经掌握”。
+留出 180 分钟独立作答。评分后整理错题，隔一周再做一次。
 :::
 ::::
 
 :::{admonition} 使用建议
 :class: tip
-一轮复习以知识框架为主；二轮开始加入专题训练；进入冲刺期后，真题按年份成套完成。每套卷保留原始作答、订正过程和二刷结果。
+还没学完四科时，可以按章节找题练习。准备模拟时，选一套没做过的卷子计时完成，保留作答和订正记录。
 :::
 
 ## 资料入口
 
 | 入口 | 适合什么时候用 | 你会找到什么 |
 | --- | --- | --- |
-| {doc}`/lectures/index` | 一轮与二轮复习 | 四科考点地图、重点章节、复习顺序 |
+| {doc}`/lectures/index` | 一轮与二轮复习 | 各科章节、练习重点 |
 | {doc}`/labs/index` | 知识点学完后 | 选择题、计算题、算法题训练方法 |
-| {doc}`/assignments/index` | 二轮后期与冲刺 | 历年真题索引、套卷节奏、复盘模板 |
+| {doc}`/assignments/index` | 二轮后期与冲刺 | 试卷下载、套卷建议、复盘模板 |
 | {doc}`/resources/index` | 全程查阅 | 资料清单、错题记录方法、文件命名规范 |
-| {doc}`/about` | 了解项目 | 建站背景、目标与资料使用边界 |
+| {doc}`/about` | 了解项目 | 项目说明、资料来源与勘误方式 |
 
 :::{admonition} 2025 年考试大纲
 :class: tip
-已将资料库中的 2025 年 408 考纲整理为可检索的 Markdown，按四科、章节与考点分层展示。{doc}`查看完整考纲 </resources/exam-syllabus-2025>`。
+可按科目和章节查阅 {doc}`2025 年 408 考纲 </resources/exam-syllabus-2025>`。其他年份请对照当年的正式考纲。
 :::
 
 ```{toctree}

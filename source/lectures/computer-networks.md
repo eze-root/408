@@ -1,6 +1,6 @@
 ---
 title: "计算机网络"
-date: 2026-09-05
+date: 2026-09-23
 author: "eze-root"
 tags: [408, 计算机网络]
 ---
@@ -10,11 +10,11 @@ tags: [408, 计算机网络]
 ```{article-info}
 :avatar-outline: muted
 :author: eze-root updated on
-:date: 2026-09-05
+:date: 2026-09-23
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```
 
-## 复习主线
+## 章节内容
 
 1. 体系结构与物理层：分层、编码、带宽和时延；
 2. 数据链路层：成帧、差错控制、介质访问和以太网；
@@ -22,7 +22,7 @@ tags: [408, 计算机网络]
 4. 传输层：UDP、TCP 可靠传输、流量控制与拥塞控制；
 5. 应用层：DNS、HTTP、电子邮件及典型交互流程。
 
-## 高频能力
+## 练习重点
 
 - 计算发送时延、传播时延和吞吐量；
 - 划分子网并分析路由表；
