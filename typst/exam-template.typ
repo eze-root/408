@@ -53,7 +53,8 @@
     ],
   )
   let height = measure(block(width: 166mm, content)).height
-  block(width: 100%, breakable: height > 240mm, above: 0pt, below: 10pt, content)
+  block(width: 100%, breakable: height > 240mm, above: 0pt,
+    below: if q.number <= 40 { 8pt } else { 10pt }, content)
 }
 
 #let cover(paper) = {
@@ -163,7 +164,7 @@
     section-title([一、单项选择题], [第 1—40 小题，每小题 2 分，共 80 分。下列每题给出的四个选项中，只有一项最符合题目要求。])
     for q in paper.questions {
       if q.number == 41 {
-        pagebreak(weak: true)
+        v(3mm)
         section-title([二、综合应用题], [第 41—47 小题，共 70 分。请将答案写在配套答题纸的相应区域内。])
       }
       question(q, paper.figures)

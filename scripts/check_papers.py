@@ -8,6 +8,19 @@ import pymupdf
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def visible_question_numbers(doc):
+    numbers = []
+    for page in list(doc)[1:]:
+        # Font metrics can merge a number with the first word of the stem.
+        # Match the prefix at the number column's 22 mm left edge; keep the
+        # sequence intact so an absent, duplicated or reordered number fails.
+        for x0, y0, x1, y1, word, *_ in page.get_text("words"):
+            match = re.match(r"(\d{1,2})\.", word)
+            if 61 <= x0 <= 65 and match:
+                numbers.append(int(match[1]))
+    return numbers
+
+
 def main():
     folder = ROOT / "source/_static/files/papers"
     files = sorted(folder.glob("*.pdf"))
@@ -26,11 +39,7 @@ def main():
                     if n and f"第 {n + 40} 题" not in page.get_text():
                         raise ValueError(f"{path.name}: missing answer area {n + 40}")
             else:
-                question_numbers = []
-                for page in doc:
-                    for x0, y0, x1, y1, word, *_ in page.get_text("words"):
-                        if 61 <= x0 <= 65 and re.fullmatch(r"\d{1,2}\.", word):
-                            question_numbers.append(int(word[:-1]))
+                question_numbers = visible_question_numbers(doc)
                 if question_numbers != list(range(1, 48)):
                     raise ValueError(f"{path.name}: missing or duplicate visible question numbers: {question_numbers}")
             for page in doc:

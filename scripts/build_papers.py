@@ -20,6 +20,18 @@ ANSWER = re.compile(r"【(?:答案|解析|参考答案)】|这题全选|暂无�
 
 
 def parse_paper(source: str, *, year: str, metadata: dict) -> dict:
+    # A trailing Markdown backslash becomes literal when a stem or option is
+    # split off and stripped. Two spaces preserve internal hard breaks without
+    # leaking a backslash at the end of the resulting fragment.
+    lines = []
+    in_code = False
+    for line in source.splitlines():
+        if line.startswith("```"):
+            in_code = not in_code
+        if not in_code:
+            line = re.sub(r"(?<!\\)\\[ \t]*$", "  ", line)
+        lines.append(line)
+    source = "\n".join(lines)
     matches = list(QUESTION.finditer(source))
     numbers = [int(match[1]) for match in matches]
     if numbers != list(range(1, 48)):
