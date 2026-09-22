@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import re
+import argparse
 import subprocess
 from html.parser import HTMLParser
 from pathlib import Path
@@ -12,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SYLLABUS_DOCX = ROOT / "resources/考纲/2025年408考纲.docx"
 SYLLABUS_MD = ROOT / "source/resources/exam-syllabus-2025.md"
-PAPERS_DIR = ROOT / "resources/真题"
+PAPERS_DIR = ROOT / "resources/真题/资料1"
 TYPST_PAPERS = ROOT / "typst/papers"
 PDF_DIR = ROOT / "source/_static/files/papers"
 
@@ -34,7 +35,7 @@ def syllabus_markdown() -> str:
         "---",
         'title: "2025 年 408 计算机学科专业基础考试大纲"',
         "date: 2026-09-05",
-        'author: "408 学习小组"',
+        'author: "eze-root"',
         "tags: [408, 考纲, 复习范围]",
         "---",
         "",
@@ -42,7 +43,7 @@ def syllabus_markdown() -> str:
         "",
         "```{article-info}",
         ":avatar-outline: muted",
-        ":author: 408 学习小组 updated on",
+        ":author: eze-root updated on",
         ":date: 2026-09-05",
         ":class-container: sd-p-2 sd-outline-muted sd-rounded-1",
         "```",
@@ -189,9 +190,13 @@ def write_if_changed(path: Path, content: str) -> None:
 
 
 def main() -> None:
-    write_if_changed(SYLLABUS_MD, syllabus_markdown())
-    TYPST_PAPERS.mkdir(parents=True, exist_ok=True)
-    PDF_DIR.mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser(description="Import raw materials into review drafts; never overwrite edited papers.")
+    parser.add_argument("--syllabus", action="store_true", help="Also regenerate the syllabus (requires macOS textutil)")
+    args = parser.parse_args()
+    if args.syllabus:
+        write_if_changed(SYLLABUS_MD, syllabus_markdown())
+    drafts = ROOT / "resources/真题/待校对"
+    drafts.mkdir(parents=True, exist_ok=True)
 
     converted = 0
     for source in sorted(PAPERS_DIR.glob("*/*.md")):
@@ -199,19 +204,11 @@ def main() -> None:
         if not match:
             continue
         year = match.group(1)
-        md_path = TYPST_PAPERS / f"{year}.md"
-        typ_path = TYPST_PAPERS / f"{year}.typ"
+        md_path = drafts / f"{year}.md"
         write_if_changed(md_path, clean_paper(source, year))
-        write_if_changed(
-            typ_path,
-            (
-                '#import "../exam-template.typ": exam\n\n'
-                f'#exam(year: "{year}", source: read("{year}.md"))\n'
-            ),
-        )
         converted += 1
 
-    print(f"Converted syllabus and {converted} paper sources.")
+    print(f"Imported {converted} review drafts into {drafts}; edited Typst papers unchanged.")
 
 
 if __name__ == "__main__":

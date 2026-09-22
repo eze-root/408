@@ -13,11 +13,12 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
+bash scripts/build-papers.sh
 npm run dev:css &
 CSS_PID=$!
 
 uv run sphinx-autobuild \
-  -a source build/dirhtml \
-  --host 0.0.0.0 \
+  -b dirhtml -a source build/dirhtml \
+  --host 127.0.0.1 \
   --port 8000 \
   --watch source

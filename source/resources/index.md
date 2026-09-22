@@ -1,7 +1,7 @@
 ---
 title: "资料库"
 date: 2026-09-05
-author: "408 学习小组"
+author: "eze-root"
 tags: [408, 资料, 工具]
 ---
 
@@ -9,12 +9,17 @@ tags: [408, 资料, 工具]
 
 ```{article-info}
 :avatar-outline: muted
-:author: 408 学习小组 updated on
+:author: eze-root updated on
 :date: 2026-09-05
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```
 
 资料的价值在于减少查找成本。主线资料保持精简，补充资料只用于解决具体问题。
+
+:::{admonition} 资料来源说明
+:class: warning
+本站资料主要收集自互联网，不代表官方立场，仅供学习参考，无法保证其真实性、准确性、完整性与时效性。请对照学校、学院及教育主管部门发布的最新官方信息进行核验。
+:::
 
 ## 建议资料结构
 
@@ -43,6 +48,10 @@ tags: [408, 资料, 工具]
 
 - {doc}`exam-syllabus-2025`：2025 年 408 考纲的可检索 Markdown 版本；
 - {doc}`/assignments/index`：2009—2024 年真题试卷索引与打印版下载。
+
+## 共同维护
+
+欢迎贡献最新的考纲、招生通知、真题、勘误与复习笔记。请附上资料来源、发布日期和适用范围，并确保内容可以公开使用且不含个人隐私。
 
 ```{toctree}
 :maxdepth: 1

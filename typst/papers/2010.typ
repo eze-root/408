@@ -1,3 +1,3 @@
 #import "../exam-template.typ": exam
 
-#exam(year: "2010", source: read("2010.md"))
+#exam(json("../../build/papers/2010.json"))

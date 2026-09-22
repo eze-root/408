@@ -8,9 +8,12 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile html dirhtml
+.PHONY: help Makefile html dirhtml papers
 
-html dirhtml:
+papers:
+	@bash scripts/build-papers.sh
+
+html dirhtml: papers
 	@bash scripts/build_css.sh
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 

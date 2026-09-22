@@ -1,22 +1,28 @@
 ---
 title: "计算机考研 408 资料站"
-date: 2026-09-05
-author: "408 学习小组"
+date: 2026-09-23
+author: "eze-root"
 tags: [408, 首页, 考研]
 ---
 
 # 计算机考研 408 资料站
 
+```{article-info}
+:author: eze-root updated on
+:date: 2026-09-23
+:class-container: sd-p-2 sd-outline-muted sd-rounded-1
+```
+
 ::::{div} hero-408
 
 <span class="hero-kicker">COMPUTER SCIENCE · 408</span>
 
-## 把四门课，整理成一张清晰的复习地图
+## 把知识学明白，把真题做扎实
 
-知识框架、专题训练、历年真题与复盘方法集中在这里。先建立体系，再用真题定位薄弱点，最后回到知识点完成闭环。
+从四科知识地图，到一张可以认真落笔的试卷。按章节学、按题型练，再用 180 分钟检验一次自己。
 
 :::{div} hero-actions
-[开始复习](lectures/index.md){.hero-button .primary} [查看真题](assignments/index.md){.hero-button}
+[选一套真题](assignments/index){.hero-button .primary} [打开知识地图](lectures/index){.hero-button}
 :::
 
 :::{div} hero-stats
@@ -26,9 +32,32 @@ tags: [408, 首页, 考研]
 :::
 ::::
 
+::::{div} featured-paper
+
+:::{div} featured-copy
+<span class="section-eyebrow">PAPER COLLECTION / 历年真题</span>
+
+## 关掉答案，给自己一场完整的模拟
+
+2009—2024 年试题册，配套独立答题纸。黑白排版、清晰题号，下载后即可按 A4 原尺寸打印。
+
+{doc}`挑选年份与下载试卷 → </assignments/index>`
+
+<span class="quiet-note">2023、2024 年回忆资料单独标注缺项。</span>
+:::
+
+:::{div} paper-miniature
+<span class="miniature-label">2022 · 408</span>
+<strong>计算机学科<br>专业基础综合</strong>
+<span class="miniature-rule"></span>
+<span>试题册 · 配套答题纸</span>
+<span class="miniature-meta">180 分钟 / 150 分 / A4</span>
+:::
+::::
+
 ## 四科知识地图
 
-::::{grid} 1 2 2 4
+::::{grid} 1 2 2 2
 :gutter: 2
 
 :::{grid-item-card} 01 · 数据结构
@@ -115,6 +144,7 @@ tags: [408, 首页, 考研]
 | {doc}`/labs/index` | 知识点学完后 | 选择题、计算题、算法题训练方法 |
 | {doc}`/assignments/index` | 二轮后期与冲刺 | 历年真题索引、套卷节奏、复盘模板 |
 | {doc}`/resources/index` | 全程查阅 | 资料清单、错题记录方法、文件命名规范 |
+| {doc}`/about` | 了解项目 | 建站背景、目标与资料使用边界 |
 
 :::{admonition} 2025 年考试大纲
 :class: tip
@@ -129,4 +159,5 @@ lectures/index
 labs/index
 assignments/index
 resources/index
+about
 ```

@@ -41,7 +41,7 @@ bash scripts/dev.sh
 ---
 title: 页面标题
 date: 2026-09-01
-author: 408 学习小组
+author: eze-root
 tags: [讲义]
 ---
 
@@ -49,7 +49,7 @@ tags: [讲义]
 
 ```{article-info}
 :avatar-outline: muted
-:author: 408 学习小组 updated on
+:author: eze-root updated on
 :date: 2026-09-01
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```
@@ -78,3 +78,20 @@ uv run make clean
 uv run make dirhtml SPHINXOPTS="-W --keep-going"
 uv run python -m unittest discover -s tests -v
 ```
+
+## 试卷排版与下载
+
+网站构建会先生成 2009—2024 年的试题册和配套答题纸，共 32 个 PDF。需要安装 **Typst 0.15.1**；Linux 另需 `fonts-noto-cjk`、`fonts-dejavu-core`。macOS 使用已有宋体、黑体和 DejaVu Sans Mono。
+
+```bash
+bash scripts/build-papers.sh --years 2022
+uv run python scripts/check_papers.py
+```
+
+排版源文件、OCR 工作流与已知内容缺项见 [typst/README.md](typst/README.md)。2023、2024 年为有缺项的回忆资料，页面明确标注，不作为完整计分模拟卷。构建不依赖本机的原始 `resources/`，也不会请求 OCR 服务。
+
+## GitHub Actions 与发布
+
+`.github/workflows/site.yml` 在主分支推送、PR 和手动触发时安装依赖、生成 PDF、严格构建网页并执行测试与 PDF 检查。主分支成功后发布到 GitHub Pages；PR 只构建与检查。每次运行还会保存 `408-printable-papers` 下载产物。
+
+仓库的 **Settings → Pages → Source** 需要选择 **GitHub Actions**。默认网址为 <https://eze-root.github.io/408/>；其他部署地址可通过 `SITE_URL` 配置。生成的 PDF/CSS/网页留在构建产物中，不提交到 Git。

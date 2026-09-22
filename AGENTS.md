@@ -66,3 +66,12 @@
 - 示例命令经过检查，不包含个人凭据、内网地址或机器专属绝对路径；
 - 学期、截止时间、评分规则等高影响信息有明确来源，并保持相关页面同步。
 - `AGENTS.md` 与实际目录、命令和部署方式一致。
+
+## 真题排版与部署
+
+- `typst/papers/` 为可编辑题目来源，`typst/assets/` 为随仓库保存的题目插图；版本与缺项记录在 `typst/papers/manifest.json`。
+- `bash scripts/build-papers.sh` 通过 uv 调用 Typst 0.15.1，生成试题册与答题纸；`make dirhtml` 会先执行此步骤。
+- Linux 构建需要 `fonts-noto-cjk` 和 `fonts-dejavu-core`。PDF 生成到 `source/_static/files/papers/`，不提交。
+- 涉及试卷内容或版式时，额外执行 `uv run python scripts/check_papers.py`，检查题号、A4 尺寸、页边界和原始标记泄漏，并抽查实际页面。
+- OCR 服务只能显式调用；原始资料与任务回执保留在忽略的 `resources/`，不由 CI 上传。`convert_materials.py` 导入到待校对目录，不覆盖人工编辑的试卷。
+- `.github/workflows/site.yml` 负责测试、PDF、网站构建与 GitHub Pages 部署；PR 不部署，主分支成功后部署。Pages 的 Source 使用 GitHub Actions。

@@ -1,0 +1,97 @@
+{
+  "2009": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2010": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2011": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2012": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2013": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2014": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2015": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2016": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2017": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2018": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2019": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2020": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2021": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2022": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2023": {
+    "edition": "回忆资料·待补全",
+    "note": "依据现有回忆资料重排，部分选项或图示缺失，不适合计分模拟。",
+    "incomplete_questions": [
+      18,
+      19,
+      32,
+      43,
+      44,
+      47
+    ]
+  },
+  "2024": {
+    "edition": "回忆资料·待补全",
+    "note": "依据现有回忆资料重排，部分选项或图示缺失，不适合计分模拟。",
+    "incomplete_questions": [
+      3,
+      19,
+      21,
+      22,
+      23,
+      39,
+      47
+    ]
+  }
+}

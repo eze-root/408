@@ -1,11 +1,12 @@
 """Sphinx configuration for 计算机考研 408 资料站."""
 
 from pathlib import Path
+import os
 
 
 project = "\u8ba1\u7b97\u673a\u8003\u7814 408 \u8d44\u6599\u7ad9"
-author = "408 \u5b66\u4e60\u5c0f\u7ec4"
-copyright = "2026, 408 \u5b66\u4e60\u5c0f\u7ec4"
+author = "eze-root"
+copyright = "2026, eze-root"
 release = "\u957f\u671f\u66f4\u65b0"
 
 extensions = [
@@ -41,7 +42,7 @@ myst_heading_anchors = 3
 
 html_theme = "shibuya"
 html_title = "\u8ba1\u7b97\u673a\u8003\u7814 408 \u8d44\u6599\u7ad9"
-html_baseurl = "https://kaoyan-408.pastel-spool-7598.chatgpt.site"
+html_baseurl = os.environ.get("SITE_URL", "https://eze-root.github.io/408/")
 html_theme_options = {
     "accent_color": "teal",
     "color_mode": "auto",
@@ -53,9 +54,9 @@ html_theme_options = {
 }
 html_static_path = ["_static"]
 html_css_files = [
-    "https://cdn.jsdelivr.net/npm/source-sans@3.52.0/source-sans-3VF.css",
     "css/site.css",
 ]
+html_js_files = ["js/paper-library.js"]
 html_logo = "_static/logo.svg"
 html_favicon = "_static/favicon.svg"
 html_meta = {

@@ -1,57 +1,259 @@
 ---
 title: "历年真题与套卷"
-date: 2026-09-05
-author: "408 学习小组"
+date: 2026-09-23
+author: "eze-root"
 tags: [408, 真题, 套卷]
 ---
 
 # 历年真题与套卷
 
 ```{article-info}
-:avatar-outline: muted
-:author: 408 学习小组 updated on
-:date: 2026-09-05
+:author: eze-root updated on
+:date: 2026-09-23
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```
 
-真题的价值不只是“做过”，而是校准难度、节奏和命题语言。建议按考试标准整套作答，并保留每次作答记录。
+<span class="section-eyebrow">THE EXAM COLLECTION · 2009—2024</span>
 
-## 真题索引
+一套试题，一份答题纸，一次不看答案的练习。先按年份选卷，再给自己留出完整的 **180 分钟**。
 
-| 年份段 | 建议用途 | 完成方式 |
-| --- | --- | --- |
-| 2009—2012 | 熟悉早期命题方式 | 可按科目拆分训练 |
-| 2013—2017 | 建立题型与考点映射 | 一刷分科，二刷整套 |
-| 2018—2022 | 二轮综合检验 | 严格限时，完整复盘 |
-| 2023—2025 | 冲刺模拟 | 留到后期，模拟考场 |
+::::{div} print-guide
 
-:::{admonition} 使用范围
-:class: warning
-以下打印版由本仓库资料转换而来，仅供你在确认拥有相应使用权后学习与打印。试卷版已隐藏 OCR 资料中混排的答案和解析；原始识别文本可能仍有错字，请对照权威原卷核验。
+**打印前，做三个准备**
+
+1. 试题册与答题纸分别下载，选择 **A4、实际大小 / 100%**；
+2. 试题册可双面打印、长边翻转；答题纸建议单面打印，留足演算空间；
+3. 备好黑色笔、2B 铅笔与计时器，做完后用 {doc}`复盘模板 <review-template>` 记录失分原因。
+::::
+
+## 按年份选卷
+
+2009—2022 年为重排练习版；2023、2024 年源资料存在缺项，单列为回忆资料。所有版本均来自所提供的扫描或 OCR 材料，**尚未经逐字校定，不是官方原卷影印件**。
+
+```{raw} html
+<div class="paper-toolbar" hidden>
+  <div class="paper-filters" role="group" aria-label="试卷类型">
+    <button type="button" data-range="all" aria-pressed="true">全部年份</button>
+    <button type="button" data-range="practice" aria-pressed="false">重排练习版</button>
+    <button type="button" data-range="draft" aria-pressed="false">2023 / 2024 · 待补全</button>
+  </div>
+  <label class="paper-search">查找年份 <input type="search" inputmode="numeric" maxlength="8" placeholder="例如 2022" autocomplete="off" aria-controls="paper-results"></label>
+</div>
+<p id="paper-count" class="quiet-note" aria-live="polite">共 16 份试卷</p>
+<p id="paper-empty" hidden>没有找到这个年份。可以清空搜索，或切换到“全部年份”。</p>
+```
+
+::::{div} paper-library
+:name: paper-results
+
+:::{div} paper-card paper-draft
+:name: paper-2024
+
+<span class="paper-year">2024</span> <span class="paper-status">回忆资料 · 有缺项</span>
+
+**计算机学科专业基础综合**
+
+第 3、19、21—23 题选项有疑点或缺失；第 39、47 题缺图。
+
+{download}`试题册 PDF（待补全）↓ <../_static/files/papers/2024-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2024-408-answer-sheet.pdf>`
 :::
 
-## Typst 打印版
+:::{div} paper-card paper-draft
+:name: paper-2023
 
-| 年份 | 试卷 | 年份 | 试卷 |
-| --- | --- | --- | --- |
-| 2009 | {download}`下载 PDF <../_static/files/papers/2009-408-paper.pdf>` | 2017 | {download}`下载 PDF <../_static/files/papers/2017-408-paper.pdf>` |
-| 2010 | {download}`下载 PDF <../_static/files/papers/2010-408-paper.pdf>` | 2018 | {download}`下载 PDF <../_static/files/papers/2018-408-paper.pdf>` |
-| 2011 | {download}`下载 PDF <../_static/files/papers/2011-408-paper.pdf>` | 2019 | {download}`下载 PDF <../_static/files/papers/2019-408-paper.pdf>` |
-| 2012 | {download}`下载 PDF <../_static/files/papers/2012-408-paper.pdf>` | 2020 | {download}`下载 PDF <../_static/files/papers/2020-408-paper.pdf>` |
-| 2013 | {download}`下载 PDF <../_static/files/papers/2013-408-paper.pdf>` | 2021 | {download}`下载 PDF <../_static/files/papers/2021-408-paper.pdf>` |
-| 2014 | {download}`下载 PDF <../_static/files/papers/2014-408-paper.pdf>` | 2022 | {download}`下载 PDF <../_static/files/papers/2022-408-paper.pdf>` |
-| 2015 | {download}`下载 PDF <../_static/files/papers/2015-408-paper.pdf>` | 2023 | {download}`下载 PDF <../_static/files/papers/2023-408-paper.pdf>` |
-| 2016 | {download}`下载 PDF <../_static/files/papers/2016-408-paper.pdf>` | 2024 | {download}`下载 PDF <../_static/files/papers/2024-408-paper.pdf>` |
+<span class="paper-year">2023</span> <span class="paper-status">回忆资料 · 有缺项</span>
 
-可编辑源文件位于仓库的 `typst/papers/`，公共版式位于 `typst/exam-template.typ`。运行 `bash scripts/build-papers.sh` 可重新生成全部 PDF。
+**计算机学科专业基础综合**
 
-## 一套卷怎么做
+第 18、19、32 题等存在选项或题干缺项，部分大题信息不完整。
 
-1. **计时作答**：180 分钟内完成，不查资料；
-2. **客观评分**：区分不会、算错、审题错和时间不足；
-3. **回到知识点**：将错题挂到四科章节，而不是只抄答案；
-4. **延迟重做**：隔一周脱离答案再次完成；
-5. **记录趋势**：关注各科正确率与耗时变化。
+{download}`试题册 PDF（待补全）↓ <../_static/files/papers/2023-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2023-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2022
+
+<span class="paper-year">2022</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2022-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2022-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2021
+
+<span class="paper-year">2021</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2021-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2021-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2020
+
+<span class="paper-year">2020</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2020-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2020-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2019
+
+<span class="paper-year">2019</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2019-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2019-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2018
+
+<span class="paper-year">2018</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2018-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2018-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2017
+
+<span class="paper-year">2017</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2017-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2017-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2016
+
+<span class="paper-year">2016</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2016-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2016-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2015
+
+<span class="paper-year">2015</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2015-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2015-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2014
+
+<span class="paper-year">2014</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2014-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2014-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2013
+
+<span class="paper-year">2013</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2013-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2013-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2012
+
+<span class="paper-year">2012</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2012-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2012-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2011
+
+<span class="paper-year">2011</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2011-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2011-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2010
+
+<span class="paper-year">2010</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2010-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2010-408-answer-sheet.pdf>`
+:::
+
+:::{div} paper-card
+:name: paper-2009
+
+<span class="paper-year">2009</span> <span class="paper-status">重排练习版</span>
+
+**计算机学科专业基础综合**
+
+40 道单选 · 7 道综合应用题
+
+{download}`试题册 PDF ↓ <../_static/files/papers/2009-408-paper.pdf>`　{download}`答题纸 ↓ <../_static/files/papers/2009-408-answer-sheet.pdf>`
+:::
+
+::::
+
+## 一套卷怎么用
+
+| 复习阶段 | 建议年份 | 做完之后 |
+| --- | --- | --- |
+| 熟悉题型 | 2009—2013 | 先分科练习，标记不熟悉的概念与题型 |
+| 综合训练 | 2014—2018 | 整套作答，记录每一科的耗时与正确率 |
+| 限时模拟 | 2019—2022 | 保留未做过的套卷，180 分钟内独立完成 |
+
+做完先评分，再把错题归到具体知识点。一周后脱离答案重做，检查自己能否独立写出完整过程。年份只是使用建议，可以根据已经做过的试卷调整顺序。
+
+:::{admonition} 资料说明
+:class: note
+试题册不附答案与解析。回忆资料中的缺题、缺图与未确认内容保留明确标记，请勿据此计分。仅在确认拥有相应使用权后学习与打印；排版源文件和已知问题见仓库的 `typst/README.md`。
+:::
 
 ```{toctree}
 :maxdepth: 1

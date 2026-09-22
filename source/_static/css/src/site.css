@@ -269,6 +269,25 @@ body {
   min-height: 10rem;
 }
 
+.about-lead {
+  margin: 0 0 2rem;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border-left: 4px solid var(--course-accent);
+  border-radius: 0 16px 16px 0;
+  background: linear-gradient(120deg, var(--course-accent-soft), transparent 72%);
+}
+
+.about-lead h2 {
+  max-width: 24em;
+  margin-top: 0;
+  font-size: clamp(1.45rem, 3.5vw, 2.15rem);
+  line-height: 1.25;
+}
+
+.about-lead p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 44rem) {
   .hero-408 {
     border-radius: 14px;
@@ -550,3 +569,152 @@ html {
     width: calc(100% - var(--course-globaltoc-width) - 16rem);
   }
 }
+
+/* A quiet reading surface and a practical, printable exam collection. */
+:root,
+html.light {
+  --course-accent: #087f70;
+  --course-accent-hover: #065f54;
+  --course-canvas: #fafaf7;
+  --course-surface: #f0f2ed;
+  --course-ink: #293b37;
+  --course-muted: #616e69;
+  --course-code-bg: #eef1ed;
+  --sy-c-bold: #183e35;
+  --sy-c-heading: #183e35;
+  --yue-c-heading: #183e35;
+  --yue-c-bold: #183e35;
+  --sy-c-background-dropback: rgb(250 250 247 / 95%);
+}
+
+html.dark {
+  --course-accent: #5ed5bc;
+  --course-accent-hover: #9ce7d6;
+  --course-canvas: #101b19;
+  --course-surface: #192824;
+  --course-ink: #d5e1dc;
+  --course-muted: #a0b5ad;
+  --course-code-bg: #16231f;
+  --sy-c-bold: #eef7f2;
+  --sy-c-heading: #eef7f2;
+  --yue-c-heading: #eef7f2;
+  --yue-c-bold: #eef7f2;
+  --sy-c-background-dropback: rgb(16 27 25 / 95%);
+}
+
+.hero-408 {
+  border-radius: 12px;
+  background: #163f35;
+  box-shadow: none;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+.hero-408 h2 { max-width: 12em; font-size: clamp(1.8rem, 3.5vw, 2.8rem); line-height: 1.35; }
+.hero-408 p { color: #d1e3da; max-width: 35em; }
+.hero-408::after { bottom: -0.17em; font-size: 13rem; }
+.hero-408 .hero-kicker { color: #b5d6c8; font-size: 0.72rem; }
+.hero-button { border-radius: 5px; font-size: 0.95rem; }
+.hero-button.primary { background: #deeed2; border-color: #deeed2; color: #173b2f !important; }
+.hero-button.primary:hover { background: #f1f7ea; }
+.hero-stats { max-width: 32rem; }
+.hero-stats strong { font-size: 1.3rem; }
+.hero-stats span { color: #b2cabe; }
+.section-eyebrow { font-size: 0.72rem; font-weight: 700; color: var(--course-muted); letter-spacing: 0.09em; }
+.quiet-note { color: var(--course-muted); font-size: 0.85rem; }
+.featured-paper {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 12rem;
+  gap: 2rem;
+  align-items: center;
+  margin: 2.4rem 0 3rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--sy-c-border);
+}
+.featured-copy h2 { margin: 0.75rem 0; line-height: 1.45; font-size: 1.5rem; }
+.featured-copy p { margin: 0.8rem 0; }
+.paper-miniature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  min-height: 16rem;
+  padding: 1.5rem 1rem;
+  background: #fffef8;
+  color: #263a32;
+  border: 1px solid #dce0d5;
+  box-shadow: 5px 5px 0 #e4e7dc, 0 10px 24px rgb(17 43 30 / 7%);
+  transform: rotate(2deg);
+  text-align: center;
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 0.8rem;
+}
+.paper-miniature strong { color: #263a32; font-size: 1.1rem; line-height: 1.6; }
+.miniature-label { font-size: 0.68rem; letter-spacing: 0.12em; }
+.miniature-rule { width: 85%; border-top: 1px solid #788a79; }
+.miniature-meta { margin-top: auto; font-size: 0.68rem; color: #617263; }
+.subject-card { min-height: 12rem; border-top-width: 2px !important; }
+.subject-card .sd-card-title { font-family: var(--font-sans); font-size: 1.08rem; }
+.subject-ds { --subject-color: #087f70; }
+.subject-co { --subject-color: #426bab; }
+.subject-os { --subject-color: #8757a4; }
+.subject-cn { --subject-color: #a3671c; }
+html.dark .subject-ds { --subject-color: #61cbbb; }
+html.dark .subject-co { --subject-color: #91b4ef; }
+html.dark .subject-os { --subject-color: #c79be6; }
+html.dark .subject-cn { --subject-color: #e6b36d; }
+.print-guide { padding: 1.2rem 1.5rem; border: 1px solid var(--sy-c-border); border-left: 3px solid var(--course-accent); border-radius: 6px; background: var(--course-surface); margin: 1.5rem 0 2rem; }
+.print-guide p:first-child { margin-top: 0; }
+.print-guide ol { margin-bottom: 0; }
+.paper-toolbar { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; margin-top: 1.5rem; }
+.paper-filters { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.paper-filters button { border: 1px solid var(--sy-c-border); border-radius: 5px; padding: 0.45rem 0.75rem; background: var(--course-canvas); color: var(--course-ink); font: inherit; font-size: 0.85rem; cursor: pointer; min-height: 2.75rem; }
+.paper-filters button[aria-pressed="true"] { background: var(--course-accent); color: var(--course-canvas); border-color: var(--course-accent); }
+.paper-search { display: flex; align-items: center; gap: 0.5rem; color: var(--course-muted); font-size: 0.85rem; }
+.paper-search input { box-sizing: border-box; width: 8rem; min-height: 2.75rem; border: 1px solid var(--sy-c-border); border-radius: 5px; padding: 0.5rem 0.7rem; background: var(--course-canvas); color: var(--course-ink); font: inherit; }
+.paper-library { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-bottom: 2.5rem; }
+.paper-card { display: flex; flex-direction: column; padding: 1.25rem; border: 1px solid var(--sy-c-border); border-radius: 8px; background: var(--course-canvas); transition: border-color 160ms ease; }
+.paper-card:hover { border-color: var(--course-accent); }
+.paper-card p { margin: 0 0 0.8rem; font-size: 0.85rem; color: var(--course-muted); }
+.paper-card p:first-child { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem; }
+.paper-card p:last-child { margin: auto 0 0; padding-top: 0.9rem; border-top: 1px solid var(--sy-c-border); display: flex; flex-wrap: wrap; gap: 0.9rem; }
+.paper-card strong { color: var(--sy-c-bold); font-size: 0.98rem; }
+.paper-year { font-family: var(--font-mono); font-size: 1.65rem; font-weight: 650; line-height: 1.25; color: var(--sy-c-bold); }
+.paper-status { color: var(--course-accent); font-size: 0.7rem; font-weight: 600; }
+.paper-draft .paper-status { color: #946218; }
+html.dark .paper-draft .paper-status { color: #e8b45f; }
+.yue a.download { font-weight: 600; color: var(--course-accent); text-underline-offset: 0.25em; }
+.paper-toolbar[hidden], .paper-card[hidden], #paper-empty[hidden] { display: none !important; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--course-accent); outline-offset: 4px; }
+
+@media (min-width: 768px) { :root { --course-globaltoc-width: 18rem; } }
+@media (min-width: 1024px) { :root { --course-globaltoc-width: 18rem; } }
+@media (max-width: 600px) {
+  .featured-paper { grid-template-columns: 1fr; gap: 1.4rem; }
+  .paper-miniature { display: none; }
+  .paper-library { grid-template-columns: 1fr; }
+  .paper-toolbar { align-items: stretch; }
+  .paper-search { width: 100%; }
+  .paper-search input { flex: 1; }
+  .sy-head-brand strong { font-size: 0.88rem; white-space: normal; }
+  .sy-head-brand img { max-width: 4rem; }
+  .hero-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
+  .hero-stats span { flex-direction: column; gap: 0.2rem; font-size: 0.72rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sd-card, .paper-card { transition: none; }
+  .sd-card:hover { transform: none; }
+}
+@media print {
+  .paper-toolbar, .hero-actions { display: none !important; }
+  .paper-card { break-inside: avoid; }
+  .hero-408 { background: white; color: black; border: 1px solid black; }
+  .hero-408 h2, .hero-408 p, .hero-stats strong, .hero-stats span { color: black; }
+}
+
+/* MyST headings inside a div become rubric paragraphs, not h2 elements. */
+.hero-408 .rubric { color: #fff; max-width: 12em; margin: 0.3rem 0 1rem; font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 750; line-height: 1.35; }
+.hero-stats > p, .hero-actions > p, .paper-miniature > p { display: contents; }
+.featured-copy .rubric { color: var(--sy-c-bold); font-size: 1.5rem; font-weight: 700; line-height: 1.45; margin: 0.75rem 0; }
+html.dark .sy-head-brand img { filter: brightness(0) invert(0.9); }
+@media print { .hero-408 .rubric { color: black; } }
+.yue .hero-408 p.rubric { color: #fff !important; }
+@media print { .yue .hero-408 p.rubric { color: #000 !important; } }

@@ -1,7 +1,7 @@
 ---
 title: "2025 年 408 计算机学科专业基础考试大纲"
 date: 2026-09-05
-author: "408 学习小组"
+author: "eze-root"
 tags: [408, 考纲, 复习范围]
 ---
 
@@ -9,7 +9,7 @@ tags: [408, 考纲, 复习范围]
 
 ```{article-info}
 :avatar-outline: muted
-:author: 408 学习小组 updated on
+:author: eze-root updated on
 :date: 2026-09-05
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```

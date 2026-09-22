@@ -17,8 +17,21 @@ class ProjectScaffoldTests(unittest.TestCase):
             "source/labs/index.md",
             "source/assignments/index.md",
             "source/resources/index.md",
+            "source/about.md",
         ]:
             self.assertTrue((REPO_ROOT / relative_path).is_file(), relative_path)
+
+    def test_site_author_is_eze_root(self) -> None:
+        conf_path = REPO_ROOT / "source/conf.py"
+        tree = ast.parse(conf_path.read_text(encoding="utf-8"))
+        values = {
+            target.id: ast.literal_eval(node.value)
+            for node in tree.body
+            if isinstance(node, ast.Assign)
+            for target in node.targets
+            if isinstance(target, ast.Name) and target.id == "author"
+        }
+        self.assertEqual(values["author"], "eze-root")
 
     def test_brand_assets_exist(self) -> None:
         for relative_path in [

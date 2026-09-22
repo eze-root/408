@@ -1,0 +1,72 @@
+name: Build site and exam papers
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.8.22'
+          python-version: '3.13'
+          enable-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: typst-community/setup-typst@v5
+        with:
+          typst-version: '0.15.1'
+          cache-dependency-path: typst/exam-template.typ
+      - name: Install Chinese and code fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk fonts-dejavu-core
+      - run: uv sync --locked
+      - run: npm ci
+      - name: Build PDFs and website with warnings as errors
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/408/
+        run: |
+          uv run make clean
+          uv run make dirhtml SPHINXOPTS="-W --keep-going"
+      - name: Verify sources and printable PDFs
+        run: |
+          uv run python -m unittest discover -s tests -v
+          uv run python scripts/check_papers.py
+      - name: Save printable papers
+        uses: actions/upload-artifact@v4
+        with:
+          name: 408-printable-papers
+          path: source/_static/files/papers/*.pdf
+          if-no-files-found: error
+      - name: Save website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/dirhtml
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
