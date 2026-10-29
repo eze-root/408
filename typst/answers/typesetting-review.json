@@ -91,7 +91,7 @@
     "raster_answer_pages": 0
   },
   "validation": {
-    "unit_tests_passed": 63,
+    "unit_tests_passed": 64,
     "pdf_files": 54,
     "pdf_pages": 628,
     "local_download_links_verified": 55,
@@ -101,6 +101,7 @@
     ],
     "printed_algorithms_compiled_and_checked": 9,
     "strict_sphinx_build": "passed",
-    "visual_review": "各年份选择题解析及综合题页面；重点复查矩阵、流水线表、路由图、代码跨页及孤行。"
+    "visual_review": "各年份选择题解析及综合题页面；重点复查矩阵、流水线表、路由图、代码跨页及孤行。",
+    "pdf_heading_detection": "题号与分值联合校验，避免Linux字体换行后的百分比误判。"
   }
 }

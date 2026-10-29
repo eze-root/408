@@ -22,6 +22,12 @@ def visible_question_numbers(doc):
     return numbers
 
 
+def answer_headings(text):
+    """Require the score suffix: a wrapped percentage is not a question heading."""
+    return [(int(number), int(score)) for number, score in re.findall(
+        r"^(\d{2})\.\s*[（(]\s*(\d+)\s*分[）)]", text, re.MULTILINE)]
+
+
 def main():
     folder = ROOT / "source/_static/files/papers"
     files = sorted(folder.glob("*.pdf"))
@@ -47,8 +53,8 @@ def main():
                 from build_papers import prepare
                 paper = prepare(path.name[:4])
                 keys = re.findall(r"^[ABCD]$", doc[0].get_text(), re.MULTILINE)
-                headings = [n for n in visible_question_numbers(doc) if n >= 41]
-                if headings != list(range(41, 48)):
+                headings = answer_headings(text)
+                if headings != list(zip(range(41, 48), paper["essay_scores"])):
                     raise ValueError(f"{path.name}: essay answer headings mismatch: {headings}")
                 if keys != [q["choice"] for q in paper["answers"][:40]]:
                     raise ValueError(f"{path.name}: rendered answer key differs from source")

@@ -165,5 +165,13 @@ class PaperTests(unittest.TestCase):
         self.assertLess(q["body"].index("assets/example.png"), q["body"].index("Text after diagram"))
 
 
+class AnswerHeadingTests(unittest.TestCase):
+    def test_wrapped_percentages_are_not_essay_headings(self):
+        from scripts.check_papers import answer_headings
+        text = "41.（13 分）\n42.（10 分）\n43.（14 分）\n87.5%。\n44.（9 分）\n45.（7 分）\n46.（8 分）\n47.（9 分）"
+        self.assertEqual(answer_headings(text),
+                         [(41, 13), (42, 10), (43, 14), (44, 9), (45, 7), (46, 8), (47, 9)])
+
+
 if __name__ == "__main__":
     unittest.main()
