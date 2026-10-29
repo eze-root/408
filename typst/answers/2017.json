@@ -1,0 +1,1032 @@
+{
+  "year": "2017",
+  "source_url": "https://zhenti.beokayy.club/paper/2017",
+  "source_sha256": "8d316387998de66c46697d45aa864dbee92713da2186750801ee5ecd825140a0",
+  "paper_sha256": "b243f2403f8789b499362985b78706f7a4c48bd87efc405eee215c77982df758",
+  "choice_explanations": "answers/choices/2017.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "算法设计思想"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "采用二叉树的中序遍历策略，在遍历过程中根据节点位置动态添加括号以反映操作符计算次序。根节点和叶节点（操作数）无需括号；对于内部节点（操作符），在递归遍历其左子树前添加左括号，遍历右子树后添加右括号，且括号层数由节点深度控制。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "算法实现"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "通过递归中序遍历实现，传递当前节点深度。深度为1时对应根节点，不添加括号；深度大于1时为子表达式添加括号。核心代码如下："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "void BtreeToExp(BTree *root, int deep) {\n    if (root == NULL) return; // 空结点返回\n    else if (root->left == NULL && root->right == NULL) // 若为叶结点\n        printf(\"%s\", root->data); // 输出操作数，不加括号\n    else {\n        if (deep > 1) printf(\"(\"); // 若有子表达式则加1层括号\n        BtreeToExp(root->left, deep + 1); // 递归左子树\n        printf(\"%s\", root->data); // 输出操作符\n        BtreeToExp(root->right, deep + 1); // 递归右子树\n        if (deep > 1) printf(\")\"); // 若有子表达式则加1层括号\n    }\n}\n\nvoid BtreeToE(BTree *root) {\n    BtreeToExp(root, 1); // 根的深度为1\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "入口调用："
+                    },
+                    {
+                      "kind": "code",
+                      "value": "BtreeToE(root);",
+                      "block": false,
+                      "lang": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "关键结论"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "算法正确将表达式树转换为带括号的中缀表达式。示例输入输出验证："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "对于树1，输出 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "(a+b)*(c*(-d))",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "；  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "对于树2，输出 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "(a*b)+(-(c-d))",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "。  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（1）依次选出的边为：(A, D), (D, E), (C, E), (B, C)。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（2）是唯一的。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（3）当带权连通图中任意环的所有边权值均不相同时，其MST是唯一的。（或：当图中所有边的权值互不相同时，其MST是唯一的。）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）当 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "n=0"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 时，"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "i",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "n",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 均为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "unsigned",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 型，表达式 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "n-1",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 下溢，其机器数为 32 个 1，即 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "2^{32}-1"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，这是 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "unsigned",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 可表示的最大值。因此 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "i <= n-1",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 始终成立，循环不会结束。若把 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "i",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "n",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 都改为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "int",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 型，则不会死循环：此时 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "n-1=-1"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，初始 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "i=0"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，循环条件不成立。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）f1(23) 和 f2(23) 返回值相等。f1(23) 的机器数为 00FFFFFFH，f2(23) 的机器数为 4B7FFFFFH。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）不相等。"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "f(24)=33\\,554\\,431"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的二进制形式为 25 个连续的 1，而单精度 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "float",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 只有 24 位有效数字，必须舍入，因此 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "f2(24)",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 得到 33 554 432.0，比 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "f1(24)",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的 33 554 431 大 1。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）f1(31) 返回 -1 是因为 int 溢出，全 1 解释为 -1。使 f1(n) 与 f(n) 相等的最大 n 为 30。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（5）f2(127) 对应 +∞。使 f2(n) 不溢出的最大 n 为 126；使 f2(n) 精确的最大 n 为 23。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）计算机M是CISC。因为其指令长短不一，不符合RISC指令系统特点。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）f1的机器指令代码共占96字节。计算过程：第一条指令地址为00401020H，最后一条指令ret地址为0040107FH，长度 = 0040107FH - 00401020H + 1 = 60H = 96字节。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "CF=\\overline{C}=1"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。执行 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "f1(0)",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 时，"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "n=0"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "、"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "i=0"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "、"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "n-1=FFFFFFFFH"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "cmp",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 执行减法 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "0-FFFFFFFFH"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，在补码加/减运算器中等价于 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "00000000H+00000000H+1=00000001H"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，进位输出 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "C=0"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，因此减法借位标志 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "CF=\\overline{C}=1"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）不能用shl指令实现power*2。因为power是float型变量，其机器数包含阶码部分，shl指令将整数所有有效数位左移，但不能正确处理浮点数的阶码，因此无法实现乘2功能。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) 仅占用1页。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(2) 会分别访问页目录的第1个表项和页表的第1个表项。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(3) 进程P的状态变化为：执行态→阻塞态→就绪态→运行态；CPU会从用户态进入内核态。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": []
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "需要三个初值均为 1 的互斥信号量："
+                    },
+                    {
+                      "kind": "code",
+                      "value": "mutex_y1",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 用于 thread1 与 thread3 对变量 y 的互斥访问，"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "mutex_y2",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 用于 thread2 与 thread3 对变量 y 的互斥访问，"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "mutex_z",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 用于 thread2 与 thread3 对变量 z 的互斥访问。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "// thread1\ncnum w;\nwait(mutex_y1);\nw = add(x, y);\nsignal(mutex_y1);\n\n// thread2\ncnum w;\nwait(mutex_y2);\nwait(mutex_z);\nw = add(y, z);\nsignal(mutex_z);\nsignal(mutex_y2);\n\n// thread3\ncnum w;\nw.a = 1;\nw.b = 1;\nwait(mutex_z);\nz = add(z, w);\nsignal(mutex_z);\nwait(mutex_y1);\nwait(mutex_y2);\ny = add(y, w);\nsignal(mutex_y1);\nsignal(mutex_y2);",
+              "block": true,
+              "lang": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "markdown",
+          "value": "**（1）已确认帧**"
+        },
+        {
+          "kind": "markdown",
+          "value": "累计确认号3表示下一帧期待序号3，故甲可确认序号0、1、2三帧已被正确接收，即S₀,₀、S₁,₀、S₂,₀。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（2）可继续发送的帧**"
+        },
+        {
+          "kind": "markdown",
+          "value": "3位序号的GBN最大窗口为7。已发送而未确认的帧占2个位置，还可发5帧；甲已按序收到乙的0、1帧，捎带确认号为2。第一个为S₅,₂，经过序号回绕后最后一个为S₁,₂。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（3）超时重传**"
+        },
+        {
+          "kind": "markdown",
+          "value": "GBN从最早未确认帧开始重传其后全部已发未确认帧，共3帧。甲期待乙的下一帧序号3，因此首个重传帧为S₂,₃。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（4）最大信道利用率**"
+        },
+        {
+          "kind": "markdown",
+          "value": "每帧发送时间 $T_f=1000\\times8/(100\\times10^6)=0.08\\text{ms}$。确认捎带在同长的数据帧中，周期还需计入返回帧发送时间，因此"
+        },
+        {
+          "kind": "markdown",
+          "value": "$$U=\\frac{7\\times0.08}{0.08+0.96+0.08}=50\\%.$$"
+        }
+      ]
+    }
+  ]
+}

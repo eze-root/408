@@ -1,0 +1,635 @@
+{
+  "checked_on": "2026-10-15",
+  "records": [
+    {
+      "year": 2012,
+      "question": 41,
+      "source": "pgcode-2012",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "12e179df166db6ab30c795b44ae61b0f7de571f367f316b6b57061ffee47ec64",
+      "after_sha256": "5f92377a65521b8640534354d1dd7d2425bdc3807c757527c63af1e057289afe"
+    },
+    {
+      "year": 2012,
+      "question": 42,
+      "source": "pgcode-2012",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "1439d05ad2276bbded90b05e39d55b9bdb270c787291e2d5d7ba709dcf987003",
+      "after_sha256": "943d445a2e1ccd83819f73a2f703323113a99e71c7cb1ec58329fb9db81c5ae8"
+    },
+    {
+      "year": 2012,
+      "question": 43,
+      "source": "pgcode-2012",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "bf771f2bd2403b3d7fb44b3f80b6e75f9c5d6b65d58eddb0feade0d1a509bc82",
+      "after_sha256": "9a5ed1b64b68521cf6793eb681c1a2c9f40ae9ed156f1b46d83dae4c1f90b53e"
+    },
+    {
+      "year": 2012,
+      "question": 44,
+      "source": "pgcode-2012",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "4cf9382ed09aec2c68d642f241e8182b5282ff226854c5125cec1956992ba167",
+      "after_sha256": "91ed78f0eef4c579b7d8527d6e717cd6b86365e0777013ba2c73d9d3097e37d8"
+    },
+    {
+      "year": 2012,
+      "question": 45,
+      "source": "pgcode-2012",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "608a86fb440b5130a7b586569bc0b2ebda16760c209b7eff7d45df45e80c7d1b",
+      "after_sha256": "1e1f9c6283476b570c217153b14ebbb8b60b7d1f200baeb2b56ae03654963a1f"
+    },
+    {
+      "year": 2012,
+      "question": 46,
+      "source": "pgcode-2012",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "2e27c9dfd9d2bbee1ae9ee42cd695234e7130f746a88c11c5f152d2b81e5daa8",
+      "after_sha256": "660107cb9a093c20529d6b8a6fb3feeea991df07a8cc1c9f01fd1344e0cf6ab0"
+    },
+    {
+      "year": 2012,
+      "question": 47,
+      "source": "pgcode-2012",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "3e99d094ba7ffc2eee130b9044af3a872ab7b4da5cd765b3a33217735ee28d75",
+      "after_sha256": "8542807bacf104c26bf6eba8eb11c7c5fcc1fd594c81a88b0d6f478138f34fb3"
+    },
+    {
+      "year": 2014,
+      "question": 45,
+      "source": "pgcode-2014",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "aac7240085019f9bd07aefb072808b067b153be8ef57b945ad835e78048e931b",
+      "after_sha256": "094096b13e03d5350ab8637f08a12323f107f88ded14768f10a4d144fba0968e"
+    },
+    {
+      "year": 2014,
+      "question": 46,
+      "source": "pgcode-2014",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "1b0314b1fdd456edc76d7714ecb4a22577181cd3096f6c77368d54fb7a3696b5",
+      "after_sha256": "bd93e22f27ad7e27119feff404c841627fc9d91c8ba952c9e9a9709cde5e1fb9"
+    },
+    {
+      "year": 2014,
+      "question": 47,
+      "source": "pgcode-2014",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "c77c01e4603b15392bc848791e2cfd70d34eff4b9d44114c456fee4c311018d3",
+      "after_sha256": "7ecf63dce0d5ef203f4883ff37dd426a82c661526d31dc460ab9a63d43373d16"
+    },
+    {
+      "year": 2016,
+      "question": 4,
+      "source": "scan-2016-paper",
+      "pages": "2",
+      "change": "D 选项漏写末位 9。",
+      "before_sha256": "c49c08034fd15192ae7b8a46f0543b04495fb58a255504dfd9ff74c0a4fab115",
+      "after_sha256": "0654e3d44d3ff715610a84bc7bab101e8e7c470f284e1fb752d2f13b4110bdbc"
+    },
+    {
+      "year": 2016,
+      "question": 27,
+      "source": "scan-2016-paper",
+      "pages": "4",
+      "change": "删除重复出现的设问。",
+      "before_sha256": "fa1c9aa83c966700994ebf97428c9bad57dddb90920a0870bf41fe7967eef84b",
+      "after_sha256": "89b8cd7df684ad49ccd9049da34bdb850f8499fafbbc430ce5544aeb48e93a0f"
+    },
+    {
+      "year": 2016,
+      "question": 41,
+      "source": "pgcode-2016",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "28c996d0088fe3cc61aab6adc3a5300a3ce48ab897cad5e6b839375077c86757",
+      "after_sha256": "3eaabaf06461497285546ae56b391b93b575648a702bb4f4cac214a5731fc2c2"
+    },
+    {
+      "year": 2016,
+      "question": 42,
+      "source": "pgcode-2016",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "4882b92bf83ef057768c5e366671f741e3e95955c53d03dc2f9ecd3022fb1a6e",
+      "after_sha256": "d2a4b8535630873d37abbf414ce855da8bf49a41763d054801a519edb89f02af"
+    },
+    {
+      "year": 2016,
+      "question": 43,
+      "source": "pgcode-2016",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "e4fd0bccfd653a8f75a2d0f12867af1719ad127d4d45045dfc1f2c47fc7e90e7",
+      "after_sha256": "854e19236fd8d3ded5988548c63f95c8592b59506228c4c16da456418a612648"
+    },
+    {
+      "year": 2016,
+      "question": 44,
+      "source": "pgcode-2016",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "71911a23dfaee5a9b9eb2923095d2217f7e92a15ce649a7dc2cc5a8cb486c91b",
+      "after_sha256": "9af2a817f0eb8ff3bc4cb289040ab1178d3b0e03f9df579394b73a197badcb60"
+    },
+    {
+      "year": 2016,
+      "question": 45,
+      "source": "pgcode-2016",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "d4feb53034e8080cccb2858140baf4cdf2396385d70337429d2bce6105def900",
+      "after_sha256": "7a68ddd2ca7160edeab985d6737f83d3ffc1a0bf9754ed95767ee8cf1691f806"
+    },
+    {
+      "year": 2016,
+      "question": 46,
+      "source": "pgcode-2016",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "89200917205e377e3df61b216ae854d66998af927a89d5880e906c0a49f001a2",
+      "after_sha256": "a0dad0daedef484e1102325bfd478e8311cb54dda3a3d87ff263f198ba87baf7"
+    },
+    {
+      "year": 2016,
+      "question": 47,
+      "source": "pgcode-2016",
+      "pages": "Q41–47",
+      "change": "补录公开题库的单题分值；来源性质及评分分项差异见审查记录。",
+      "before_sha256": "c101db3fcf61aa030ffe1e65e0f03c535353bbd2f81a9e409cfdb593dc508a23",
+      "after_sha256": "1a01035bc34b3f987de141dca7363f8ec5d15d0dd2eb1bf7e8c407f635a65eab"
+    },
+    {
+      "year": 2023,
+      "question": 3,
+      "source": "scan-2023-paper",
+      "pages": "2",
+      "change": "恢复 I–IV 条目与选项对应关系。",
+      "before_sha256": "9d5abe8f2e871e6d28a9b104e204721a8cf665d27fc35cd87786e78e88781980",
+      "after_sha256": "7b1cfbebd6baf84e3eca9e6ddc1e7ab243ff25bd2b49e4cd425f2b76b0f6ff5d"
+    },
+    {
+      "year": 2023,
+      "question": 12,
+      "source": "scan-2023-paper",
+      "pages": "3–5",
+      "change": "题号由原重排稿第 16 题恢复为第 12 题；修正指令数为 5×10^5，恢复 GIPS、ms/μs 选项单位。",
+      "before_sha256": "2d1a154b51cb583c8247ea90d190776a5944bb2033d1d281c248434c57d95c25",
+      "after_sha256": "2c3e9323db39eba76a8789b979790bd9b066fb060050bb8f1dd4298a0a863059"
+    },
+    {
+      "year": 2023,
+      "question": 14,
+      "source": "scan-2023-paper",
+      "pages": "3",
+      "change": "修正 C 选项指数；不改动其干扰项性质。",
+      "before_sha256": "fffb89c8af736c1b3e56c91d9b8bc410fdf5f536ad7eca71472efce31b1434fd",
+      "after_sha256": "02a829300fd33db2e6d814019ae6e2c51d12900ec05e606af7e0b61cd12e13b4"
+    },
+    {
+      "year": 2023,
+      "question": 15,
+      "source": "scan-2023-paper",
+      "pages": "3",
+      "change": "恢复 RAM/ROM 容量比例、高低地址区域和设问对象。",
+      "before_sha256": "45534523de90cf0e310c947c8b4b3fc34cae624df03cb1e7ba1af15269e5dca9",
+      "after_sha256": "30d6aaed2e3c03ebf8edf94d7c7e70abd14e08c21036d1e704d9b8b0ebdf56f5"
+    },
+    {
+      "year": 2023,
+      "question": 16,
+      "source": "scan-2023-paper",
+      "pages": "3",
+      "change": "题号由原重排稿第 17 题恢复为第 16 题，补回 int 类型与标志含义。",
+      "before_sha256": "60519f39e90df77ef2d09f42e9e18d17116c71f379c74f9a797525b204648c70",
+      "after_sha256": "e5e4f25e4ec5b0174ce5e5973684f37f561137af9d2c48a03b3281ca122208eb"
+    },
+    {
+      "year": 2023,
+      "question": 17,
+      "source": "scan-2023-paper",
+      "pages": "3–5",
+      "change": "题号恢复：原重排稿第 12 题应为第 17 题，并核对选项。",
+      "before_sha256": "eb9da6e44dc45014d2aacc8995a9b2829ccc8239e11886ee4676a2d741692168",
+      "after_sha256": "2d1a154b51cb583c8247ea90d190776a5944bb2033d1d281c248434c57d95c25"
+    },
+    {
+      "year": 2023,
+      "question": 18,
+      "source": "scan-2023-paper",
+      "pages": "3",
+      "change": "恢复 D 选项缺失的 II。",
+      "before_sha256": "3b7ddb21dd01653e8459568e5197580344eb14bf8a28343db9845c6e6dd5fb6e",
+      "after_sha256": "0db21e98df7198f82e4771ccb1693f702f65dd3e7a0919fa1336fb9f28192328"
+    },
+    {
+      "year": 2023,
+      "question": 19,
+      "source": "scan-2023-paper",
+      "pages": "3",
+      "change": "补齐指令序列和四个选项。",
+      "before_sha256": "16dc572b1756a861257b728206aa25d1c15b303d1f5b7826434097aa981f94ea",
+      "after_sha256": "578f145a0477b50236c3dc854d35642cb93ae4e109fef212b076b4ce26746dbc"
+    },
+    {
+      "year": 2023,
+      "question": 21,
+      "source": "scan-2023-paper",
+      "pages": "4",
+      "change": "恢复选项中异常检测、中断响应与外部设备的准确表述。",
+      "before_sha256": "a78c7fd8e168f267464e40c9aaf520eb5de3c3d7c134c37d49d2cd8e03fbe541",
+      "after_sha256": "7306d0d77ca04153ba38646ff740fd5160da39ea3d60474e4f0718e53a29c41b"
+    },
+    {
+      "year": 2023,
+      "question": 23,
+      "source": "scan-2023-paper",
+      "pages": "4",
+      "change": "修正 B、C 干扰项所列条目。",
+      "before_sha256": "cfa19427550ce862af268643b80120297e854252e87225344d9703494781513c",
+      "after_sha256": "edf62348a597ff34313b347a155ccccd43d33b9dfbf1140fcd6f1f576728173a"
+    },
+    {
+      "year": 2023,
+      "question": 26,
+      "source": "scan-2023-paper",
+      "pages": "4",
+      "change": "修正 C 选项错字。",
+      "before_sha256": "735e0efcd65bd3a6cf5c3642bae1a4817b2c7fb84998d2ad3271e48d20c107b9",
+      "after_sha256": "0d652218e7b52b74a48a0ee9db0f294fa8bcb9628c8681fdd22db3fba753d4f1"
+    },
+    {
+      "year": 2023,
+      "question": 27,
+      "source": "scan-2023-paper",
+      "pages": "4",
+      "change": "修正题干错字。",
+      "before_sha256": "2ae0f123ba6b6c7d95549e66e36aebd897da1bb51aca0bd846c3df555698031e",
+      "after_sha256": "65a66ad975f98f21ef5fc4aa826bfe9799d4f011b32225813dc2e291388d0ccb"
+    },
+    {
+      "year": 2023,
+      "question": 28,
+      "source": "scan-2023-paper",
+      "pages": "4",
+      "change": "题号由原重排稿第 31 题恢复为第 28 题，补回虚拟内存管理背景。",
+      "before_sha256": "0b5084b9b7c88c42d03e6696409733872c4d831f6247ff07c25397d60a41840d",
+      "after_sha256": "af015205b18c67b7177cec93577dd2802b627aacf7624f594dbc7467e6b7be5e"
+    },
+    {
+      "year": 2023,
+      "question": 29,
+      "source": "scan-2023-paper",
+      "pages": "4–5",
+      "change": "题号由原重排稿第 28 题恢复为第 29 题；补回调度起始时刻，恢复 C、D 选项为 70ms、71ms。",
+      "before_sha256": "49ae0b926502a238a11623f8b86fdda2d729939e78886bc2dbb25b4ced55691e",
+      "after_sha256": "5b62578e02fa34fcf97d215e9540b235916401270350f5669bd90b35cf0bca29"
+    },
+    {
+      "year": 2023,
+      "question": 30,
+      "source": "scan-2023-paper",
+      "pages": "3–5",
+      "change": "题号恢复：原重排稿第 29 题应为第 30 题，并核对选项。",
+      "before_sha256": "39be4ed43c61d4b4b6db4cf75673b904fdebe0289ff363bfcb6ed25d43fbfcbc",
+      "after_sha256": "75fcd5bb42ea55514c7a6a5fe7b22af2031624e753a4325106dcbade26afb7e3"
+    },
+    {
+      "year": 2023,
+      "question": 31,
+      "source": "scan-2023-paper",
+      "pages": "3–5",
+      "change": "题号恢复：原重排稿第 30 题应为第 31 题，并核对选项。",
+      "before_sha256": "622b11b586d473df6d3dce83d143c3eb3b0a12b2fe4a1ec31eff90f60c02d3ae",
+      "after_sha256": "39be4ed43c61d4b4b6db4cf75673b904fdebe0289ff363bfcb6ed25d43fbfcbc"
+    },
+    {
+      "year": 2023,
+      "question": 32,
+      "source": "scan-2023-paper",
+      "pages": "5",
+      "change": "恢复四个选项及条目次序。",
+      "before_sha256": "fa76e3a979b29d93c83fbfb272bb03e8f7fbb0753ebe990edf0884d54333d3b9",
+      "after_sha256": "7e37621144700ff75ec0b6cbe4e25caf5867038f1168200cf5001cb38bd4c5fb"
+    },
+    {
+      "year": 2023,
+      "question": 33,
+      "source": "scan-2023-paper",
+      "pages": "5",
+      "change": "恢复十进制 M=10^6。",
+      "before_sha256": "510c78a86a571864e4f5791d19a8a7c78afce9819c0fce0e6e16ffcbb316eabc",
+      "after_sha256": "764bc58aced6400b4edc5cc429f477f843d331ed077daf673b9d337f59ca3416"
+    },
+    {
+      "year": 2023,
+      "question": 36,
+      "source": "scan-2023-paper",
+      "pages": "5",
+      "change": "修正“指数退避”术语的 OCR 错字。",
+      "before_sha256": "4d811a0d1c1e8177a5eee409dd058fe8082aa14c7fdec6112e548b5eff22cdc4",
+      "after_sha256": "4b7de8c640ef296c4872ca96dcf5de9b55aa0d7d7de7b5716d189364d300e6ea"
+    },
+    {
+      "year": 2023,
+      "question": 37,
+      "source": "scan-2023-paper",
+      "pages": "5",
+      "change": "恢复设问“发生错误”；D 选项补回漏写的一位，改为 101111100。",
+      "before_sha256": "c095b79fd3dc53bd25be8e15a61a14cec9e192b9584b0d458409a4af0ca1883e",
+      "after_sha256": "bd4e590cf5100d9c8443699d88c407f69865598e3563047bf49e6e9be65fc4dc"
+    },
+    {
+      "year": 2023,
+      "question": 38,
+      "source": "scan-2023-paper",
+      "pages": "5–6",
+      "change": "恢复 A、B 选项的公网地址前缀 195.123.0；替换为地址标注一致的 NAT 原图，修正 Internet 拼写。",
+      "before_sha256": "9e8c004ffb0b0613bcab89077d760d8921eef48958f5c25ed1b6de5e0e05981e",
+      "after_sha256": "b2ecb87d940dc18bd66ee402118cde38284e1094549230dde7f47845069642f3"
+    },
+    {
+      "year": 2023,
+      "question": 41,
+      "source": "scan-2023-paper",
+      "pages": "6",
+      "change": "统一 MAXV，移除猜测分值，补上示例有向图。",
+      "before_sha256": "b68cf4ce7eb6d73150c1f071a423962be39af95352a6ebfe4d0978bc20068d9d",
+      "after_sha256": "d973a9408591f436390c4f3810d02d217f141854c755b64b10c624ce66167f4a"
+    },
+    {
+      "year": 2023,
+      "question": 43,
+      "source": "scan-2023-paper",
+      "pages": "6–7",
+      "change": "补上按字节编址、sizeof(int)、无页面置换和无其他数据 Cache 冲突条件，分行排版循环；二维数组列数在影印件中仍有冲突，保留待核。",
+      "before_sha256": "836e54d7b42a966c12524471e09db7206f527db3051228a095071c6341ef38c0",
+      "after_sha256": "37f90333fc315464e5b54c1c8fbe1ea49b3186364a9788eab1845cf656864c3a"
+    },
+    {
+      "year": 2023,
+      "question": 44,
+      "source": "scan-2023-paper",
+      "pages": "7",
+      "change": "恢复地址 00401072、机器码与第 8 行，修正 ecx/edx 设问；保留原题省略号。影印件第 3、19 行机器码与汇编有冲突，另列待核。",
+      "before_sha256": "b300779135f8d1430b89dff5328530f9a41494a99d97a97b4d6f5160cf1bbdba",
+      "after_sha256": "bcf93b857a7adf400c1b1dbe0e3fb654d508b2546dcd78f994df540caaf10242"
+    },
+    {
+      "year": 2023,
+      "question": 45,
+      "source": "scan-2023-paper",
+      "pages": "7–8",
+      "change": "恢复函数返回类型及调用实参；保留题目要求学生改正的错误。",
+      "before_sha256": "edecbea2eb8c28d0d7ce55690c77fb325b6c0ae8ef6548f8158324fd2d830912",
+      "after_sha256": "4a53e3923e80ae4a6bf8d93f36b7bbd607f3f27c5e7d5155a5cc3245a0c089f3"
+    },
+    {
+      "year": 2023,
+      "question": 46,
+      "source": "scan-2023-paper",
+      "pages": "8",
+      "change": "单题分值由 5 改为 8，综合题合计恢复为 70。",
+      "before_sha256": "21212e8e30b8d89a1b5591fc797c293f459a90384f60f10bc70bac7a5cfedab6",
+      "after_sha256": "0d71710664675a62692fc746e884fd16e60c7ffefb6c79dcc32bfa952ffd9281"
+    },
+    {
+      "year": 2023,
+      "question": 47,
+      "source": "scan-2023-paper",
+      "pages": "8",
+      "change": "恢复上传方向、MSS、网络图和四个小问的准确条件，不混入答案。",
+      "before_sha256": "d360479cdc168a289e89548bb5fbc29b4235ef80dd720a9129b176b6a864ffc9",
+      "after_sha256": "df640bc86197f2219acc17b2aace1605c95d7472790734dfff9df835999b8ac9"
+    },
+    {
+      "year": 2024,
+      "question": 1,
+      "source": "scan-2024-paper",
+      "pages": "1",
+      "change": "恢复 A、B 选项次序。",
+      "before_sha256": "dd00a3305140ab414072ac8ca9b33ab33419507731c7d5c631a39d0c3ada743b",
+      "after_sha256": "e69331b5ab1c37d29d5a0cd9680898642b93674f2a3c3c0e17699b0a9f8d46f6"
+    },
+    {
+      "year": 2024,
+      "question": 2,
+      "source": "scan-2024-paper",
+      "pages": "1",
+      "change": "修正 B 选项后缀表达式转录。",
+      "before_sha256": "d6ee0de3ac413cb06b81eda86ad3f8b6a52573629fede9ba3d474c075a9d6fd9",
+      "after_sha256": "87d3dfda60733203cede00cb4bfd6640cb876253f052b4c43ca7d88397211512"
+    },
+    {
+      "year": 2024,
+      "question": 3,
+      "source": "scan-2024-paper",
+      "pages": "1",
+      "change": "修正重复的 C、D 选项。",
+      "before_sha256": "8644589e7af90319d49791e1a9d50a4eaf85157bbffc8e1be0afd0e752705590",
+      "after_sha256": "591d413b0fdfa423c49a5bfc2cc30672e07d852ba8fde7dda4121e34c5227765"
+    },
+    {
+      "year": 2024,
+      "question": 11,
+      "source": "scan-2024-paper",
+      "pages": "2–3",
+      "change": "恢复 B、C 选项次序。",
+      "before_sha256": "b5d4829e7508653b32d6c8a3108e06fc2c33cffd41313aa91ec53406b3f57080",
+      "after_sha256": "98cc300f1212e7c72823de76fc45b7fdcc9c1f5a17d7b0413247bdc4c1c8f599"
+    },
+    {
+      "year": 2024,
+      "question": 14,
+      "source": "scan-2024-paper",
+      "pages": "3",
+      "change": "修正整数范围负端的指数。",
+      "before_sha256": "e6b49b1eeea15de0d2b619fbba325d4027703fe9bacfe54465cb43f50f418fd7",
+      "after_sha256": "2a729213f5b202a70b90498746337910d963522eb2b7be5d1b3237b7f9eac2a6"
+    },
+    {
+      "year": 2024,
+      "question": 15,
+      "source": "scan-2024-paper",
+      "pages": "3",
+      "change": "修正 C 选项转录错字。",
+      "before_sha256": "d5f7585e73833dcbefb9dc0ee12108cbbaf9426e995d777ab89b915afceff82a",
+      "after_sha256": "c05c17960363b7a359825f7a69a52f8e952057bc79d1c91638024588934dc1ee"
+    },
+    {
+      "year": 2024,
+      "question": 16,
+      "source": "scan-2024-paper",
+      "pages": "3–4",
+      "change": "修正 A 选项转录错字。",
+      "before_sha256": "022fea3602d614d47dfdb640a3ff8795c284f1498203318e5f14d9a4ab5bd13b",
+      "after_sha256": "7c469552b437b541277bbb69530500a9c8673853c3fb00c995b8a96a3f47e133"
+    },
+    {
+      "year": 2024,
+      "question": 19,
+      "source": "scan-2024-paper",
+      "pages": "4",
+      "change": "补齐 A、B 选项并恢复完整设问。",
+      "before_sha256": "f2e7977867c886a0894f05d5f74d5ac68038bc0ac3fc8b0ba0e8391ca1b9ca70",
+      "after_sha256": "5f2bbacb0760e18d43c966e0c65e7fba2c933f1d98a9acc0742474eab315fb2f"
+    },
+    {
+      "year": 2024,
+      "question": 20,
+      "source": "scan-2024-paper",
+      "pages": "4",
+      "change": "修正时钟转录错字。",
+      "before_sha256": "a9c9f4954965fa97171badcf931761ecd8f1ca6481b664289797da11a3900055",
+      "after_sha256": "491f83aba1ac0d40d2e7027106f63e1fd942cd8a3e789bbf29eff29bd0f51a94"
+    },
+    {
+      "year": 2024,
+      "question": 21,
+      "source": "scan-2024-paper",
+      "pages": "4",
+      "change": "补齐 B 选项，明确问中断 I/O 方式。",
+      "before_sha256": "2e339c30cc3f911a6030615aa86101c0f249d2457915ee5f46eb5f03b3b81a98",
+      "after_sha256": "7fd89b4ce903246519aae128a23dfab8c3e155c52a70386b4c07b4d4b25fcdc3"
+    },
+    {
+      "year": 2024,
+      "question": 22,
+      "source": "scan-2024-paper",
+      "pages": "4",
+      "change": "补齐 A、B 选项。",
+      "before_sha256": "88d0aa5e2839da3f3c48c206d136567dfd379b54cd4d46845aa8aa27a84b3e6a",
+      "after_sha256": "bfa1196a414c164c3308d3c06d5ab1a2c3e4b6a02599523e0dc163f2c32e0958"
+    },
+    {
+      "year": 2024,
+      "question": 23,
+      "source": "scan-2024-paper",
+      "pages": "5",
+      "change": "补齐四个选项并恢复次序。",
+      "before_sha256": "e42a778ade6c40865efc4fa64ba1a95a21487354649160c55562d5192ac8e5e5",
+      "after_sha256": "70ed5b6afa9669515bea53e37e00a3e1b1afb5f60a4ee034d6112041e9d07ad4"
+    },
+    {
+      "year": 2024,
+      "question": 24,
+      "source": "scan-2024-paper",
+      "pages": "5",
+      "change": "恢复 B、D 选项次序。",
+      "before_sha256": "0a4c1a26860e9a5a6ed782c7069ea5bb0b548de011efd8609652f917367b2522",
+      "after_sha256": "a30bf61d699dc8df95d20f1160f992cff239cf44189d5f1ad999c93c2c932c13"
+    },
+    {
+      "year": 2024,
+      "question": 34,
+      "source": "scan-2024-paper",
+      "pages": "6",
+      "change": "调制方式缩写修正为 ASK。",
+      "before_sha256": "c5e9929c219e82fc84c56353546e8b2bd64530a98dc62d3552ac85bc9007a50f",
+      "after_sha256": "08e613fb60da39b0a9fc8c254c6a5883caaac7f034a61f0df7499b4a17780743"
+    },
+    {
+      "year": 2024,
+      "question": 35,
+      "source": "scan-2024-paper",
+      "pages": "6–7",
+      "change": "VLAN/ARP 题由原第 39 题恢复至第 35 题，补图并修复 IP、MAC 地址和目标主机 H4。",
+      "before_sha256": "d95cb3fbea951983667063178eeced827bb86d8427980ad73233be78ba193201",
+      "after_sha256": "2c5db79cde5310aa7aaa4f42ddc91bd182adccfbcd8e8309317410b6707e7319"
+    },
+    {
+      "year": 2024,
+      "question": 36,
+      "source": "scan-2024-paper",
+      "pages": "7",
+      "change": "恢复隐藏站收到 CTS 的条件。",
+      "before_sha256": "2dfbe9a61de6a577396d49490ec86d0a407c76d7187d02bef103338fc7f277cb",
+      "after_sha256": "742d4e9189dbac1eda5bf93132b80e95cebbe4b071f1c5787381aa9f1f70bc48"
+    },
+    {
+      "year": 2024,
+      "question": 37,
+      "source": "scan-2024-paper",
+      "pages": "7",
+      "change": "补回 3 比特序号并修正时刻下标。",
+      "before_sha256": "1d4402b667b76292313ecb40df0aad892fd3904198b1671dfefd84ca6e813b67",
+      "after_sha256": "746e77f5903da5e9f3b1c4523f1664fc745e39e78dbf440503e4bd1d94124daa"
+    },
+    {
+      "year": 2024,
+      "question": 38,
+      "source": "scan-2024-paper",
+      "pages": "7",
+      "change": "恢复 TCP 发送报文场景、H 主动关闭连接的条件及秒/毫秒单位。",
+      "before_sha256": "5328e91b1dfa0e37b39b043b8edd205d10f1a0634f01fd45d09d08bfe0fc06c9",
+      "after_sha256": "9348f40ae1a7f85cea1734ca64fe304da48d82fd94be87f3c51d9d09bca10ba5"
+    },
+    {
+      "year": 2024,
+      "question": 39,
+      "source": "scan-2024-paper",
+      "pages": "7–8",
+      "change": "UDP 校验和题由原第 35 题恢复至第 39 题。",
+      "before_sha256": "af90fabf4c8a84feb6d3367f587a95339c4504b698bc92f58e274410a585284a",
+      "after_sha256": "d95cb3fbea951983667063178eeced827bb86d8427980ad73233be78ba193201"
+    },
+    {
+      "year": 2024,
+      "question": 41,
+      "source": "scan-2024-paper",
+      "pages": "8",
+      "change": "修正飞船名称。",
+      "before_sha256": "89afa5dbefc92ae64fdce8b21e8b298fe2e2e8d77175c5374735a9243d852f92",
+      "after_sha256": "f83bffefdcc9561ce3bba590b1905c911ae7206a1e0e167a941acdb9b5c6de15"
+    },
+    {
+      "year": 2024,
+      "question": 43,
+      "source": "scan-2024-paper",
+      "pages": "10–11",
+      "change": "按位宽拆开 lw 格式表，修正助记符和图号，恢复五个小问及 2+5+2+2+2 分。010 编码按题面保留，不改成标准 RISC-V。",
+      "before_sha256": "87d58b762ad346519bbc7206f27ed3f7db4249365490304d4c4d7db5dc2944f1",
+      "after_sha256": "617356aa8fe18b340af7dab602ecf2da920552e42e97014ab2f479b08025e6ed"
+    },
+    {
+      "year": 2024,
+      "question": 44,
+      "source": "scan-2024-paper",
+      "pages": "12",
+      "change": "修正四条指令注释；地址合并为一列，补回前两行缺失字节。",
+      "before_sha256": "296e2cbcbcb4beee592e408825986d07a63e7449d997808c22710c79b9976d15",
+      "after_sha256": "aff12989935d927eb4234fecf64ed729b2a50a6658d5bc6c9a5565cc51e87cef"
+    },
+    {
+      "year": 2024,
+      "question": 45,
+      "source": "scan-2024-paper",
+      "pages": "13",
+      "change": "修正页面大小转录错字。",
+      "before_sha256": "fc865c238647c1841a5536b7a456d57593ae7843ba3c3cbde9689635a6038d2c",
+      "after_sha256": "aa68fc8be6d18455c96dc1053c11434d7a59f82c4c7dc76c7b37a6effd14ac24"
+    },
+    {
+      "year": 2024,
+      "question": 47,
+      "source": "scan-2024-paper",
+      "pages": "15–16",
+      "change": "补齐自治系统拓扑、TTL 小问、两个网络的传播时间设问、三条 BGP 路径和 9 分标分。",
+      "before_sha256": "ce639cb3a71225b014d9835d5e3193584226f95e34a3c85ac3d7af2114134161",
+      "after_sha256": "ee7c97ef3b8d73005f50a8821f9fc6b05514dee8d3240b88ddbf6457b9af9b96"
+    }
+  ]
+}

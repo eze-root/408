@@ -1,0 +1,987 @@
+{
+  "year": "2013",
+  "source_url": "https://zhenti.beokayy.club/paper/2013",
+  "source_sha256": "dd41c0a4ddf32fcddf04d5862e2e3cfd8ac1fb0e0bcdcb0e81fbd7378cdec32b",
+  "paper_sha256": "13d261a8b41b383bb8f36818bc19e63fa3c07e3cfc3637b14680d038ce94c0da",
+  "choice_explanations": "answers/choices/2013.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）算法的基本设计思想：采用摩尔投票算法。首先遍历数组，通过计数方式找出一个可能的候选主元素：遇到相同元素计数加一，不同则计数减一，计数为零时更换候选元素。然后再次遍历数组，统计候选元素出现次数，若超过n/2则输出该元素，否则输出-1。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）算法实现（C语言）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "int Majority(int A[], int n) {\n    int i, c, count = 1; // c用来保存候选主元素，count用来计数\n    c = A[0]; // 设置A[0]为候选主元素\n    for (i = 1; i < n; i++) // 查找候选主元素\n        if (A[i] == c)\n            count++; // 对A中的候选主元素计数\n        else {\n            if (count > 0)\n                count--; // 处理不是候选主元素的情况\n            else {\n                c = A[i]; // 更换候选主元素，重新计数\n                count = 1;\n            }\n        }\n    if (count > 0)\n        for (i = count = 0; i < n; i++) // 统计候选主元素的实际出现次数\n            if (A[i] == c)\n                count++;\n    if (count > n / 2) return c; // 确认候选主元素\n    else return -1; // 不存在主元素\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）时间复杂度和空间复杂度："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "时间复杂度：O(n)，两次线性遍历数组。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "空间复杂度：O(1)，仅使用常数额外变量。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）顺序存储：元素按查找概率降序排列（如“do”、“while”、“for”、“repeat”），采用顺序查找方法，查找成功时的平均查找长度为2.1。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（2）链式存储：构造二叉排序树（如以“for”为根，“do”为左孩子，“while”为右孩子，“repeat”为“while”的左孩子），采用二叉排序树的查找方法，查找成功时的平均查找长度为2.0。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": []
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）CPU时钟周期 = 1 / 800 MHz = 1.25 ns；总线时钟周期 = 1 / 200 MHz = 5 ns；总线带宽 = 32位 × 200 MHz = 800 MB/s。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）Cache块大小为32字节，每次突发传送32字节，故需1个读突发传送总线事务。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）一次读突发传送总线事务中，地址传送需 1 个总线时钟周期（5 ns）；8 体交叉存储从启动第一个存储体到读出全部 8 个字，需 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "40+(8-1)\\times 5=75 ns"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "；随后在总线上传送最后一个数据还需 1 个总线时钟周期（5 ns）。因此总时间为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "5+75+5=85 ns"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）基础时间 = 指令数 × 命中CPI × 时钟周期 = 100 × 4 × 1.25 ns = 500 ns。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "缺失次数 = 访存次数 × 缺失率 = (100 × 1.2) × 5% = 6次。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "缺失损失 = 一次读突发传送事务时间 = 85 ns。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "额外时间 = 6 × 85 ns = 510 ns。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "总CPU执行时间 = 500 ns + 510 ns = "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1010 ns"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）该计算机存储器按字节编址。该条件转移指令向后最多可跳转127条指令。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）当CF=0、ZF=0、NF=1时，需转移，PC=1FD4H；当CF=1、ZF=0、NF=0时，不转移，PC=200EH。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "计算过程：指令中C=0、Z=1、N=1，检测ZF和NF。第一种情况，偏移量E3H符号扩展后左移一位得FFC6H，目标地址=200CH+2+FFC6H=1FD4H；第二种情况，不转移，PC=200CH+2=200EH。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）C=1、Z=1、N=0。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）部件①为指令寄存器（IR）；部件②为移位寄存器；部件③为加法器。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) 信号量含义及初值："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "mutex：互斥信号量，用于控制出入口的互斥访问，初值为1。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "empty：同步信号量，表示博物馆可容纳的最大人数（空位数），初值为500。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(2) 进程代码："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "cobegin\n参观者进程i:\n{\n    P(empty);   // 申请空位\n    P(mutex);   // 申请出入口互斥锁\n    进门;\n    V(mutex);   // 释放出入口互斥锁\n    参观;\n    P(mutex);   // 再次申请出入口互斥锁，准备出门\n    出门;\n    V(mutex);   // 释放出入口互斥锁\n    V(empty);   // 释放一个空位\n}\ncoend",
+              "block": true,
+              "lang": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）页大小：4KB；页表最大占用：4MB。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（2）页目录号："
+                    },
+                    {
+                      "kind": "math",
+                      "value": " LA >> 22 "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（或 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " ((unsigned int)(LA)) >> 22 "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "）；页表索引："
+                    },
+                    {
+                      "kind": "math",
+                      "value": " (LA >> 12) & 0x3FF "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（或 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " ((unsigned int)(LA)) >> 12 & 0x3FF "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "）。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（3）代码页面 2 的页表项物理地址为 0020 0024H，页框号为 00901H；代码页面 1 的页表项物理地址为 0020 0020H，页框号为 00900H。代码页面 2 的起始物理地址为 0090 1000H。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(1) R2的路由表"
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 3,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "目的网络"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "下一跳"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "接口"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "153.14.5.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "153.14.3.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "S0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "194.17.20.0/23"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "194.17.24.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "S1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "194.17.20.128/25"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "直连"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "E0"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(2) 转发接口"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "接口 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "E0"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（根据最长匹配原则，匹配 194.17.20.128/25）。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(3) 路由协议与封装"
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "路由协议："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "BGP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（或 BGP4）。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "报文封装："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "TCP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 分组。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

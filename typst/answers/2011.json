@@ -1,0 +1,1952 @@
+{
+  "year": "2011",
+  "source_url": "https://zhenti.beokayy.club/paper/2011",
+  "source_sha256": "2c9ab30cee5369ada8320bae6f2ae8723471b241867332420e343113fa17c04f",
+  "paper_sha256": "9bbeffc2bc8af4f834ad655a5db0692ddf24a74f08e0580dc238d6a3b20923ef",
+  "choice_explanations": "answers/choices/2011.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": []
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "(1) 图G的邻接矩阵A："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "group",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "A = "
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "group",
+                      "children": [
+                        {
+                          "kind": "matrix",
+                          "rows": [
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "4"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "6"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "5"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "4"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "∞"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ]
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "(2) 有向带权图G："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "image",
+                  "path": "assets/answers/2011/activity-network.svg",
+                  "width": 150,
+                  "height": 63.16,
+                  "sha256": "a7269e0a61338a56cf8f65067b1387864ac8293ec1aa3701b364ea49dfa16036"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "(3) 关键路径及长度："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 7,
+                  "font_size": 10,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "事件i"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ve(i)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "16"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "vl(i)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "16"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 8,
+                  "font_size": 10,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "活动"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0→1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0→2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1→2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2→3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2→4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3→5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4→5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "e"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "l"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "余量"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "关键路径为：0 → 1 → 2 → 3 → 5"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "关键路径长度为：4 + 5 + 4 + 3 = 16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "（1）算法的基本设计思想"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "分别取当前两个子序列 A' 和 B' 的中位数 a 和 b。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "若 a == b，则 a（或 b）即为所求中位数。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "若 a < b，则等量舍弃 A' 的较小部分和 B' 的较大部分；当前长度为奇数时保留中位元素，为偶数时按代码调整边界。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "若 a > b，则舍弃 A' 的后半部分和 B' 的前半部分，且舍弃长度相等。  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "重复上述过程，直到两个子序列都只剩一个元素，较小者即为所求中位数。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "（2）算法的 C++ 实现"
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "int M_Search(int A[], int B[], int n) {\n    int start1 = 0, end1 = n - 1, start2 = 0, end2 = n - 1;\n    int m1, m2;\n    while (start1 != end1 || start2 != end2) {\n        m1 = (start1 + end1) / 2;\n        m2 = (start2 + end2) / 2;\n        if (A[m1] == B[m2])\n            return A[m1];\n        if (A[m1] < B[m2]) {\n            if ((start1 + end1) % 2 == 0) {\n                start1 = m1;\n                end2 = m2;\n            } else {\n                start1 = m1 + 1;\n                end2 = m2;\n            }\n        }\n        if (A[m1] > B[m2]) {\n            if ((start1 + end1) % 2 == 0) {\n                end1 = m1;\n                start2 = m2;\n            } else {\n                end1 = m1;\n                start2 = m2 + 1;\n            }\n        }\n    }\n    return A[start1] < B[start2] ? A[start1] : B[start2];\n}",
+              "block": true,
+              "lang": "cpp"
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "（3）时间复杂度和空间复杂度"
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "时间复杂度"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：每次迭代将搜索范围减半，因此时间复杂度为 "
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "O(log n)"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "空间复杂度"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：只使用了常数个辅助变量，因此空间复杂度为 "
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "O(1)"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）R1的内容为86H，R5的内容为90H，R6的内容为7CH。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（2）m的值为-122，k1的值为-112。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（3）能。因为无符号整数和带符号整数（补码表示）的加减运算均可通过补码加法实现，减法可转化为加补数，因此可用同一个加法器辅助电路实现。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（4）判断方法：若两个操作数符号相同但结果符号不同，则溢出；或次高位进位与最高位进位不同，则溢出。程序段中，带符号整数运算k2=m+n会发生溢出。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）虚拟地址为24位，虚页号为高12位；物理地址为20位，页框号为高8位。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）物理地址划分为主存字块标记、Cache 行号和块内地址三个字段：主存字块标记占高 12 位（第 19～8 位），Cache 行号占 3 位（第 7～5 位），块内地址占低 5 位（第 4～0 位）。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）虚拟地址001C60H的虚页号为001H，对应页表项有效位为1，故页面在主存中；页框号为04H，页内偏移为C60H，物理地址为04C60H。访问该物理地址时，Cache索引为第3行，但行中标记（105H）与主存标记（04CH）不相等，故Cache不命中。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）虚拟地址024BACH的虚页号为024H，TLB组数为2，组号由虚页号最低1位决定（为0），TLB标记为高11位（012H）。TLB第0组中存在有效且标记匹配的项，故TLB命中，页面在主存中。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(1) 信号量定义："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "code",
+                    "value": "mutex = 1",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：互斥访问取号机（一次一位顾客取号）。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "empty = 10",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：空座位数量（初始10，用于限制等待顾客数）。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "full = 0",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：已占座位数量（初始0，表示等待服务的顾客数）。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "service = 0",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：叫号同步信号（初始0，营业员叫号时唤醒顾客）。  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(2) 顾客进程伪代码："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "   process 顾客 i {\n       P(empty);       // 等待空座位\n       P(mutex);       // 互斥使用取号机\n       从取号机获取号码;\n       V(mutex);       // 释放取号机\n       V(full);        // 通知营业员有新顾客\n       P(service);     // 等待叫号\n       获取服务;\n   }",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(3) 营业员进程伪代码："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "   process 营业员 {\n       while (True) {\n           P(full);    // 等待顾客（已占座位）\n           V(empty);   // 顾客离开等待座位，释放一个空座位\n           V(service); // 叫号（唤醒一位顾客）\n           为顾客服务;\n       }\n   }",
+              "block": true,
+              "lang": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "连续分配方式更合适"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。理由：文件一次性写入且不可修改，连续分配能提供高效顺序访问，减少磁盘寻道时间，提升随机访问效率。FCB中需设计字段："
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "起始块号"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "和"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "块数"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（或"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "起始块号"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "和"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "结束块号"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "）以定位数据块。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "集中存储FCB更好"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。理由：FCB集中存放（如目录区），文件数据集中存放，查找时仅需访问FCB对应块，减少磁头移动和磁盘I/O次数，加快文件检索。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）Web服务器的IP地址为64.170.98.32；该主机的默认网关的MAC地址为00-21-27-21-51-ee。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）使用ARP协议确定目的MAC地址；封装ARP请求报文的以太网帧的目的MAC地址是FF-FF-FF-FF-FF-FF。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）需要6个RTT。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）路由器 R 转发该 IP 分组时需要："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "将源 IP 地址从主机的私有地址改写为路由器的公有地址；"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "将生存时间 TTL 减 1；"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "因源 IP 地址和 TTL 均发生变化，重新计算 IP 首部校验和。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

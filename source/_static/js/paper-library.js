@@ -14,7 +14,8 @@
     let count = 0;
     cards.forEach(card => {
       const year = card.querySelector('.paper-year').textContent.trim();
-      const visible = year.includes(query) && (range === 'all' || (range === 'practice' ? +year <= 2022 : +year >= 2023));
+      const recent = Number(year) >= 2020;
+      const visible = year.includes(query) && (range === 'all' || (range === 'recent' ? recent : !recent));
       card.hidden = !visible;
       if (visible) count++;
     });

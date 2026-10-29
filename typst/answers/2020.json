@@ -1,0 +1,1187 @@
+{
+  "year": "2020",
+  "source_url": "https://zhenti.beokayy.club/paper/2020",
+  "source_sha256": "b98d684b81f9ca5b5f95d48877225f95562fa468c8a3bc936dcf2d9dae510544",
+  "paper_sha256": "7823892286e4f43f658e4220685477abd8ddac7fff5f635d40cdaeb35e61c088",
+  "choice_explanations": "answers/choices/2020.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "markdown",
+          "value": "**（1）基本思想**"
+        },
+        {
+          "kind": "markdown",
+          "value": "三元组距离满足 $D=|a-b|+|b-c|+|c-a|=2(\\max(a,b,c)-\\min(a,b,c))$。三个指针分别从三个非空升序数组的开头出发，每轮更新最小距离，并只推进当前最小值所在数组的指针。"
+        },
+        {
+          "kind": "markdown",
+          "value": "保持当前最小值而增大另外的值，不能缩小最大值与最小值之差，因此这一步不会跳过最优结果。任一数组耗尽后结束。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（2）C语言实现**"
+        },
+        {
+          "kind": "code",
+          "block": true,
+          "lang": "c",
+          "value": "#include <limits.h>\n\nlong long findMin(const int A[], int n, const int B[], int m,\n                  const int C[], int p) {\n    int i = 0, j = 0, k = 0;\n    long long best = LLONG_MAX;\n    while (i < n && j < m && k < p) {\n        int lo = A[i], hi = A[i];\n        if (B[j] < lo) lo = B[j];\n        if (C[k] < lo) lo = C[k];\n        if (B[j] > hi) hi = B[j];\n        if (C[k] > hi) hi = C[k];\n        long long distance = 2 * ((long long)hi - lo);\n        if (distance < best) best = distance;\n        if (best == 0) break;\n        if (A[i] == lo) ++i;\n        else if (B[j] == lo) ++j;\n        else ++k;\n    }\n    return best;\n}"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（3）复杂度**"
+        },
+        {
+          "kind": "markdown",
+          "value": "每个指针只前进，时间复杂度 $O(n+m+p)$，辅助空间 $O(1)$。距离使用long long计算和返回。"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）使用二叉树保存编码。每个编码对应一条从根到叶结点的路径，左、右分支分别表示 0、1，叶结点保存相应字符。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）译码过程：从根节点开始，逐个读取 0/1 串的比特，根据比特值选择子节点（0 对应左子节点，1 对应右子节点），直到到达叶节点，输出对应字符；然后重置回根节点，重复此过程直到输入串结束。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "3）判定过程同时也是构建二叉树的过程。初始时只有根结点，左右指针均为空。依次读入每个编码 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "C",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，从根开始按 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "C",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的每一位沿相应分支向下；遇到空指针时创建新结点。处理过程中："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "尚未扫描完 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "C",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 就到达已有叶结点，说明某个已有编码是 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "C",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 的前缀，不具有前缀特性；"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "扫描完 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "C",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 时一个新结点都没有创建，说明 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "C",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 是某个已有编码的前缀，也不具有前缀特性；"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "只有在处理 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "C",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 的最后一位时创建新叶结点，才继续检查下一个编码。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "若所有编码均通过上述检查，则该字符集的编码具有前缀特性。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）乘法可以通过加法和移位组成的循环程序实现，因此即使没有乘法指令也能完成两个函数中的乘法运算。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）控制逻辑用于控制循环次数，并控制每一步的加法和移位操作。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）情况①执行时间最长，情况③执行时间最短。①需要执行多条软件指令；②和③使用乘法指令，而③的阵列乘法器可在一个时钟周期内完成乘法。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）两种乘法指令得到的 64 位乘积均为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "00000000FFFFFFFEH",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "code",
+                    "value": "umul()",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：不溢出；"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "imul()",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：溢出。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "无符号乘法只取低 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "n"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 位时，若 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "2n"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 位乘积的高 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "n"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 位全为 0，则不溢出；否则溢出。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）主存地址共 32 位，组索引和块内地址各占 6 位，因此标记位占 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "32-6-6=20"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 位；8 路组相联需要 3 位 LRU 信息；指令 Cache 只读，不需维护表示写脏状态的修改位。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）64次。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）首先将地址00010003H分解为标记、组索引（6位，值为0）和块内偏移（6位，值为3）。根据组索引0在指令Cache中找到对应的组，比较行标记，由于Cache为空，全部无效，缺失。缺失处理：访问主存，将该地址所在的块（起始地址00010000H，大小64B）加载到Cache中。在组0中根据LRU算法选择一个行（如第一个空闲行）填充数据，设置有效位和标记。最后，根据块内偏移3从该行取出指令返回CPU。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) 设四个同步信号量 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "S_AC",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "、"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "S_BC",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "、"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "S_CE",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "、"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "S_DE",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，初值均为 0，分别描述 A→C、B→C、C→E、D→E 四个先后关系。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(2) 操作同步伪代码（"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "wait",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "/"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "signal",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 即 P/V 操作）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "S_AC = 0;\nS_BC = 0;\nS_CE = 0;\nS_DE = 0;\n\ncobegin {\n    A() {\n        A;\n        signal(S_AC);\n    }\n\n    B() {\n        B;\n        signal(S_BC);\n    }\n\n    C() {\n        wait(S_AC);\n        wait(S_BC);\n        C;\n        signal(S_CE);\n    }\n\n    D() {\n        D;\n        signal(S_DE);\n    }\n\n    E() {\n        wait(S_CE);\n        wait(S_DE);\n        E;\n    }\n} coend",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(3) C 分别等待 A、B 发出的完成信号后才能执行；E 分别等待 C、D 发出的完成信号后才能执行。本题只有同步关系，没有互斥关系。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "虚拟地址："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "10801008H",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "页目录号："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "042H",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "页号："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "001H",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "页目录项物理地址："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "00201108H",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "页表项物理地址："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "00301004H",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）数组 a 在虚拟地址空间中必须连续，在物理地址空间中可以不连续。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）按行遍历的局部性更好。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）在 R2 上配置静态 NAT 端口映射："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 4,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "外网 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "外网端口号"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "内网 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "内网端口号"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "203.10.2.2",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "80"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "192.168.1.2",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "80"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 3,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "位置"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "源 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "目的 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "H2 发送时"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "192.168.1.2",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "203.10.2.2",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R3 转发后"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "203.10.2.6",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "203.10.2.2",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R2 转发后"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "203.10.2.6",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "192.168.1.2",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

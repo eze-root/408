@@ -1,0 +1,1108 @@
+{
+  "year": "2010",
+  "source_url": "https://zhenti.beokayy.club/paper/2010",
+  "source_sha256": "c13f9f526a2b4bdfc16ca15ffaa5f8a8a94619c187399a085cb0cf8486002c28",
+  "paper_sha256": "9b6613a57d2bc8ffedec98953260321c3d658711a70e1f7f57fbbebedbf7c685",
+  "choice_explanations": "answers/choices/2010.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）散列表（数组下标0～9）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 11,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "下标"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "内容"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "14"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "18"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "-"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）平均查找长度："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "查找成功："
+                  },
+                  {
+                    "kind": "math",
+                    "value": "ASL_{\\text{成功}}=\\frac{12}{7}"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "查找不成功："
+                  },
+                  {
+                    "kind": "math",
+                    "value": "ASL_{\\text{不成功}}=\\frac{18}{7}"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（1）算法基本设计思想"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "将数组视为前p个元素组成的子数组a和后n-p个元素组成的子数组b。通过三次逆置操作实现循环左移：先逆置a，再逆置b，最后逆置整个数组。即先将数组ab转换为a⁻¹b，再转换为a⁻¹b⁻¹，最终得到ba。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（2）算法描述（C语言）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "void Reverse(int R[], int from, int to) {\n    int i, temp;\n    for (i = 0; i < (to - from + 1) / 2; i++) {\n        temp = R[from + i];\n        R[from + i] = R[to - i];\n        R[to - i] = temp;\n    }\n}\n\nvoid Converse(int R[], int n, int p) {\n    Reverse(R, 0, p - 1);       // 逆置前p个元素\n    Reverse(R, p, n - 1);       // 逆置后n-p个元素\n    Reverse(R, 0, n - 1);       // 逆置整个数组\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（3）时间复杂度和空间复杂度"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "时间复杂度：O(n)，其中三次逆置操作总代价为O(p + (n-p) + n) = O(n)。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "空间复杂度：O(1)，仅使用常数个临时变量。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）指令系统最多有16条指令，最多有8个通用寄存器，MAR至少需要16位，MDR至少需要16位。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）转移指令的目标地址范围是0000H-FFFFH（0～65535）。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）机器码为2315H。指令执行后，寄存器R5的内容变为5679H，存储单元5678H中的内容变为68ACH。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）数据Cache的总容量为532B。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）数组元素a[0][31]所在的主存块对应的Cache行号为6，a[1][1]对应的Cache行号为5。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）程序A的命中率为93.75%，程序B的命中率为0%。程序A比程序B执行快，因为程序A按行顺序访问数组，利用了空间局部性，Cache命中率高；程序B按列顺序访问数组，局部性差，导致频繁替换，Cache命中率低。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）采用位图管理磁盘块空闲状态。每个位表示一个磁盘块的空闲状态（如1表示空闲，0表示占用）。16384个磁盘块需要16384位，即16384/8 = 2048字节 = 2KB，正好使用给定内存空间。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）总时间为190.4ms。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "计算要点："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "CSCAN调度顺序为磁道120、30、50、90，移动磁道总数170，移动时间170ms。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "平均旋转延迟5ms/磁道，4个磁道共20ms。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "每个磁道读取一个扇区，平均读取时间0.1ms，共0.4ms。  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "三者相加得190.4ms。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）有更高效策略：FCFS（先来先服务）。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "理由：Flash半导体存储器（如SSD）是随机访问设备，无寻道时间和旋转延迟，按请求顺序服务即可，FCFS更简单高效。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）逻辑地址17CAH对应的页号为5。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）采用FIFO置换算法，物理地址为1FCAH。置换装入时刻最早的0号页，将5号页装入页框7。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "3）采用CLOCK置换算法，物理地址为0BCAH。从当前指针（指向页框2）开始顺时针搜索，经过四次使用位清零后，第五次命中页框2（使用位为0），淘汰2号页，将5号页装入页框2。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）甲、乙之间的单程传播时延为"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(2 km)/(200 000 km/s)=0.01 ms"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "若两台主机同时开始发送，冲突信号传播到对端后，两者均检测到冲突，所需时间最短为 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0.01 ms"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。若一台主机发送的信号即将到达另一台主机时，另一台主机才开始发送，则先发送的主机最晚需等待一个往返传播时延才能检测到冲突，故最长为 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0.02 ms"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）最长以太网帧的有效数据为 1500 B。发送一个 1518 B 数据帧、等待信号往返传播并接收一个 64 B 确认帧所需时间为"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(1518×8)/(10 Mbps)+2×0.01 ms+(64×8)/(10 Mbps)=1.2856 ms"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "因此主机甲的有效数据传输速率为"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(1500×8)/(1.2856 ms)≈9.33 Mbps"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

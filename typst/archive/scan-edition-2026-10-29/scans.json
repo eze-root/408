@@ -1,0 +1,3386 @@
+{
+  "schema_version": 1,
+  "years": {
+    "2009": {
+      "choice_key": "BCDBCBADABCDDCDCAADBDADDCACBAABABBCADDCA",
+      "key_reference": "https://zhenti.beokayy.club/paper/2009",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 7,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/618b4fe5-ead0-448e-acbf-062f10b213e5.pdf",
+      "source_sha256": "272682ace37062a3824a857c9b363ada30c491cbab18bc330995ea9702b71e0d",
+      "paper_sha256": "93d949688a67e956d42da10f4b057685c02cac75191a6608bc4b608f2c602c98",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2009/01.jpg",
+          "sha256": "f16fbf99175bb9020946244c77fd48fb2ea2d09d8a6a3bc476a5769878e7b287",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2009/02.jpg",
+          "sha256": "a467bc9e469817ecab8a8581b4c59b19b2eadd40741cb8d538b45398d50a6a89",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2009/03.jpg",
+          "sha256": "114840d55444f11544dfb9c59e1b35aec6adbd69154dbd1a4f17d7942964829e",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2009/04.jpg",
+          "sha256": "377361f86aefe430a11e436e6dfa354c0a002c7897c5b9241395a5cd5c492506",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2213
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2009/05.jpg",
+          "sha256": "b8c0d904eb388fa5576117ba1c9688c57bebc5b64f31f54a6be93eb4d5b83be6",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2009/06.jpg",
+          "sha256": "9ed4663e83e61cb5b87bef273cdda0e789b339041a1aff085e8181376b6ead88",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2211
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2009/07.jpg",
+          "sha256": "5995561d7d56dec60cd75581951e77ec6a59a4291f04c7ec43be03e5907a7e09",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2210
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2009/08.jpg",
+          "sha256": "c269830f9174c40c4636f2855d765a790378444be3d8088da5846c08d286b615",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2217
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2009/09.jpg",
+          "sha256": "d0d826195d2eb764eafad4b2ac9b0a2113accc76697de644312b47fde1afb009",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2207
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2009/10.jpg",
+          "sha256": "d405996695656f10f99ccd3221ceafae189d551c88525e5452b2c2e45a282917",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            0.0,
+            594.0,
+            841.0
+          ],
+          "pixels": [
+            1563,
+            2211
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2009/11.jpg",
+          "sha256": "7212f101f9d9b98d5743d52a65ca3197d18bf2fd3cff7570bbe83ae1184da4bc",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2200
+          ]
+        },
+        {
+          "source_page": 12,
+          "path": "assets/answer-scans/2009/12.jpg",
+          "sha256": "a959532d6bbe1a3e34a3f2396436c70275309f3792ea07b0d3de8c098ce21dea",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2201
+          ]
+        }
+      ]
+    },
+    "2010": {
+      "choice_key": "DCDCBACBBDADBBDADBADADACBADBBCCBCCDCBDAA",
+      "key_reference": "https://zhenti.beokayy.club/paper/2010",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 8,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/21dc65b0-0cec-42fe-a792-1a214eb38e0d.pdf",
+      "source_sha256": "abc99d871aaae0a0683c9ccf0fe53cd6bda88cb86d80c25c2581f8d976b39fb3",
+      "paper_sha256": "9b6613a57d2bc8ffedec98953260321c3d658711a70e1f7f57fbbebedbf7c685",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2010/01.jpg",
+          "sha256": "17d2deb0a73045712a2ffc579f3b89226750c76e6968c5f0d73e64e40d9044a7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2204
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2010/02.jpg",
+          "sha256": "735bd304b773568cb7056d571e72b90162e2260c79819dc51069d21237b441bf",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2203
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2010/03.jpg",
+          "sha256": "691b473aef3aab80eaccb708a629c1f9ffd5815c04899daad3050fc030af0d1d",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2200
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2010/04.jpg",
+          "sha256": "497f2d866350a6ecc71906c9333daa4f0c010f4be5f3d8173f5966347e60eed3",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2010/05.jpg",
+          "sha256": "08db368575f04737c5ea46f0611a9aed956479369702c51fe5a0f793a0d2ebc9",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2010/06.jpg",
+          "sha256": "24d8c216a8fff033e9665a086294d584af248089f108756065b7e8bb592043ce",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2010/07.jpg",
+          "sha256": "83db9276fed50205acd476d9e1ec83dac800a4a91770f0e9dc05313f6f0965d8",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2010/08.jpg",
+          "sha256": "7b1994187dbddda20d95a50ae4dad00602e5943536a35a3824320f1ec10d89f5",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2010/09.jpg",
+          "sha256": "505bd036673ae411f4f8472bf52d509f6d268b3561a72638a555bd1b55b4b98d",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2209
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2010/10.jpg",
+          "sha256": "c0e2179fcbaa707d1f41233eb197f7dd77bed6277680b56ec2af503a2af55341",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2010/11.jpg",
+          "sha256": "4d2fb76eea4edc92627ad266c64a65dcf486fb026ef01e6d9973c2293f159cd9",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        }
+      ]
+    },
+    "2011": {
+      "choice_key": "ABBCCDACDABDABDACDCCDCBADBDDACBCABBDDCCB",
+      "key_reference": "https://zhenti.beokayy.club/paper/2011",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 7,
+      "notes": [
+        "第21题区分中断响应与处理优先级；L1屏蔽自身和L3，屏蔽字为01010，选D。",
+        "第41题数组含15项，∞表示没有直接边；关键路径为0→1→2→3→5，长度为16。"
+      ],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/176ed299-5a6d-435a-bdc1-5c0e53ff7b26.pdf",
+      "source_sha256": "91be83c9ad41ad096c7c1181fbdeb956dfdee33e4ad8a1e89fb1bcb2aeefebc8",
+      "paper_sha256": "9bbeffc2bc8af4f834ad655a5db0692ddf24a74f08e0580dc238d6a3b20923ef",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2011/01.jpg",
+          "sha256": "ef413951d3a32fcbc60ff8cea8d0240630ad67ae2a3636374131cd84a54f35d1",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2011/02.jpg",
+          "sha256": "2279be0e1d2e0c0f7b358f8b999c73221995ba4f4b0d26acd293428eaa8c0498",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2210
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2011/03.jpg",
+          "sha256": "0e020f55777395fdd0832c045eb27c9f07805886fc3f0cdcaad37270757772c7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2199
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2011/04.jpg",
+          "sha256": "9c109cac7b13151fba670ded993c9e10f9bb064536f321714aaf035bcb6b3038",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2011/05.jpg",
+          "sha256": "9ae9a6377c2916c563c8e321276443d8f4b7b66da5d6f361c74edb7b6ca4f78c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2011/06.jpg",
+          "sha256": "82b76f16e4876cfc7a9779ea748b8bc16b15436b1689b28ba3f932265690f65a",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2207
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2011/07.jpg",
+          "sha256": "c91e68801601869039eaa9db3afd89ba208eaadb9f0630b38bf592c3287a1e2c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            2.0,
+            0.0,
+            591.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2193
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2011/08.jpg",
+          "sha256": "597ee27ff019eecb3fbf4755abf437bd27b11385300bae8e5a5aea4781d10a8e",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2212
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2011/09.jpg",
+          "sha256": "c38e27b196f97868c78f02453db4eb0cbd9cc10a6fbbae1cc9c46d8ed6558a4c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            0.0,
+            594.0,
+            841.0
+          ],
+          "pixels": [
+            1554,
+            2200
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2011/10.jpg",
+          "sha256": "7379bf26ea47900d1baa28bb36ced27889a9cbc20f011650e3c16573cca78e13",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2204
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2011/11.jpg",
+          "sha256": "3ea7e3d6b5bcf5455d16f7b1003a20d6d532422a7754fa81c2301659ba5d8aea",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 12,
+          "path": "assets/answer-scans/2011/12.jpg",
+          "sha256": "eef2e52447f9f33310d7e5a687478fbb37521b0275de7bc0c4931b2a411477ac",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2210
+          ]
+        }
+      ]
+    },
+    "2012": {
+      "choice_key": "BAABCCCADADDBDDACCCDDBCBBADABCABBCABCADD",
+      "key_reference": "https://zhenti.beokayy.club/paper/2012",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 8,
+      "notes": [
+        "第14题最大正数为2^128−2^104，选D。第43、44题分值分别为11、12分。",
+        "第47题已补齐确认号差值和TTL计算，完整解答见本册末页。"
+      ],
+      "patches": [
+        {
+          "page": 11,
+          "rect": [
+            50,
+            573,
+            565,
+            815
+          ],
+          "text": ""
+        }
+      ],
+      "supplements": [
+        "answers/corrections/2012-47.md"
+      ],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0b4d0eaa-ca05-4dd2-a918-436597a366d2.pdf",
+      "source_sha256": "00c2dcb0c368146c7e40f5df2e2e1de47dab2939b59ae8ab24c173fba1aa8bba",
+      "paper_sha256": "693d5bc9afb6f63215cdfa74f2c8295320e7f18ae6993e42c4c89dcab03cf6c0",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2012/01.jpg",
+          "sha256": "dddfcdf1ba2cf212929ca2cc7638a7c2013f8ef90b4dd18081343352d028ea68",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2209
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2012/02.jpg",
+          "sha256": "c3fc2ef23011f199b78a59c8fd8010b7a4bed0b7eca44d5270ce57ce415088c3",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2210
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2012/03.jpg",
+          "sha256": "9dec46117a649e975a89059ffb267f698c60f04b4d23c945163be3833ab5b220",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2012/04.jpg",
+          "sha256": "fa14c1305bed81fecd129a4b0863c411df7c8b06b417ff9e0798c70b85f199e6",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2209
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2012/05.jpg",
+          "sha256": "f64d0c8ec68c7ebbdf0eecfbd4d72443a5b0ee1e7f59914a61d427e741cb7d78",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2012/06.jpg",
+          "sha256": "d615854de569accd885b1e26ddd8b97b9486661a593511e6f9f2a2d90c22fcec",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2205
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2012/07.jpg",
+          "sha256": "b3a60e93400a259fc19ac25f13f90888d41882e002d673d16a958b5681463d39",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2012/08.jpg",
+          "sha256": "544bdd7c1af36b1e24053dd1a0d9d968bea29b5a4ca8e6027000bf9ed3a17a36",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2012/09.jpg",
+          "sha256": "9dacc28bf11136dc4aa8be00f43532ae70d1acb4c7be940ea4272a3139b38d87",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2198
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2012/10.jpg",
+          "sha256": "6cdbeb360ea0e14393fbb9a80a31617f925f500f0ea4f3e4ea78fdf66b4e82f0",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2012/11.jpg",
+          "sha256": "22527b6c9e696afcb8b3f6f459e5bb3a9594e95f5402bac2f5364384f4fd1321",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2204
+          ]
+        }
+      ]
+    },
+    "2013": {
+      "choice_key": "DCDBACCDCACCAACADCBBBDAACACBDBBBBADBABBA",
+      "key_reference": "https://zhenti.beokayy.club/paper/2013",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 6,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0356daa4-0d15-45cb-8e95-fe8054f2e8f5.pdf",
+      "source_sha256": "513ec867087a940e31b0281f4cb51347e4ad404559beb09164e197cb33a23e44",
+      "paper_sha256": "13d261a8b41b383bb8f36818bc19e63fa3c07e3cfc3637b14680d038ce94c0da",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2013/01.jpg",
+          "sha256": "ccf550ee78921665aa4392e0f5b0418c09209c36afedf906d497b9eade4e8919",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2216
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2013/02.jpg",
+          "sha256": "9c60b22b3e44f86831ad72135fbf64045c3e148f44f2126bffb7399d19fd2494",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2200
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2013/03.jpg",
+          "sha256": "35664313abff6cf5de56384489d5c7cb264adea3541ed5032cea83373bb44484",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2211
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2013/04.jpg",
+          "sha256": "d8d6420e6a0a52d211a35daedc38ae19fd3a0ce7f9cab51adbaed3197149ed38",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2198
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2013/05.jpg",
+          "sha256": "2e30484ab46fa8d0871bfecf6b67c0860d48a7dc909e5586e227afb83cef3d1f",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2203
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2013/06.jpg",
+          "sha256": "31b46e5933c95cd5171ccf3d65d765300dcbbdd9abcfbae63b0543d9020cdcd7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2201
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2013/07.jpg",
+          "sha256": "08b279b45f718b1ab090a44210891b58bc40dfc1abd02842eaa2e5f1090451aa",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2013/08.jpg",
+          "sha256": "1d609d3e0a3b03b921e51d834b7bea7becdfdef4844d4bf8ac9400fecf7d2f0b",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2207
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2013/09.jpg",
+          "sha256": "13e05e5f6e09d20eb06bf81463ce63acad1dac782e50f2ada6d74a694bcd8f13",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2211
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2013/10.jpg",
+          "sha256": "bfcfdd2ed69b4c2a9d8a95b7aa7216dd19ef5142be87ba5dc5f039f32cebb176",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2013/11.jpg",
+          "sha256": "0bd4bc68c1e681adf3cc16e138279613eb2b7c4624cb04db0438f43330d6b8a3",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        }
+      ]
+    },
+    "2014": {
+      "choice_key": "CBADCDDDDBCDCAADACCCDBABDAACBACDCBDCBABD",
+      "key_reference": "https://zhenti.beokayy.club/paper/2014",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 7,
+      "notes": [
+        "第45、46、47题分值分别为11、7、8分。"
+      ],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/ff7be588-bd3a-49aa-a543-2597a1696a93.pdf",
+      "source_sha256": "d835bc73647eac05b55d8ba136da2e8355a1b70acde1fa5890bb673048fea5cc",
+      "paper_sha256": "191a8d5f8602afdc2b1c8e20cdeb435a44b01ac9625df466b16e0a3f211fd490",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2014/01.jpg",
+          "sha256": "61d9b9cbdb4030ab5f2024913d6857747f842b110c4ef15de13c18012950cbcd",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2212
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2014/02.jpg",
+          "sha256": "476dd8f4641c49fe5dd9a127a406e3696574847c8f138133499fd8832f5b9dbd",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2200
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2014/03.jpg",
+          "sha256": "50cfb793e0d3e2bf69bca12671ce0d01d19121e8c07be2544f39941d061db549",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2212
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2014/04.jpg",
+          "sha256": "b34206305345a5ee4f378b78a6e1dccdd5cf8c39da47ac944f59e4db3a49ef4e",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2209
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2014/05.jpg",
+          "sha256": "4c1115dcd5ee95d0fc62838e59f8b91db8fc399ea2f80501e859bfe39f223667",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2218
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2014/06.jpg",
+          "sha256": "7b0fb93ef9d605fd81c35662ced52a3d42d9fbf5a7ddafba103029a61a092de3",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2199
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2014/07.jpg",
+          "sha256": "a1bb01493d2bdf742ce7908c9ae9e5d351febbe94b116a6ee30e97878cd45a2b",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2014/08.jpg",
+          "sha256": "c9e1bb8629350a6fed9c5c69467958ae24a2a241d871ffca0243c1116a3e5d06",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            0.0,
+            594.0,
+            841.0
+          ],
+          "pixels": [
+            1564,
+            2214
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2014/09.jpg",
+          "sha256": "7a1821945574ca5c2263ef282916676332157b7877bee6a8cb841498fcfb8408",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2214
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2014/10.jpg",
+          "sha256": "6f958bc1eca224e9871371ffeea175c68ddd79b7ae1272b15d2566007e0c32cd",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2204
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2014/11.jpg",
+          "sha256": "4aac468bde61eaba50efce4e292b1f1bdabbcf042123b7db44e40e64ef842876",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2206
+          ]
+        },
+        {
+          "source_page": 12,
+          "path": "assets/answer-scans/2014/12.jpg",
+          "sha256": "1d35c58d1f145ff60070055dc0aebb2fcf33db85eff05c3b2204952f2af89728",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2198
+          ]
+        },
+        {
+          "source_page": 13,
+          "path": "assets/answer-scans/2014/13.jpg",
+          "sha256": "c3a6f84aa523b094ffdf56f553b52763f6a93be255610e09b85d431ff53fb1cf",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        },
+        {
+          "source_page": 14,
+          "path": "assets/answer-scans/2014/14.jpg",
+          "sha256": "79bc91b53d03838e2114f3a8eb3d32a1d844150a3861cb1fc58e0c23461a211b",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        }
+      ]
+    },
+    "2015": {
+      "choice_key": "ABDDDCACCCAABDCBBDCBBDBCDBAABCCCDABBACAC",
+      "key_reference": "https://zhenti.beokayy.club/paper/2015",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 6,
+      "notes": [
+        "第38题按最长前缀匹配选择/27接口E3，选C。",
+        "第41题代码的类型定义使用小写关键字typedef。"
+      ],
+      "patches": [
+        {
+          "page": 6,
+          "rect": [
+            104,
+            349,
+            258,
+            365
+          ],
+          "text": "typedef NODE *PNODE;",
+          "font_size": 11.5,
+          "code": true
+        }
+      ],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/456188ea-8304-4f97-a3e2-8020d6d0c2d8.pdf",
+      "source_sha256": "8775dde32c5b06f2addbd3fe4d5b401569586ba96362eb688568bac97821d85d",
+      "paper_sha256": "2e9815dd765c78b7f5438fefae2d44e7d0b0b7ce2843e37fa9aa42656df3a7d2",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2015/01.jpg",
+          "sha256": "d4a9bc0feef79bef5ac448965711232deeb069e128acf10368e340db6f916200",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            591.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2195
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2015/02.jpg",
+          "sha256": "ae72ef83ae22c7411313d41d9aac0dea24d13a266839ec7ad9592036060fc2a6",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2212
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2015/03.jpg",
+          "sha256": "ef7ab0abc7c38424269fd17752ece7137c9acea6404333876a10d3056c6b3aaa",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2200
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2015/04.jpg",
+          "sha256": "331d6d08b34bb23b192d7303ef0996843519e7cae0fbb39289abbbe5cabf5327",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2213
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2015/05.jpg",
+          "sha256": "19c6a5aa096c596e541e40486d2c6aa275e1ebecd7225e748c6aae27135c9fb8",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2200
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2015/06.jpg",
+          "sha256": "0f1763bf819060701c44d5b5da1bfaad9cbe09a377ea30348dd5bb49be2b3810",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            0.0,
+            594.0,
+            841.0
+          ],
+          "pixels": [
+            1559,
+            2205
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2015/07.jpg",
+          "sha256": "bd246f276be2da6e56f12f4ef715a263796c3928a344a12b7e0842500927917c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2203
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2015/08.jpg",
+          "sha256": "115a2ec8472785919414ea8e591f308868a0b8aaf05bf1b39234af55c9e942e4",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2201
+          ]
+        }
+      ]
+    },
+    "2016": {
+      "choice_key": "DDCBCDBBBADCDACCCBBAAAABCABDACDACCDBBDCC",
+      "key_reference": "https://zhenti.beokayy.club/paper/2016",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 8,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/48f7876e-c40f-4a30-8d39-779582d064ad.pdf",
+      "source_sha256": "1dafb5000e9b36ed4f9e3f5131011c04acddd89859d45b2093819bb14ca217ab",
+      "paper_sha256": "bf43983111dc4b1319ff4085aabe6909e138fafe6133ff25a7b211774b8ba33c",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2016/01.jpg",
+          "sha256": "3c5a98acdf0adb6bd7e5a0f30517f3e865da8e52f24c1a7a54300949119a97b7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2016/02.jpg",
+          "sha256": "9660d947012370851d22d0aee8119770a0ca13a5e4d5be15574f8e60ae1c62b8",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            591.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2196
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2016/03.jpg",
+          "sha256": "9f6c05008b3c9ea6c8ce4e974e16511efee5c87485fe1bb2ec928a8fe63c6898",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2207
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2016/04.jpg",
+          "sha256": "fa3b18ef14e424de6aa44a1fc652f14ae63bc72bb23e0060dca3a848052f5e7c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2016/05.jpg",
+          "sha256": "2a26196c05d20ac8b41a565e66b02b04a42d2ff0b970d8ffb63a0da2c3c312f2",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2216
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2016/06.jpg",
+          "sha256": "11c41e95c58fa8f2888028482df9bbdd1027cd59d8edf380aa927ee5c55e6562",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2205
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2016/07.jpg",
+          "sha256": "d09134f9f543d89d4c8ea604354b4cae015e17a1c7d2aef1a9ac5f7e4c7676dc",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2211
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2016/08.jpg",
+          "sha256": "33c4e1a091ac1f4ad18551922d429c7f0232eb301201c6a3a4082d878a3dab60",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2205
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2016/09.jpg",
+          "sha256": "6e882fb5d27743338b33980cca2d91c5f214b3f05d693e6df873cc6d37e705f8",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2214
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2016/10.jpg",
+          "sha256": "846f0930a9fce16f40e78fa4cf3020cfcafdfa3aac2afef875d1f4b600628633",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2016/11.jpg",
+          "sha256": "25120338ccf7262c928f9063bd04e3091924a904c78e460c066228a270af7100",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2209
+          ]
+        },
+        {
+          "source_page": 12,
+          "path": "assets/answer-scans/2016/12.jpg",
+          "sha256": "e1f8571a292078d354f6973b3ce9e84ae7460cefab52e89fca73f64fbd3d34a4",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2201
+          ]
+        }
+      ]
+    },
+    "2017": {
+      "choice_key": "BCABBDBABBDCCADACBADDBDCBDBDBDBBADBADCAC",
+      "key_reference": "https://zhenti.beokayy.club/paper/2017",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 6,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/a71b5884-650c-455f-ad52-213b14ee08d2.pdf",
+      "source_sha256": "1e779b8f4aae742317f0318e6ed0584f69d96e0d154289c78a5107a1910e7630",
+      "paper_sha256": "b243f2403f8789b499362985b78706f7a4c48bd87efc405eee215c77982df758",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2017/01.jpg",
+          "sha256": "80395a9c8e0cdf05601ec2f4a16680695074a305c9a26d50c49f3c37718685b7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2215
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2017/02.jpg",
+          "sha256": "a9914a079d890874af4804c7d030a78fa88fb3782ed3248ee649be0dd1a13b56",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2205
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2017/03.jpg",
+          "sha256": "379a59b37db5042fde8252525f99333b66cd100a70b66d8f249fffa751f33ecd",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2216
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2017/04.jpg",
+          "sha256": "c4c25762e72acb92b37c41d8d705b5e27a1897d286dfd93d21dc6230f1d2f506",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            591.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2196
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2017/05.jpg",
+          "sha256": "f2de10479f2f30b0a7283a921594f06d6e7a04906a96a297007f03b1754a4c9b",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2211
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2017/06.jpg",
+          "sha256": "a73f1be8b453d5595658aa6df32f1dd10a0320c7fdfb1f05e9cee0da14e5914b",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2017/07.jpg",
+          "sha256": "d2438cae4791c4826bb8d80a9d03d2a1f6884c05e3a4871f0880721246347587",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2207
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2017/08.jpg",
+          "sha256": "1a07c2ee04d27acbd021f5c04eedfb77290f076bc6c1028dca3d077e004b26d8",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2198
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2017/09.jpg",
+          "sha256": "9010e68cd8d26272fc86ab5a3ed07c174e86b96c4db7d3a5772e4c35df1c5b98",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2216
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2017/10.jpg",
+          "sha256": "e6d9d2f5a6c94ddd88e02673338cf25dda88eeb4b9ab61e31a2e691ad832112d",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2200
+          ]
+        }
+      ]
+    },
+    "2018": {
+      "choice_key": "BCAAACDBCDADCAABCBADBCCDBACDDADCBCDDDCBD",
+      "key_reference": "https://zhenti.beokayy.club/paper/2018",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 6,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/d715b8d5-2a32-4336-93f2-9b1c989e1f12.pdf",
+      "source_sha256": "64241257a958308a4c3837c1c30f458ba425dd15e1ee43b861b67d7002453506",
+      "paper_sha256": "66a4db564d3a41cdbcd0a5a3b8d1010dc7d3d1fbcab89e95303497edc63349be",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2018/01.jpg",
+          "sha256": "34193cde61e3cbd7a31489359d7e00c9a9e01e8aa3fde25c82a462ae4a9e701c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            3.0,
+            0.0,
+            591.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2195
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2018/02.jpg",
+          "sha256": "89c3f0202a93187894409b4c96f82a9017e9f4d700072175a5e8263906406e05",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2209
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2018/03.jpg",
+          "sha256": "5a542baf25206682d9a0e7729fb1eb987d7f1d7d6ecdb6d7afb6eb4477b9eeed",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2205
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2018/04.jpg",
+          "sha256": "96afb593405a78f1b6c4a85bf006ca7b40388c6ffef9454a8a88b3d21abae4cb",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2213
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2018/05.jpg",
+          "sha256": "f53e81538af261bce7a4bb39263af909cd6d0b510ab2fd40334a7c6947684454",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2211
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2018/06.jpg",
+          "sha256": "0ccdf8484df01ae7ca8e48b6296eb61fb524f40a88d4d179c1f6962af1d3a8ac",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2212
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2018/07.jpg",
+          "sha256": "6545ff3ebd134caa0f1f79f95a2b3024da7ef24ef8202e0fed9e400b43fbdb3f",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            2.0,
+            0.0,
+            591.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2193
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2018/08.jpg",
+          "sha256": "601f1e90748cec6a4e41927562d23b8440347529294f7df6667d7f24a6dff507",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2208
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2018/09.jpg",
+          "sha256": "7f17fb0b95484c9505d64b690eb5c558f05ca7a1d94659ef86fb20986c65da88",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            590.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2202
+          ]
+        }
+      ]
+    },
+    "2019": {
+      "choice_key": "BBCACADCBDBCADDDBCBCADBCCBCBCBACCABBBCDB",
+      "key_reference": "https://zhenti.beokayy.club/paper/2019",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 9,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/fb8fe66c-510f-4777-ad42-09e83fb453ee.pdf",
+      "source_sha256": "d03a793037a382e6984c311c27e2d8abecc82538865c0b208d3a35091b2e0577",
+      "paper_sha256": "595afb93c0d09c935053e7078b9f585476daddcc8562e4d49a53310b12d58c5d",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2019/01.jpg",
+          "sha256": "e1c6cb15ff960f1574bb85bc20f20557eb1141489792c41d660962bdae87cd62",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            577.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2305
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2019/02.jpg",
+          "sha256": "28c3871ab14eac18622a5e6cc7c27e83f360999af4e019f865f65c0595373951",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            577.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2305
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2019/03.jpg",
+          "sha256": "aff6e692d92527d64df46e89f6711e8630de45c59be75e84f61dbf9b3456fbf7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2306
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2019/04.jpg",
+          "sha256": "7c1ef74509c728805149f9e2ebee782dbb24ec589a7b34883ad8f10818fbd477",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2309
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2019/05.jpg",
+          "sha256": "32dc506c22f08e4252207c8230274179cb47ed9aadb83bc32f5432b4af208e25",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            16.0,
+            0.0,
+            577.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2299
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2019/06.jpg",
+          "sha256": "d2cb7f72ce909f7a271a571dc32df2768756d8763adde8d237cf63ef4f2e208e",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2309
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2019/07.jpg",
+          "sha256": "d89674d6fb2e35640925125bae4b03600d6b56a201d33db8cf6160baefc6e941",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2310
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2019/08.jpg",
+          "sha256": "0533f1e6b5bc3548369ca2e170e3efcbbc41bd5f8c4ae15876ef96b16fc5864d",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            18.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2312
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2019/09.jpg",
+          "sha256": "b0b2d1a962392146d329ca74a88b5732db8e374f81e7685bda65c19cc4a8a7f2",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            577.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2305
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2019/10.jpg",
+          "sha256": "0c579cd7fda8a757f4470c094c507a3d6fd252530532ccf092bd20e1e9488de2",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            18.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2311
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2019/11.jpg",
+          "sha256": "04e0a58c2f45f12d60146c14b6762b136a7ac6ca902d953a3114c78a1eec434a",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            17.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1535,
+            2309
+          ]
+        },
+        {
+          "source_page": 12,
+          "path": "assets/answer-scans/2019/12.jpg",
+          "sha256": "4067a22308ae35610ed06a28cf386e7bfd820ffc8483074fb7540738c9aa952d",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            18.0,
+            0.0,
+            576.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2312
+          ]
+        }
+      ]
+    },
+    "2020": {
+      "choice_key": "CDACBBABCBABADDABACCBCBADDBDBDBCCBCDADCD",
+      "key_reference": "https://zhenti.beokayy.club/paper/2020",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 8,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/b52850dc-4e36-4de0-aabf-4090099011b3.pdf",
+      "source_sha256": "f85fe0c922f4f026a711885682f06f2f867a648d612219f629bd912103d02113",
+      "paper_sha256": "7823892286e4f43f658e4220685477abd8ddac7fff5f635d40cdaeb35e61c088",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2020/01.jpg",
+          "sha256": "4073c2d315afb4b253be6f8400e3b574a2b52ef2dab7d8ea5bb242d4f316f4b7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            10.0,
+            0.0,
+            584.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2248
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2020/02.jpg",
+          "sha256": "87649781041d912489ee314bd9af028cede1819af92567f007e2e44feaec1107",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            9.0,
+            0.0,
+            584.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2246
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2020/03.jpg",
+          "sha256": "8ee8aa73e5b9ecdce8b2be90a6223e4532c91655634b6d7ce52afa0a54a3c0dd",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            10.0,
+            0.0,
+            583.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2254
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2020/04.jpg",
+          "sha256": "fcea45602d8b76daf2c9e21ddc42af29c0c63c92a0af46ceb8767a5066ebb1fe",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            10.0,
+            0.0,
+            584.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2247
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2020/05.jpg",
+          "sha256": "794b066f2e830eb33171669a47514851ad3262a7ab7ea30276131df8310d7d2c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            9.0,
+            0.0,
+            585.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2240
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2020/06.jpg",
+          "sha256": "cebd917703a587d06bb8d2932875f7d9dcc20109774214bfa053eaba955ad470",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            9.0,
+            0.0,
+            585.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2241
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2020/07.jpg",
+          "sha256": "ac4d035d5cf846adb92ee1d66794060856bc0eba97e987638431ffb4e438d23b",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            8.0,
+            0.0,
+            586.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2232
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2020/08.jpg",
+          "sha256": "4c199d359871ecb666a58d7878e404ffa9c011b04c9e0170c47ec789c5fcbe6b",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            10.0,
+            0.0,
+            584.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2250
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2020/09.jpg",
+          "sha256": "9bf394639066c689fe37d913122b9a4c33e03dbb43dcc1c006aeee786f7a864c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            10.0,
+            0.0,
+            584.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2250
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2020/10.jpg",
+          "sha256": "2c640731c148675fe866ffef2a0aa7729376a60d886eca8ea41514af99440a2c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            9.0,
+            0.0,
+            585.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2242
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2020/11.jpg",
+          "sha256": "4dc88df493efab32cae485e69c61e08261d469bb5e455e1c51a2074f7ef1ab50",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            0.0,
+            594.0,
+            841.0
+          ],
+          "pixels": [
+            1447,
+            2048
+          ]
+        },
+        {
+          "source_page": 12,
+          "path": "assets/answer-scans/2020/12.jpg",
+          "sha256": "dd1f6b32163e324254a4ea8db6b54bc24e04f9e133c10139e378d5535c0554b1",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            8.0,
+            0.0,
+            585.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2236
+          ]
+        }
+      ]
+    },
+    "2021": {
+      "choice_key": "DDBCBDACACBDDACADCCABABBCCDCBACCBABBDBDC",
+      "key_reference": "https://zhenti.beokayy.club/paper/2021",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 8,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/c91803b1-1234-4d8e-a5cb-a00267356e6a.pdf",
+      "source_sha256": "45e4eb5d403d3a012ad7a2d38989e9a394d59294be8b695ba473df02e5504666",
+      "paper_sha256": "abef23658db96476072bd36def787c095afd6179c4c922c3d792558bd0bb4e8e",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2021/01.jpg",
+          "sha256": "03c129840f0f9c3501d8e5d278ee44b5f829299589f74034594eb2bd6f9a8f8d",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2021/02.jpg",
+          "sha256": "644a794c93a5f222d18737ff85c83cda6f0d9419cdff6aca5384838210a44a9d",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2021/03.jpg",
+          "sha256": "739d9b183071d58c03f4ee977704b8aa8f0bafd785e75d372bd8faaadea5fd6f",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2021/04.jpg",
+          "sha256": "f9fd214026008949e39013bff8458f88d95758d57b7bb733b26d3f6ea5ab37c8",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2021/05.jpg",
+          "sha256": "03a65ce6ab5772f8bbe0f6031d5386a2759df042d21752956d55f14357a1edbe",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2021/06.jpg",
+          "sha256": "306932100b4c6cba265239912d16087d51bf5fd33051472bf7593e1001ee0cbe",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2021/07.jpg",
+          "sha256": "efeaf22831cd5e6e5116aa9cb937af71a81f240a5a35ad48a7e5204a84337c5a",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2021/08.jpg",
+          "sha256": "af6bc2531833650fe38025be2c264e5acc0b5809f8b3dca51054eebcaa7e224f",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2021/09.jpg",
+          "sha256": "465d6c043e95b2a09615b72943a9cc2d055b164acc8a55a94a8b64139ab5b14f",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2021/10.jpg",
+          "sha256": "83bc623fcd8f2e10fcfb8d92fb3e64bc0988f9c2dd4f1ecae4e7d45fac406ec4",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2021/11.jpg",
+          "sha256": "dcefef9466126171891b8f21b3526736cd81b649fd7741d0795a4358c9a983bf",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            2.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2168
+          ]
+        }
+      ]
+    },
+    "2022": {
+      "choice_key": "BDBCDDBDDADABACACBDACCDACBCDADBABCBDBCDB",
+      "key_reference": "https://zhenti.beokayy.club/paper/2022",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 6,
+      "notes": [],
+      "patches": [],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/418c776b-257c-4f7e-a7f7-258c0e7b84b6.pdf",
+      "source_sha256": "1c4a11bec6a5e8b20a3ba292adae6989a23298a750c11f618370040df333a877",
+      "paper_sha256": "1b448c384e9493491032a1a836ecee64eb8205928482d5869df4474df6ea638d",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2022/01.jpg",
+          "sha256": "3d9977ed049a271734f3a4e73420bc1d8b57657afc4b97d987964fefafb2d1aa",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2022/02.jpg",
+          "sha256": "6dcfbae24e2502cee73acf90bca15c2723c963af119cf179c4bd71164a22dd39",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2022/03.jpg",
+          "sha256": "90059f4fa930181df9f70cf7045b3ba7453cff7cdeb7a72ece520fd85d06b901",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2022/04.jpg",
+          "sha256": "5cb6d0938f5b241e5c6e888722cc8171fb2025a0af26f4fda79f551a5f0b9c98",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2022/05.jpg",
+          "sha256": "f11a8479c5f401325ac84c7d0a6ea35d5b80931b4d5b62b04a33457566009280",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2022/06.jpg",
+          "sha256": "e04638c391dca2a438cfa287ba96c1cfe3e903e563dbaf830dcbc936f66c6c70",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2022/07.jpg",
+          "sha256": "6cde7b154ade0fbd35e5293fc9f152da1be3cdfc987e578f58b07eabcf54b4b9",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2022/08.jpg",
+          "sha256": "a26f8b637d46460fd93d97b5e3e68700a697cbd67f703f0964764e81bb716da1",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2022/09.jpg",
+          "sha256": "21520366c29b9a80d1991349ae51824efd766fef6dfac59f296b84ab29f99b39",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2022/10.jpg",
+          "sha256": "ee7a793315c4d0cea6340c7eaadce27d8452cf07bd2232f8db8def2c488e05e0",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2170
+          ]
+        }
+      ]
+    },
+    "2023": {
+      "choice_key": "DCABABBBCCDCAACBABCDDCDACDCDBCBDDCBCDABD",
+      "key_reference": "https://zhenti.beokayy.club/paper/2023",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 8,
+      "notes": [
+        "第2、6题选项已按原题恢复，答案分别为C、B。",
+        "第41题按邻接矩阵的行统计出度、列统计入度；成员名统一为VerticesList。"
+      ],
+      "patches": [
+        {
+          "page": 8,
+          "rect": [
+            48,
+            180,
+            550,
+            646
+          ],
+          "markdown": "answers/corrections/2023-41.md",
+          "font_size": 11
+        }
+      ],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0c9174d9-ad00-44e1-b19b-eb497d24c89b.pdf",
+      "source_sha256": "cc99d1005e1a330f558912b710eeded2698b04ef978302cf7baf70e3e389f493",
+      "paper_sha256": "1069532a4e46a522c43fee81a00869b3b49091524ad8911ade525ad0121a37b5",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2023/01.jpg",
+          "sha256": "3972dbf5e854492a87cf10471b4006df0578d193e889787c8cf15f48b805dd5e",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            7.0,
+            0.0,
+            586.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2228
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2023/02.jpg",
+          "sha256": "1654432c0ba82489ca4a1b1f1adbbcb17b5fd59ea1d6b70a4406f82086769581",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            587.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2221
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2023/03.jpg",
+          "sha256": "1f0a5a30706770a68d83b2acfa4c56bca46900ebd637b3443fc74a00ddddb60c",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2217
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2023/04.jpg",
+          "sha256": "a664ab6dc267f47dc5857f1c1f58399ab36e5eeac618c6f3ae21673bf4f56c32",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2207
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2023/05.jpg",
+          "sha256": "ef96bb034fb00211181bfeeb25c3e3af9937d785a06a8f36019bcb633cf8797f",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2219
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2023/06.jpg",
+          "sha256": "1b880013525c661d979d01ea38a12915bb4585a28a55cb035e51c43f7a9ec7f1",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            587.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2221
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2023/07.jpg",
+          "sha256": "6d48689bd89e3b7fbea6ecda139f278f0ecde730ba5e0131ae85d179ba1a8150",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2215
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2023/08.jpg",
+          "sha256": "81cc12240988893c33885f950f6cdb8137a2e14527abf46cbd1f7aa1579582f9",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            4.0,
+            0.0,
+            589.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2207
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2023/09.jpg",
+          "sha256": "cf9ec3c1c5d8705480caba70ec6a8948f8290ceb8fb05499edae6f5a7f360669",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            6.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2216
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2023/10.jpg",
+          "sha256": "5cabbffcf07353a583ce2c1ff8e6da035c3df7e40bfc6eb42cbe2234b85e4365",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            5.0,
+            0.0,
+            588.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2213
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2023/11.jpg",
+          "sha256": "8654d1f722fa27b8cee4dbafb8d4699cc83ddda1a2cbc19e17f2486e9ccbbd31",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            7.0,
+            0.0,
+            587.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2227
+          ]
+        }
+      ]
+    },
+    "2024": {
+      "choice_key": "DAABDADABCDBBCDDCBCBACAADAABACCCBCDBDDCD",
+      "key_reference": "https://zhenti.beokayy.club/paper/2024",
+      "reviewed_on": "2026-10-29",
+      "essay_start_page": 11,
+      "notes": [
+        "第4题顶点b、d的度分别为2、4，选B。第41题计数变量统一为count。",
+        "第45题地址运算补全移位括号，先计算页号×4，再加页表起始地址。"
+      ],
+      "patches": [
+        {
+          "page": 12,
+          "rect": [
+            111,
+            450,
+            174,
+            467
+          ],
+          "text": "count++;",
+          "font_size": 12,
+          "code": true,
+          "fill": "e9e9e9"
+        },
+        {
+          "page": 14,
+          "rect": [
+            50,
+            52,
+            560,
+            236
+          ],
+          "markdown": "answers/corrections/2024-45.md",
+          "font_size": 11
+        }
+      ],
+      "supplements": [],
+      "source_url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/a8cb9e6f-c4a0-4c42-a4b1-b1d78afc8e77.pdf",
+      "source_sha256": "7ed01e612ee53eb3d99d22c3d2a54470462e381a24ce6a1e57bbf083820700a9",
+      "paper_sha256": "831a846abd6db809f8448cb752562e6a75260e5f39de46888d89508eb279f88f",
+      "pages": [
+        {
+          "source_page": 1,
+          "path": "assets/answer-scans/2024/01.jpg",
+          "sha256": "2cfbd66bbab0457aa993cae31acb261abee11bf04e71dd472d263275eae7b6f9",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 2,
+          "path": "assets/answer-scans/2024/02.jpg",
+          "sha256": "e8afbcb92f37c764fc2104d48d5d6755e5965b1b6851ec4b813623298925c379",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 3,
+          "path": "assets/answer-scans/2024/03.jpg",
+          "sha256": "fdb4cc03f113b883f36b4022db3463ecb47fdba22580d3c8655cdb1801f105a0",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 4,
+          "path": "assets/answer-scans/2024/04.jpg",
+          "sha256": "23b1c681dbbb0ab74bbcd0c8250df13fdcde5090cc65f66fef244fa73862c8ca",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 5,
+          "path": "assets/answer-scans/2024/05.jpg",
+          "sha256": "e6997ed6438ab9b7fb9709d748e083af3c8d0ac6d822da9c8052bfc8edec35f6",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 6,
+          "path": "assets/answer-scans/2024/06.jpg",
+          "sha256": "22063989db6ea6abdc55fe5561c547d4afedde99c0619d220a3c2e7a6c151c24",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 7,
+          "path": "assets/answer-scans/2024/07.jpg",
+          "sha256": "8fc92133788e514420a0878688883bb0ae96c7d835e945d07e776dabb0c3c3e3",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 8,
+          "path": "assets/answer-scans/2024/08.jpg",
+          "sha256": "d83138d3d90521e6e9145a97f7c9b5e30b641466b9086311a6df8df2f968ebdc",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 9,
+          "path": "assets/answer-scans/2024/09.jpg",
+          "sha256": "4a772fdf5f230c5d311523f7e13f987df0aa307c935164f1effc6e9127d6df38",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 10,
+          "path": "assets/answer-scans/2024/10.jpg",
+          "sha256": "018eaae0be3e6b2429b36ed30f33f1341bc4d040558330b7511c8a038152628a",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 11,
+          "path": "assets/answer-scans/2024/11.jpg",
+          "sha256": "09af4d13782b10f25afbf0066d19c74a26b0bc304e6eeccff67f17f1603495c7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 12,
+          "path": "assets/answer-scans/2024/12.jpg",
+          "sha256": "2331453059c6b060865aac898aacb7ae396d46d859a3a183f6e81d4dc22671ca",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 13,
+          "path": "assets/answer-scans/2024/13.jpg",
+          "sha256": "755d74f609f86e5b760d97778b9f35f5343b94e835cd6e2d357272f73b9f2b31",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 14,
+          "path": "assets/answer-scans/2024/14.jpg",
+          "sha256": "290f348225f252b81cff6d14a746e829de1e9885dbe0d329ad077f8c0a0ea8e7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        },
+        {
+          "source_page": 15,
+          "path": "assets/answer-scans/2024/15.jpg",
+          "sha256": "4ba6e23b5967894742828a67097ad7f8a066673a421db5328fbd096d376a94a7",
+          "width": 595.0,
+          "height": 841.0,
+          "image_rect": [
+            0.0,
+            1.0,
+            595.0,
+            841.0
+          ],
+          "pixels": [
+            1536,
+            2171
+          ]
+        }
+      ]
+    }
+  }
+}

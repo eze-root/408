@@ -1,0 +1,1041 @@
+{
+  "year": "2022",
+  "source_url": "https://zhenti.beokayy.club/paper/2022",
+  "source_sha256": "318a5fe39add6a865df9b4f9f171ee3b61271e56fd1ceae3548102433cc6e5af",
+  "paper_sha256": "1b448c384e9493491032a1a836ecee64eb8205928482d5869df4474df6ea638d",
+  "choice_explanations": "answers/choices/2022.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）建立两个与顺序存储数组等长的辅助数组 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "pmin",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "pmax",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，分别记录以各结点为根的子树中的最小值和最大值。先用结点值初始化两个数组，再从最后一个结点向根逆序扫描：左子树的最大值必须小于双亲值，右子树的最小值必须大于双亲值；满足时把相应的最小值或最大值向双亲传播，否则立即返回 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "false",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "bool judgeBST(SqBiTree bt) {\n    int k, m, *pmin, *pmax;\n    bool valid = true;\n    pmin = (int *)malloc(sizeof(int) * (bt.ElemNum));\n    pmax = (int *)malloc(sizeof(int) * (bt.ElemNum));\n    if (bt.ElemNum > 0 && (!pmin || !pmax)) {\n        free(pmin); free(pmax);\n        return false;\n    }\n    for (k = 0; k < bt.ElemNum; k++) { // 辅助数组初始化\n        pmin[k] = pmax[k] = bt.SqBiTNode[k];\n    }\n    for (k = bt.ElemNum - 1; k > 0; k--) { // 从最后一个叶结点向根遍历\n        if (bt.SqBiTNode[k] != -1) {\n            m = (k - 1) / 2; // 双亲\n            if (k % 2 == 1 && bt.SqBiTNode[m] > pmax[k]) { // 左孩子\n                pmin[m] = pmin[k];\n            } else if (k % 2 == 0 && bt.SqBiTNode[m] < pmin[k]) { // 右孩子\n                pmax[m] = pmax[k];\n            } else {\n                valid = false;\n                break;\n            }\n        }\n    }\n    free(pmin);\n    free(pmax);\n    return valid;\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "时间复杂度为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "O(n)"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，辅助空间复杂度为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "O(n)"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）维护一个含 10 个元素的大根堆 H，初始元素均为该数据类型可表示的最大值。依次扫描 M 中的每个元素 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "s"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：若 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "s"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 小于堆顶，则删除堆顶并将 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "s"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 插入堆中。扫描结束后，H 中即为最小的 10 个数。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）因为堆的规模恒为 10，平均时间复杂度为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "O(n)"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，额外空间复杂度为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "O(1)"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "SF=F_{15}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "加法："
+                  },
+                  {
+                    "kind": "math",
+                    "value": "OF=\\overline{A_{15}} \\cdot  \\overline{B_{15}} \\cdot  F_{15} + A_{15} \\cdot  B_{15} \\cdot  \\overline{F_{15}}"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "减法："
+                  },
+                  {
+                    "kind": "math",
+                    "value": "OF=\\overline{A_{15}} \\cdot  B_{15} \\cdot  F_{15} + A_{15} \\cdot  \\overline{B_{15}} \\cdot  \\overline{F_{15}}"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）单总线同一时刻只能传送一个数据。Y 用于暂存 ALU 的一个输入，Z 用于暂存 ALU 的输出，等待总线空闲后再送出。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "rs",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "、"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "rd",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 均为 4 位，因此最多有 16 个通用寄存器；二者来自 IR；"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "rd",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 应连接地址译码器。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）控制信号序列："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                [
+                  {
+                    "kind": "code",
+                    "value": "PCout, MARin",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "Read",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "MDRout, IRin",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "三个步骤分别需 1、5、1 个时钟周期，取指阶段至少需 7 个时钟周期。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（5）控制信号由控制部件 CU 产生；IR 和 FR 的输出信号连接到 CU 的输入端。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）三个字段为柱面号（磁道号）、磁头号（盘面号）和扇区号，至少分别占 15 位、3 位和 9 位。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）平均访问时间约为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "5+"
+                },
+                {
+                  "kind": "fraction",
+                  "top": [
+                    {
+                      "kind": "text",
+                      "value": "60×10"
+                    },
+                    {
+                      "kind": "sup",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "/7200"
+                    }
+                  ],
+                  "bottom": [
+                    {
+                      "kind": "text",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "value": "+"
+                },
+                {
+                  "kind": "fraction",
+                  "top": [
+                    {
+                      "kind": "text",
+                      "value": "60×10"
+                    },
+                    {
+                      "kind": "sup",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "/7200"
+                    }
+                  ],
+                  "bottom": [
+                    {
+                      "kind": "text",
+                      "value": "500"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "value": " ≈ 9.18 ms"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）每扇区 512 B，缓冲区为 64 bit（8 B），因此 DMA 控制器发送 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "512/8=64"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 次总线请求。采用周期挪用 DMA 时，CPU 与 DMA 同时请求主存，DMA 可优先获得总线使用权，以免磁盘连续传送的数据丢失。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）目录文件 stu 的两个目录项为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 2,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "文件名"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "索引结点号"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "course"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "doc"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "10"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "x=30"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）需要读 2 个磁盘块：先读 course1 的索引结点所在块，再读其内容所在的 30 号磁盘块。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）需要使用一级和二级间接地址项。6 MB 文件占 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "1536"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个块，直接地址项和一级间接地址项共能记录 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "10+1024=1034"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个数据块，还需使用二级间接地址项。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "信号量 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "S_AC",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 描述 A、C 之间的同步关系，初值为 0，保证 C 在 A 完成后执行；信号量 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "S_CE",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 描述 C、E 之间的同步关系，初值为 0，保证 E 在 C 完成后执行。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "semaphore S_AC = 0;  // 描述 A、C 之间的同步关系\nsemaphore S_CE = 0;  // 描述 C、E 之间的同步关系\n\nT1:                  T2:\nA;                   B;\nsignal(S_AC);        wait(S_AC);\nwait(S_CE);          C;\nE;                   signal(S_CE);\nF;                   D;",
+              "block": true,
+              "lang": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）设备1选择100BaseT以太网交换机；设备2选择100BaseT集线器。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "2）H2与H3之间可以相距的最远距离是210米。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "3）M是DHCP Discover报文；路由器E0接口能收到封装M的以太网帧；目的MAC地址是FF-FF-FF-FF-FF-FF。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "4）地址1为H5的MAC地址 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "00-11-11-11-11-E1",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，地址2为AP的MAC地址 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "00-11-11-11-11-C1",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，地址3为H4的MAC地址 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "00-11-11-11-11-D1",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

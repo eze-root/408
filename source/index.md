@@ -1,6 +1,6 @@
 ---
 title: "计算机考研 408 资料站"
-date: 2026-09-23
+date: 2026-10-29
 author: "eze-root"
 tags: [408, 首页, 考研]
 ---
@@ -9,7 +9,7 @@ tags: [408, 首页, 考研]
 
 ```{article-info}
 :author: eze-root updated on
-:date: 2026-09-23
+:date: 2026-10-29
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```
 
@@ -19,7 +19,7 @@ tags: [408, 首页, 考研]
 
 ## 408 复习资料与历年真题
 
-这里有四科复习提纲、题型练习方法，以及 2009—2024 年试卷。试题册和答题纸分开提供，下载后可直接打印。
+本站收录四科章节提纲、练题方法和 2009—2026 年试卷。每年均配有试题册、答案与解析、答题纸，支持分年下载或整套下载，按 A4 纸打印。
 
 :::{div} hero-actions
 [下载真题](assignments/index){.hero-button .primary} [查看复习提纲](lectures/index){.hero-button}
@@ -35,15 +35,15 @@ tags: [408, 首页, 考研]
 ::::{div} featured-paper
 
 :::{div} featured-copy
-<span class="section-eyebrow">历年真题 · 2009—2024</span>
+<span class="section-eyebrow">历年真题 · 2009—2026</span>
 
-## 历年试卷与答题纸
+## 历年试卷与答案
 
-试卷按年份整理，不附答案。使用 A4 纸按实际大小打印；做完后，可用复盘模板记录得分、用时和错题。
+试题、答案与解析、答题纸按年份配套，分别成册。计时作答后，核对解析并记录得分、用时和错题。
 
 {doc}`按年份下载 → </assignments/index>`
 
-<span class="quiet-note">2023、2024 年回忆资料单独标注缺项。</span>
+<span class="quiet-note">18 年资料已按年份配套；题面、分值与解析的具体订正见修订记录。</span>
 :::
 
 :::{div} paper-miniature
@@ -67,7 +67,7 @@ tags: [408, 首页, 考研]
 
 线性表、树、图、查找和排序。练习算法过程、复杂度分析与代码阅读。
 
-**45 分 · 建议 55 分钟**
+**45 分**
 :::
 
 :::{grid-item-card} 02 · 计算机组成原理
@@ -77,7 +77,7 @@ tags: [408, 首页, 考研]
 
 数据表示、存储系统、指令系统、CPU、总线与 I/O。练习地址划分、指令执行和流水线计算。
 
-**45 分 · 建议 55 分钟**
+**45 分**
 :::
 
 :::{grid-item-card} 03 · 操作系统
@@ -87,7 +87,7 @@ tags: [408, 首页, 考研]
 
 进程与线程、同步互斥、内存、文件和 I/O。练习信号量、调度、地址转换和页面置换。
 
-**35 分 · 建议 40 分钟**
+**35 分**
 :::
 
 :::{grid-item-card} 04 · 计算机网络
@@ -97,7 +97,7 @@ tags: [408, 首页, 考研]
 
 网络分层、可靠传输、路由与应用层协议。练习子网划分、时延计算和 TCP 窗口变化。
 
-**25 分 · 建议 30 分钟**
+**25 分**
 :::
 ::::
 
@@ -111,7 +111,7 @@ tags: [408, 首页, 考研]
 :link-type: doc
 :class-card: action-card
 
-查看各科章节和练习重点，对照考纲标出尚未学过的内容。
+按章节检查定义、公式和算法。站内 2025 年考纲为转录资料，备考范围需核对报考年份的大纲。
 :::
 
 :::{grid-item-card} ② 按题型练习
@@ -127,28 +127,13 @@ tags: [408, 首页, 考研]
 :link-type: doc
 :class-card: action-card
 
-留出 180 分钟独立作答。评分后整理错题，隔一周再做一次。
+选未做过且题目完整的卷子，计时作答。核对答案后记录错题和用时。
 :::
 ::::
 
-:::{admonition} 使用建议
-:class: tip
-还没学完四科时，可以按章节找题练习。准备模拟时，选一套没做过的卷子计时完成，保留作答和订正记录。
-:::
-
-## 资料入口
-
-| 入口 | 适合什么时候用 | 你会找到什么 |
-| --- | --- | --- |
-| {doc}`/lectures/index` | 一轮与二轮复习 | 各科章节、练习重点 |
-| {doc}`/labs/index` | 知识点学完后 | 选择题、计算题、算法题训练方法 |
-| {doc}`/assignments/index` | 二轮后期与冲刺 | 试卷下载、套卷建议、复盘模板 |
-| {doc}`/resources/index` | 全程查阅 | 资料清单、错题记录方法、文件命名规范 |
-| {doc}`/about` | 了解项目 | 项目说明、资料来源与勘误方式 |
-
-:::{admonition} 2025 年考试大纲
-:class: tip
-可按科目和章节查阅 {doc}`2025 年 408 考纲 </resources/exam-syllabus-2025>`。其他年份请对照当年的正式考纲。
+:::{admonition} 考纲收录情况
+:class: note
+按 {doc}`2025 年考纲转录稿 </resources/exam-syllabus-2025>` 查看四科考查内容；2027 年版本及来源见 {doc}`/resources/syllabus-review-2027`。全部资料见 {doc}`/resources/index`。
 :::
 
 ```{toctree}

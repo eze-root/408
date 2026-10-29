@@ -1,0 +1,844 @@
+{
+  "year": "2018",
+  "source_url": "https://zhenti.beokayy.club/paper/2018",
+  "source_sha256": "e43d9a70448cd512a4eac63d8a626617cd4ee79577a7944d228b2cb669121a8d",
+  "paper_sha256": "66a4db564d3a41cdbcd0a5a3b8d1010dc7d3d1fbcab89e95303497edc63349be",
+  "choice_explanations": "answers/choices/2018.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）算法基本设计思想：采用空间换时间策略，使用标记数组B（大小为n）记录数组A中是否出现了1到n之间的正整数。遍历A，若元素值在1到n内，则标记B中对应位置；否则忽略。然后遍历B，找到第一个未标记的位置（值为0），返回该位置索引加1即为结果；若B全部标记，则结果为n+1。因为未出现的最小正整数必然在1到n+1之间。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）算法实现（C语言）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "int findMissingPositive(int A[], int n) {\n    int i, j, a;\n    int B[n];\n    // 手动初始化数组\n    for (j = 0; j < n; j++) {\n        B[j] = 0;\n    }\n    // 标记存在的正整数\n    for (i = 0; i < n; i++) {\n        if (A[i] > 0 && A[i] <= n) {\n            a = A[i];\n            B[a - 1] = 1;\n        }\n    }\n    // 寻找第一个未标记的位置\n    for (i = 0; i < n; i++) {\n        if (B[i] == 0) break;\n    }\n    return i + 1;\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "关键注释：标记数组B用于记录1到n的出现情况，遍历A标记有效值，遍历B找首个未标记项，索引加1得结果。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）复杂度分析："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "时间复杂度：O(n)，其中遍历A和B各一次，每次操作为O(1)。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "空间复杂度：O(n)，额外使用标记数组B，大小为n。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）题图如下。所有可能的最经济方案为最小生成树，共有两种方案，总费用均为16。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "image",
+                  "path": "assets/answers/2018/minimum-spanning-trees.svg",
+                  "width": 160,
+                  "height": 77.42,
+                  "sha256": "7d4d9f9eb1a768d79c7173f855b41bcad9532da159a5d7d85d8dfc49679e1597"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）存储结构可采用邻接矩阵或邻接表；求解算法为Prim算法或Kruskal算法。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）在方案1中，TL与BJ间距离过长，TTL=0时会丢弃数据报无法到达，H2不能收到分组；在方案2中，TL与BJ相邻，最短路径长度为1，H2可以收到分组。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）设备 A 最多间隔 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2 µs"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 查询一次；CPU 用于设备 A 输入/输出的时间占 CPU 总时间的百分比至少为 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4%"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（2）设备 B "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "不能"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "采用中断 I/O 方式，因为设备 B 准备数据的时间（0.1 µs）小于中断响应和处理时间（0.8 µs），数据可能丢失。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（3）CPU 用于设备 B 输入/输出的时间占 CPU 总时间的百分比最多为 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4%"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）主存物理地址占28位。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）TLB采用全相联映射方式；TLB用SRAM实现。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）Cache采用2路组相联映射方式；附加位有LRU位和修改位（脏位）；Cache总容量为4464位（558字节）；有效位的作用是指示Cache行中的数据是否有效。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）物理地址为0040040H；不命中，因为该地址对应的Cache组（组号2）中标志字段匹配但有效位为0；虚拟地址0007C260H所在主存块映射到的Cache组号为3。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）该虚拟地址的十六进制表示为01806008H。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）PDBR保存的是页目录的物理基地址，因此是物理地址。进程切换时，PDBR的内容会变化，因为不同进程的地址空间和页目录不同。同一进程的线程切换时，PDBR的内容不会变化，因为线程共享进程的地址空间和页目录。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）需要设置访问位（使用位）和修改位（脏位）。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）最大文件长度为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(8+1024+1024"
+                },
+                {
+                  "kind": "sup",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "value": "+1024"
+                },
+                {
+                  "kind": "sup",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "value": ")×4 KB"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "其中，一个 4 KB 索引块可保存 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "4 KB/4 B=1024"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个索引项。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）最多能存放 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "64 M"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个图像文件。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）不相同。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "因为获取 F1（6KB）最后一个簇号只需访问索引节点的直接地址项；而获取 F2（40KB）最后一个簇号还需读取一级间接索引表，增加磁盘访问次数，故时间不同。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（1）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "销售部子网的广播地址：192.168.1.127  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "技术部子网的子网地址：192.168.1.128  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "技术部子网还可以连接的主机数：45台  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（2）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "一个最大IP分片封装数据的字节数：776B  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "至少需要分为2个分片  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "每个分片的片偏移量：第一个为0，第二个为97"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

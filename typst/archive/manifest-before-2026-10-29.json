@@ -1,0 +1,175 @@
+{
+  "2009": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2010": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2011": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2012": {
+    "edition": "重排资料·分值待复核",
+    "note": "第 41—47 题分值按公开题库补录；部分评分分项仍缺可互证的依据。未完成全卷逐字校定。",
+    "incomplete_questions": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "essay_scores": [
+      10,
+      13,
+      11,
+      12,
+      7,
+      8,
+      9
+    ],
+    "reviewed_on": "2026-10-15",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2012-paper",
+      "scan-2012-answer",
+      "pgcode-2012"
+    ]
+  },
+  "2013": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2014": {
+    "edition": "重排资料·待核对",
+    "note": "保留第 42、43 题共用网络背景的题号；补齐分值。第 46 题总分与扫描解析分项存在差异，待复核。",
+    "incomplete_questions": [
+      46
+    ],
+    "essay_scores": [
+      13,
+      10,
+      9,
+      12,
+      11,
+      7,
+      8
+    ],
+    "reviewed_on": "2026-10-15",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2014-paper",
+      "scan-2014-answer",
+      "pgcode-2014"
+    ]
+  },
+  "2015": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2016": {
+    "edition": "重排练习版",
+    "note": "保留题 33—41 共用图及网络题在第 41 题的编号；补录分值，修正第 4 题选项。未完成全卷逐字校定。",
+    "incomplete_questions": [],
+    "essay_scores": [
+      9,
+      8,
+      15,
+      9,
+      14,
+      6,
+      9
+    ],
+    "reviewed_on": "2026-10-15",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2016-paper",
+      "scan-2016-answer",
+      "pgcode-2016"
+    ]
+  },
+  "2017": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2018": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2019": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2020": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2021": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2022": {
+    "edition": "重排练习版",
+    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
+    "incomplete_questions": []
+  },
+  "2023": {
+    "edition": "公开资料校订版·有疑点",
+    "note": "已修正题号错位、缺项及分值。第 43 题数组声明、第 44 题机器码与汇编的来源冲突仍待复核。",
+    "incomplete_questions": [
+      43,
+      44
+    ],
+    "essay_scores": [
+      13,
+      10,
+      14,
+      9,
+      7,
+      8,
+      9
+    ],
+    "reviewed_on": "2026-10-15",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2023-paper",
+      "scan-2023-answer"
+    ]
+  },
+  "2024": {
+    "edition": "公开资料校订版·有疑点",
+    "note": "已补齐主要缺项、图表和分值，修正第 35、39 题错位。第 4 题的选项在不同公开版本中不一致，待核。未完成全卷逐字校定。",
+    "incomplete_questions": [
+      4
+    ],
+    "essay_scores": [
+      13,
+      10,
+      13,
+      10,
+      7,
+      8,
+      9
+    ],
+    "reviewed_on": "2026-10-15",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2024-paper",
+      "scan-2024-answer"
+    ]
+  }
+}

@@ -1,0 +1,2525 @@
+{
+  "year": "2012",
+  "source_url": "https://zhenti.beokayy.club/paper/2012",
+  "source_sha256": "59c67d6ee4bd933165bc4129d2b064a785383c7a45a1ba225f622260cd6d8923",
+  "paper_sha256": "693d5bc9afb6f63215cdfa74f2c8295320e7f18ae6993e42c4c89dcab03cf6c0",
+  "choice_explanations": "answers/choices/2012.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(1) 合并过程与总比较次数"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "合并过程（基于最佳归并树思想）"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "第1次合并：A(10) 与 B(35) → 表AB(45)，比较次数为 10+35-1=44。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "第2次合并：AB(45) 与 C(40) → 表ABC(85)，比较次数为 45+40-1=84。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "第3次合并：D(50) 与 E(60) → 表DE(110)，比较次数为 50+60-1=109。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "第4次合并：ABC(85) 与 DE(110) → 表ABCDE(195)，比较次数为 85+110-1=194。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "第5次合并：ABCDE(195) 与 F(200) → 最终表(395)，比较次数为 195+200-1=394。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "最坏情况下比较的总次数"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "825 次（计算：44 + 84 + 109 + 194 + 394 = 825）。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(2) 合并策略与理由"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "策略"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：对于 N（N≥2）个不等长升序表，采用类似哈夫曼树（最佳归并树）的构造方法：每次选择当前长度最小的两个表进行合并，直至合并为一个表。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "理由"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：两个表合并的最坏比较次数为两表长度之和减1。优先合并短表可使后续合并中参与的表长度较小，从而最小化总比较次数，达到最佳合并效率。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（1）算法的基本设计思想"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "首先分别遍历两个链表，计算其数据结点个数 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " len1 "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " len2 "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。然后使两个链表尾部对齐：让较长链表的指针先移动长度差值个结点，使两个指针到链表尾的距离相等。最后同步移动两个指针，直到它们指向同一个结点，该结点即为共同后缀的起始位置；若直至链表尾未相遇，则无共同后缀。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（2）算法的C语言描述"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "typedef struct LinkNode {\n    char data;\n    struct LinkNode *next;\n} LinkNode;\n\n// 计算数据结点个数\nint Length(LinkNode *head) {\n    int len = 0;\n    LinkNode *p = head->next;  // 跳过头结点\n    while (p != NULL) {\n        len++;\n        p = p->next;\n    }\n    return len;\n}\n\n// 查找共同后缀起始结点\nLinkNode* FindCommonLinkList(LinkNode *str1, LinkNode *str2) {\n    int len1 = Length(str1), len2 = Length(str2);\n    LinkNode *p = str1, *q = str2;\n    // 对齐：使p和q到尾的距离相等\n    if (len1 > len2) {\n        for (int i = 0; i < len1 - len2; i++)\n            p = p->next;\n    } else {\n        for (int i = 0; i < len2 - len1; i++)\n            q = q->next;\n    }\n    // 同步移动直到相遇\n    while (p != NULL && q != NULL && p != q) {\n        p = p->next;\n        q = q->next;\n    }\n    return p;  // p即为共同起始结点（若无则为NULL）\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（3）时间复杂度"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "时间复杂度为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " O(len1 + len2) "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，其中 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " len1 "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " len2 "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 分别为两个链表的数据结点个数。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）MIPS数为20；平均每秒Cache缺失次数为300,000次；主存带宽至少为4.8MB/s。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（2）CPU平均每秒产生缺页异常1.5次；磁盘I/O接口平均每秒发出DMA请求次数至少为1536次。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（3）DMA控制器优先级更高；因为DMA请求若得不到及时响应，I/O传输数据可能会丢失。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（4）主存能提供的最大带宽为320MB/s。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": []
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "1)"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "FEFFH"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "2)"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "8个时钟周期"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "3)"
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "I3的ID段被阻塞的原因"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：I3与I1和I2存在数据相关，需等待I1和I2将结果写回寄存器后，I3才能读寄存器内容。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "I4的IF段被阻塞的原因"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：由于I4的前一条指令I3在ID段被阻塞，按序发射原则导致I4的IF段被阻塞。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "4)"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "17个时钟周期"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "因 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "2*x",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 操作有左移和加法两种实现方法，故 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "x=x*2+a",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 对应的指令序列为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "I1  LOAD   R1, [x]\nI2  LOAD   R2, [a]\nI3  SHL    R1        // 或者 ADD R1, R1\nI4  ADD    R1, R2\nI5  STORE  R2, [x]",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 18,
+                  "font_size": 8.5,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "指令"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 11,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 12,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 13,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 14,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "14"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 15,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "15"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 16,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "16"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 17,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "17"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "I1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "IF"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ID"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "EX"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "M"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "WB"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 11,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 12,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 13,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 14,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 15,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 16,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 17,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "I2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "IF"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ID"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "EX"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "M"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "WB"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 11,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 12,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 13,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 14,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 15,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 16,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 17,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "I3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "IF"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ID"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "EX"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "M"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "WB"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 11,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 12,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 13,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 14,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 15,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 16,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 17,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "I4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "IF"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ID"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 11,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "EX"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 12,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "M"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 13,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "WB"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 14,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 15,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 16,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 17,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "I5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 4,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 5,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 6,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 7,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 8,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 9,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 10,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "IF"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 11,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 12,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 13,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "x": 14,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ID"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 15,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "EX"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 16,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "M"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 17,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "WB"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）页框号：21"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "理由：访问时刻4，页0首次缺页，从空闲链表头部取出页框21分配。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）页框号：32"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "理由：访问时刻11，页1曾被使用且在空闲链表中（页框32），因此重新放回驻留集。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "3）页框号：41"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "理由：访问时刻14，页2首次缺页且从未使用过，从空闲链表头部取出页框41分配。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "4）适合。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "理由：时间局部性好的程序，被回收的页面很快会再次被访问，该策略允许从空闲链表中重新取回，提高效率。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "(1)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "索引表项中块号最少占 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4 字节"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "可支持的单个文件最大长度为 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "128 KB"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "(2)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "当前结构下可支持的单个文件最大长度为 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "math",
+                          "value": "2^{26}"
+                        },
+                        {
+                          "kind": "text",
+                          "value": " 字节 + 84 KB"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（或 67194880 字节）。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "为使单个文件长度达到最大，起始块号和块数应各占 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4 字节"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "理由"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：起始块号占 4 字节可寻址全部 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "2^{32}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个磁盘块（覆盖 4 TB 空间），块数占 4 字节可表示最多 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "2^{32}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个磁盘块（4 TB），从而连续部分能覆盖整个文件系统容量，使单个文件长度达到最大值 4 TB。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "include",
+          "path": "answers/corrections/2012-47.md"
+        }
+      ]
+    }
+  ]
+}

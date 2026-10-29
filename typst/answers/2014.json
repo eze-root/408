@@ -1,0 +1,1577 @@
+{
+  "year": "2014",
+  "source_url": "https://zhenti.beokayy.club/paper/2014",
+  "source_sha256": "d42d5ff549d1480f5860e25ec3f7bf3231e4fdecd7920f49c6b27eb2e68f07eb",
+  "paper_sha256": "191a8d5f8602afdc2b1c8e20cdeb435a44b01ac9625df466b16e0a3f211fd490",
+  "choice_explanations": "answers/choices/2014.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（1）算法基本设计思想"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "方法一：基于先序递归遍历。定义递归函数，将当前结点的深度作为参数传递。若结点为叶子结点，则累加 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "深度 * 权值",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 到结果；否则，递归遍历其左右子树，并将深度参数加1。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "方法二：基于层次遍历（BFS）。使用队列实现层次遍历，并记录当前层数 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "deep",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。利用指针 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "lastNode",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 标记当前层最后一个结点。当遍历到叶子结点时，累加 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "deep * 权值",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。每当处理完 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "lastNode",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 结点，就更新 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "lastNode",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 为下一层的最后一个结点，并将 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "deep",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 加1。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（2）二叉树结点的数据类型定义（C语言）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "typedef struct BiTNode {\n    int weight;                     // 存储权值\n    struct BiTNode *lchild, *rchild; // 左、右孩子指针\n} BiTNode, *BiTree;",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（3）算法描述（C语言）"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "方法一：先序递归"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "int wpl_PreOrder(BiTree root, int deep);\nint wpl_LevelOrder(BiTree root);\n\nint WPL(BiTree root) {\n    return wpl_PreOrder(root, 0); // 基于先序遍历\n    // 如需使用层次遍历，可改为：return wpl_LevelOrder(root);\n}\n\nint wpl_PreOrder(BiTree root, int deep) {\n    if (root == NULL) return 0; // 空树返回0\n    if (root->lchild == NULL && root->rchild == NULL)\n        return deep * root->weight;\n    return wpl_PreOrder(root->lchild, deep + 1)\n         + wpl_PreOrder(root->rchild, deep + 1);\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "方法二：层次遍历"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "int wpl_LevelOrder(BiTree root) {\n    if (root == NULL) return 0;\n    // MaxSize不小于树中结点数\n    BiTree q[MaxSize]; // 声明队列，end1为头指针，end2为尾指针\n    int end1, end2 = 0;\n    end1 = end2 = 0;\n    int wpl = 0, deep = 0;\n    BiTree lastNode;\n    BiTree newlastNode;\n    lastNode = root;\n    newlastNode = NULL;\n    q[end2++] = root;\n    while (end1 != end2) {\n        BiTree t = q[end1++];\n        if (t->lchild == NULL && t->rchild == NULL) {\n            wpl += deep * t->weight;\n        }\n        if (t->lchild != NULL) {\n            q[end2++] = t->lchild;\n            newlastNode = t->lchild;\n        }\n        if (t->rchild != NULL) {\n            q[end2++] = t->rchild;\n            newlastNode = t->rchild;\n        }\n        if (t == lastNode) {\n            lastNode = newlastNode;\n            deep += 1;\n        }\n    }\n    return wpl; // 返回wpl\n}",
+              "block": true,
+              "lang": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）本题中的网络可抽象为数据结构中的图（具体为无向图）。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）采用带表头结点的链式存储。每个表头结点保存路由器 ID，并指向该路由器的链路/网络信息链；弧结点用 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "Flag",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 区分 Link 和 Net 两种记录。数据类型可定义为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "typedef struct {\n    unsigned int ID, IP;\n} LinkNode;                 // Link的结构\n\ntypedef struct {\n    unsigned int Prefix, Mask;\n} NetNode;                  // Net的结构\n\ntypedef struct Node {\n    int Flag;               // Flag=1为Link，Flag=2为Net\n    union {\n        LinkNode Lnode;\n        NetNode Nnode;\n    } LinkORNet;\n    unsigned int Metric;\n    struct Node *next;\n} ArcNode;                  // 弧结点\n\ntypedef struct HNode {\n    unsigned int RouterID;\n    ArcNode *LN_link;\n    struct HNode *next;\n} HNODE;                    // 表头结点",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "例如，R1 的表头结点保存 Router ID "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "10.1.1.1",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，其信息链依次记录到 R2 的 Link、到 R3 的 Link 以及直连网络 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "192.1.1.0/24",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的 Net；其他路由器按同样方式组织。这样既能表示题表中的全部 LSI，也与题图中的无向图相对应。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "对应上述链式存储结构的示意图如下（"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "∧",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 表示空指针）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "image",
+                  "path": "assets/answers/2014/link-state-lists.svg",
+                  "width": 166,
+                  "height": 99.6,
+                  "sha256": "6e4ac620a32d39bec6b29ae4478e0e77ca4676560cbb3508502781bc4f900d22"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）从R1到各目的网络的最短路径及代价如下表所示："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 3,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "目的网络"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "路径"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "代价（费用）"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "192.1.1.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "直接到达"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "192.1.5.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R1-R3-192.1.5.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "192.1.6.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R1-R2-192.1.6.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "192.1.7.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R1-R2-R4-192.1.7.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）R1的路由表如下："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 3,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "目的网络"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "下一跳"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "接口"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "192.1.1.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "直连"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "E0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "192.1.6.0/23"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "10.1.1.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "L0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "192.1.5.0/24"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "10.1.1.10"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "L1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）R1通过L0接口转发该IP分组。主机192.1.7.211收到的IP分组TTL是61。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）需要增加：前缀Prefix为0.0.0.0/0，Metric为10。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "（1）存储器编址单位"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "字节编址。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "理由"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：采用32位定长指令字（4字节），表中指令地址间隔为4个地址单位，因此每个地址单位代表1字节。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "（2）数组A每个元素占用位数"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "32位（或4字节）。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "理由"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：sll指令左移两位等价于乘以4，表示数组元素地址间隔为4字节，结合字节编址可知每个元素占4字节。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "（3）bne指令的OFFSET值及转移目标地址计算公式"
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "OFFSET字段值为-6（机器代码中FFFAH为补码表示）。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "转移目标地址计算公式："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "PC + 4 + OFFSET × 4"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "。  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "理由"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：执行bne时PC自动加4，目标地址与当前PC+4的差值为-24，OFFSET为-6，故每个偏移单位对应4字节。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "（4）流水线阻塞与冒险分析"
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "数据相关阻塞的指令"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：2、3、4、6。  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（指令2依赖指令1，指令3依赖指令2，指令4依赖指令3，指令6依赖指令5）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "发生控制冒险的指令"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：6（bne为分支指令）。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "指令1不会因与指令5的数据相关而阻塞"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：因为分支指令bne引起3个时钟周期的阻塞，消除了循环尾指令5与下一次循环首指令1之间的数据相关影响。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) i的值为1000。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(2) Cache共16块，每块32字节，所以Cache数据区的容量为"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "16\\times 32B=512B"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。指令Cache的命中率为99.98%。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(3) 可能产生溢出异常的指令是指令4（加法指令）；可能产生缺页异常的指令是指令3（访存指令）；程序访盘一次；访问TLB的次数为1001次。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（1）连续分配方式"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "最少访问磁盘块次数："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "59次"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（移动前29条记录需58次，插入新记录1次）。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "文件控制块改变："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "起始块号"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "和"
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "文件长度"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（插入后文件起始位置和记录总数变化）。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（2）链接分配方式"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "访问磁盘块次数："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "31次"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（遍历前29块29次，回写第29块指针和写入新块共2次）。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "文件最大长度："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "4080GB"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（每块数据区1020字节，指针可寻址"
+                  },
+                  {
+                    "kind": "math",
+                    "value": "2^{32}"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "块）。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(1) 信号量的含义和初值"
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "code",
+                    "value": "mutex1",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：用于控制一个消费者进程连续取出10件产品的互斥，初值为1。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "mutex2",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：用于进程单次互斥访问缓冲区，初值为1。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "empty",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：表示缓冲区中的空位数量，初值为1000。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "full",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：表示缓冲区中的产品数量，初值为0。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(2) 生产者进程的伪代码"
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "producer() {\n    while (1) {\n        生产一个产品;\n        P(empty);          // 等待空位\n        P(mutex2);         // 互斥访问缓冲区\n        把产品放入缓冲区;\n        V(mutex2);         // 释放缓冲区访问权\n        V(full);           // 产品数加1\n    }\n}",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "(3) 消费者进程的伪代码"
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "consumer() {\n    while (1) {\n        P(mutex1);         // 确保连续取10次产品期间独占\n        for (int i = 0; i < 10; i++) {\n            P(full);       // 等待产品\n            P(mutex2);     // 互斥访问缓冲区\n            从缓冲区取出一件产品;\n            V(mutex2);     // 释放缓冲区访问权\n            V(empty);      // 空位数加1\n            消费这件产品;\n        }\n        V(mutex1);         // 释放连续取产品的控制权\n    }\n}",
+              "block": true,
+              "lang": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

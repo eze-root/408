@@ -3,7 +3,7 @@
 数据结构、计算机组成原理、操作系统与计算机网络的复习提纲、练习方法和历年试卷。
 
 - 内容范围：数据结构、计算机组成原理、操作系统、计算机网络
-- 资料类型：复习提纲、专项训练、历年真题索引与复盘模板
+- 资料类型：复习提纲、练题方法、历年真题索引与订正记录
 - 维护方式：长期更新
 
 ## 开始使用
@@ -30,7 +30,7 @@ bash scripts/dev.sh
 
 - `lectures/`：四科复习提纲；
 - `labs/`：选择题、计算题与算法题专项训练；
-- `assignments/`：历年真题索引与复盘模板；
+- `assignments/`：历年真题索引、审查记录与订正表；
 - `resources/`：笔记、试卷、解析和速查资料；
 - `_static/imgs/`：图片；
 - `_static/files/`：学生可下载的附件。
@@ -81,21 +81,25 @@ uv run python -m unittest discover -s tests -v
 
 ## 试卷排版与下载
 
-网站构建会先生成 2009—2024 年的试题册和配套答题纸，共 32 个 PDF。需要安装 **Typst 0.15.1**；Linux 另需 `fonts-noto-cjk`、`fonts-dejavu-core`。macOS 使用已有宋体、黑体和 DejaVu Sans Mono。
+网站构建会先生成 2009—2026 年的试题册、配套答题纸和答案与解析，共 54 个 PDF。需要安装 **Typst 0.15.1**；Linux 另需 `fonts-noto-cjk`、`fonts-dejavu-core`。macOS 使用已有宋体、黑体和 DejaVu Sans Mono。
 
 ```bash
 bash scripts/build-papers.sh --years 2022
 uv run python scripts/check_papers.py
 ```
 
-排版源文件、OCR 工作流与已知内容缺项见 [typst/README.md](typst/README.md)。2023、2024 年为有缺项的回忆资料，页面明确标注，不作为完整计分模拟卷。构建不依赖本机的原始 `resources/`，也不会请求 OCR 服务。
+排版源文件、答案校订与 OCR 工作流见 [typst/README.md](typst/README.md)。历次修订对照扫描试题、解析和题库核实题面，补全各年份配套答案；2012 年第47题补齐解析，2023 年第41题修正入度／出度算法。2009—2024 年的 640 道选择题、112 道综合题解析全部采用原生文字、公式、代码、表格和 SVG 排版。详细结果见 [试卷审查记录](source/assignments/paper-review.md)。构建不依赖本机的原始 `resources/`，也不会请求 OCR 服务。
+
+## 外部题库采集
+
+可显式运行 `uv run python scripts/collect_beokayy.py`，将四〇八档案室的公开试卷、答案、配图及知识点索引保存到忽略的 `resources/beokayy/`。支持缓存续跑与离线导出，结果先用于校对，不覆盖现有试卷。运行方式与字段说明见 [题库采集说明](scripts/README-beokayy.md)。
 
 ## GitHub Actions 与发布
 
 `.github/workflows/site.yml` 使用以下流程：
 
 1. 按锁文件安装依赖，先检查题目源文件和网站配置；
-2. 生成 32 份 PDF 和网站，Sphinx warning 会使构建失败；
+2. 生成 54 份 PDF 和网站，Sphinx warning 会使构建失败；
 3. 检查 PDF 的题号、纸张尺寸和页边界；
 4. 保存试卷下载包和网站，主分支检查通过后发布到 GitHub Pages。
 

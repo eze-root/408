@@ -1,0 +1,1227 @@
+{
+  "year": "2023",
+  "source_url": "https://zhenti.beokayy.club/paper/2023",
+  "source_sha256": "cd356668afdbe8757ebd9acb68b476f7cf384b0fe706dadaaad31f3880924fcd",
+  "paper_sha256": "270ac537bcbbf075ec9df3cfa97ef6a13d42af1bf7a651e9d8cd468aa851aa67",
+  "choice_explanations": "answers/choices/2023.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "include",
+          "path": "answers/corrections/2023-41.md"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) 可生成3个初始归并段，分别为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "归并段1：37, 51, 63, 92, 94, 99"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "归并段2：14, 15, 23, 31, 48, 56, 60, 90, 166"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "归并段3：8, 17, 43, 100"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(2) 第一个初始归并段的长度最大值为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "n"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，最小值为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "m"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "markdown",
+          "value": "**（1）页面与缺页异常**"
+        },
+        {
+          "kind": "markdown",
+          "value": "数组大小 $24\\times64\\times4=6144\\text{B}$，首地址00422000H按4 KB页边界对齐，跨2页。两页首次访问均缺页，故共2次；故障地址为00422000H和00423000H，分别对应a[0][0]与a[16][0]。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（2）时间局部性**"
+        },
+        {
+          "kind": "markdown",
+          "value": "不计i、j，每个数组元素只访问一次，因此数组数据访问不具有时间局部性；按行连续访问具有空间局部性。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（3）Cache地址字段**"
+        },
+        {
+          "kind": "markdown",
+          "value": "块大小32 B，块内地址为A₄～A₀；64组需6位组号，为A₁₀～A₅。a[1][0]地址为00422100H，组号为8。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（4）两种遍历的命中率**"
+        },
+        {
+          "kind": "markdown",
+          "value": "数组占 $6144/32=192$ 个主存块，共访问1536个元素。按行访问每8个元素首次失效1次，命中率 $1-192/1536=87.5\\%$。"
+        },
+        {
+          "kind": "markdown",
+          "value": "按列访问时，每列涉及的24行映射到8个Cache组，每组只需容纳3个块，未超过题设的4路容量。同一行后续7列仍可命中，因此Cache缺失仍为192次，命中率同为87.5%。"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "1）第 20 条指令的虚拟地址"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0040 10B9H"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。第 19 条指令从 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0040 10AEH",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 开始，机器码共 11 字节，因此第 20 条指令的虚拟地址为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0040 10AEH + 0BH = 0040 10B9H",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "2）跳转指令的寻址方式及目标地址"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "第 2 条 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "jmp",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和第 7 条 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "jge",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 都采用"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "相对寻址"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，跳转目标地址由下一条指令的地址加上指令中的有符号位移得到。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "第 2 条 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "jmp",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的起始地址为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0040 1079H",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，指令长度为 2 字节，位移为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "09H",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，所以跳转目标地址为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0040 1079H + 2 + 09H = 0040 1084H",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "3）第 19 条指令的源操作数、ecx 内容及端序"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "第 19 条 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "mov",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 指令的源操作数为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0AH",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（十进制 10），直接由机器指令中的 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0A 00 00 00",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 给出，因此采用"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "立即（数）寻址"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "数组 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "a",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 按行优先存放，每行有 64 个元素，每个元素占 4 字节，因此 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "a[i][j]",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的地址为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0042 2000H + i×64×4 + j×4 = 0042 2000H + i×256 + j×4",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。与汇编指令给出的目的地址 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "ecx + edx×4 + 0042 2000H",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 对照，且 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "edx",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 保存 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "j",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，可知 "
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ecx 中保存的是 i×256"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，即第 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "i",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 行相对数组首地址的字节偏移。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "机器码中，地址 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0042 2000H",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 按 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "00 20 42 00",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 排列，立即数 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0000 000AH",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 按 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0A 00 00 00",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 排列，均为低字节在前，因此计算机 M 采用"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "小端方式"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": "4）第一次取第 19 条指令时是否会发生缺页异常"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "不会发生缺页异常。"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 页大小为 4 KB，该程序段的指令位于页号为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "00401H",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的同一虚拟页中，地址范围为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "0040 1000H～0040 1FFFH",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。执行第 19 条指令之前，已经取过该页中的前序指令，所以该页已在主存；题设又说明执行过程中不会发生页面置换。第 19 条指令的 11 字节全部位于该页内，因此取指过程中不会发生缺页异常。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）进入区中的"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "if (key == TRUE)\n    swap key, lock;",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "应改为"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "while (key == TRUE)\n    swap key, lock;",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "退出区的 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "lock = TRUE;",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 应改为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "lock = FALSE;",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）不能用 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "newSwap(&key, &lock)",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 代替 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "swap key, lock",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。普通函数中的多个读写操作不是原子操作，多线程并发执行时可能交叉进行，不能保证临界区互斥。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）操作①的前一个操作是③，后一个操作是⑤；操作⑥的后一个操作是④。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）在操作②之后 CPU 一定从进程 P 切换到其他进程；在操作①之后 CPU 调度程序才能选中进程 P 执行。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "3）操作③的代码属于键盘驱动程序。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "4）键盘中断处理程序执行时，进程 P 处于阻塞状态；CPU 处于内核态。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1) FTP连接类型"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "控制连接：持久的"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "数据连接：非持久的"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "登录时建立的TCP连接：控制连接"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2) TCP序号"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "F的第1个字节序号："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "101"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "断开数据连接时，服务器第二次挥手ACK段的确认序号："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "18102"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3) 拥塞窗口调整"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "收到确认序号2101时，拥塞窗口调整为："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "3 MSS"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "收到确认序号7101时，拥塞窗口调整为："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "5 MSS"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4) 时间与平均速率"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "至少需要时间："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "60 ms"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "应用层数据平均发送速率："
+                  },
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "math",
+                        "value": "300\\times 10^{3}"
+                      },
+                      {
+                        "kind": "text",
+                        "value": " B/s"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（0.3 MB/s，2.4 Mb/s）"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-29",
+  "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "choice_explanations": 640,
+  "essay_solutions": 112,
+  "corrections": [
+    {
+      "year": 2009,
+      "question": 42,
+      "correction": "双指针终止位置与代码一致：p为空时q指向倒数第k个结点。"
+    },
+    {
+      "year": 2014,
+      "question": 46,
+      "correction": "链接分配插入的31次I/O为29次读、2次写，无须先读取新分配块。"
+    },
+    {
+      "year": 2015,
+      "question": 41,
+      "correction": "将辅助数组初始化计入总时间，得到O(m+n)，链表扫描部分为O(m)。"
+    },
+    {
+      "year": 2015,
+      "question": 42,
+      "correction": "邻接矩阵幂统计允许重复顶点、边的走法，不限定简单路径。"
+    },
+    {
+      "year": 2016,
+      "question": 41,
+      "correction": "修正20KB/s的换算：20480B/s＝163.84kb/s，原“20.48kbps”单位及倍率错误。"
+    },
+    {
+      "year": 2019,
+      "question": 43,
+      "correction": "统一哲学家进程中筷子信号量的声明与引用名chopstick。"
+    },
+    {
+      "year": 2020,
+      "question": 41,
+      "correction": "三数组最小距离代码改用LLONG_MAX和long long，消除未定义MAX_SIZE与int差值溢出。"
+    },
+    {
+      "year": 2020,
+      "question": 44,
+      "correction": "指令Cache不设脏位的原因是只读，而非采用直写策略。"
+    },
+    {
+      "year": 2022,
+      "question": 41,
+      "correction": "二叉搜索树判定在成功、失败分支都释放辅助数组。"
+    },
+    {
+      "year": 2023,
+      "question": 43,
+      "correction": "区分Cache缺失和缺页；补充按列遍历仍命中的组相联容量推导。"
+    },
+    {
+      "year": 2022,
+      "question": 17,
+      "correction": "13位行地址和13位列地址复用，需要13根地址引脚，答案C。"
+    },
+    {
+      "year": 2024,
+      "question": 44,
+      "correction": "区分原int数组的移位2位指令与改为short数组后的移位1位指令。"
+    }
+  ],
+  "layout": {
+    "body_pt": 12,
+    "code_pt": 9.5,
+    "choice_questions_per_page": 8,
+    "essay_starts_new_page": true,
+    "vector_figures": 6,
+    "raster_answer_pages": 0
+  },
+  "validation": {
+    "unit_tests_passed": 63,
+    "pdf_files": 54,
+    "pdf_pages": 628,
+    "local_download_links_verified": 55,
+    "portable_source_compile_years": [
+      2011,
+      2024
+    ],
+    "printed_algorithms_compiled_and_checked": 9,
+    "strict_sphinx_build": "passed",
+    "visual_review": "各年份选择题解析及综合题页面；重点复查矩阵、流水线表、路由图、代码跨页及孤行。"
+  }
+}

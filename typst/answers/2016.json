@@ -1,0 +1,817 @@
+{
+  "year": "2016",
+  "source_url": "https://zhenti.beokayy.club/paper/2016",
+  "source_sha256": "05968f0d4a926f6b63188d51f6a50ca7f6b41237a1a79046464d88aa7dd614e6",
+  "paper_sha256": "bf43983111dc4b1319ff4085aabe6909e138fafe6133ff25a7b211774b8ba33c",
+  "choice_explanations": "answers/choices/2016.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "markdown",
+          "value": "**（1）第二次握手**"
+        },
+        {
+          "kind": "markdown",
+          "value": "SYN=1，ACK=1；H₃的SYN序号为100，占用一个序号，所以确认序号为101。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（2）第8个数据确认到达后**"
+        },
+        {
+          "kind": "markdown",
+          "value": "已接收8 KB，缓存剩 $20-8=12\\text{KB}$，所以接收窗口12 KB。慢开始从1 MSS起，每确认一个新段增加1 MSS，拥塞窗口为9 KB；发送窗口取两者较小值，为9 KB。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（3）窗口为0时的序号与速率**"
+        },
+        {
+          "kind": "markdown",
+          "value": "20 KB数据占用序号101至20580，因此下一段序号为 $101+20\\times1024=20581$。"
+        },
+        {
+          "kind": "markdown",
+          "value": "各轮依次发送1、2、4、8、5 KB，第5个RTT结束时确认全部20 KB，接收窗口变为0。耗时 $5\\times200\\text{ms}=1\\text{s}$，平均速率为 **20 KB/s**，即20480 B/s或163.84 kb/s。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（4）S释放连接的最短时间**"
+        },
+        {
+          "kind": "markdown",
+          "value": "S收到FIN后立即将ACK与FIN一起返回，H₃再确认；S收到最终ACK即可释放。需3次单程传播，即 $1.5\\times200=300\\text{ms}$。"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) 叶结点数为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "(k-1)m+1"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(2) 最多结点数为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "∑_{j=1}^{h}k^{j-1}=(k^{h}-1)/(k-1)"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "；最少结点数为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "1+(h-1)k"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（1）算法基本设计思想"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "要使两个子集元素个数差最小且和的差最大，应将最小的⌊n/2⌋个元素放入A₁，其余放入A₂。采用快速排序中的划分思想，基于枢轴进行划分，通过非递归方式逐步将数组划分为两部分，使得左半部分恰好包含最小的⌊n/2⌋个元素，右半部分包含剩余元素。最后分别计算两部分的和并返回其差值。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（2）算法描述（C语言）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "int setPartition(int a[], int n) {\n    if (n <= 1) return n == 1 ? a[0] : 0;\n    int pivokey, low = 0, low0 = 0;\n    int high = n - 1, high0 = n - 1;\n    int flag = 1, k = n / 2, i;\n    int s1 = 0, s2 = 0;\n    while(flag) {\n        pivokey = a[low]; // 选择枢纽\n        while(low < high) {\n            while(low < high && a[high] >= pivokey) --high;\n            if(low != high) a[low] = a[high]; // 替换较大的数\n            while(low < high && a[low] <= pivokey) ++low;\n            if(low != high) a[high] = a[low]; // 替换较小的数\n        }\n        a[low] = pivokey; // 完成交换枢纽\n        if(low == k - 1) {\n            flag = 0;\n        } else {\n            if(low < k - 1) {\n                low0 = ++low;\n                high = high0;\n            } else {\n                high0 = --high;\n                low = low0;\n            }\n        }\n    }\n    for(i = 0; i < k; i++) s1 += a[i];\n    for(i = k; i < n; i++) s2 += a[i];\n    return s2 - s1;\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（3）时间复杂度与空间复杂度"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "平均时间复杂度为 O(n)；采用首元素作枢轴时，最坏时间复杂度为 O(n²)。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "空间复杂度：O(1)，仅使用常数额外空间。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "markdown",
+          "value": "**（1）字符传输**"
+        },
+        {
+          "kind": "markdown",
+          "value": "每字符包含1位起始位、7位数据、1位奇校验、1位停止，共10位。每0.5 ms准备一个字符，每秒最多 $1/0.0005=2000$ 个。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（2）总耗时与CPU占用**"
+        },
+        {
+          "kind": "markdown",
+          "value": "0.5 ms相当于25000个CPU周期。一次中断响应10周期，前15条服务指令耗时 $15\\times4=60$ 周期，然后启动下一个字符；末5条指令与设备准备重叠。"
+        },
+        {
+          "kind": "markdown",
+          "value": "1000个字符的总耗时约为 $1000\\times(25000+10+60)=25070000$ 个周期。若把最后5条指令单独计入，为25070020周期。"
+        },
+        {
+          "kind": "markdown",
+          "value": "CPU实际处理中断需 $1000\\times(10+20\\times4)=90000$ 个周期。"
+        },
+        {
+          "kind": "markdown",
+          "value": "中断响应阶段由硬件关中断、保存断点和程序状态，并确定中断服务程序入口。"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）A=19位，B=19位，C=11位，D=13位，E=9位，F=9位，G=6位。TLB标记字段B中存放的是虚页号。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）Cache组号为3；H字段内容为0 0000 1000B。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）缺页处理的时间开销大。因为缺页处理需要访问磁盘，而Cache缺失只需访问主存。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）Cache-主存层次访问速度较快，直写策略可接受；主存-外存层次中磁盘访问速度极慢，回写策略可减少磁盘访问次数，提高性能。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）由于nice为静态优先数，一旦设定不变。若就绪队列中总是存在优先数较小（即优先级更高）的进程，优先数较大的进程可能长期无法获得CPU，从而出现饥饿现象。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）动态优先数计算方法为：priority = nice + k₁ × cpuTime - k₂ × waitTime，其中k₁ > 0，k₂ > 0为可调参数。waitTime的作用是增加等待进程的优先级（减小优先数），使长时间等待的进程有机会被调度，避免饥饿。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) 两个目录文件的内容如下图所示："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "p",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "dir目录文件："
+                    }
+                  ]
+                },
+                {
+                  "kind": "table",
+                  "columns": 2,
+                  "font_size": 10,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "文件名"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "首簇号"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "dir1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "48"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "p",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "dir1目录文件："
+                    }
+                  ]
+                },
+                {
+                  "kind": "table",
+                  "columns": 2,
+                  "font_size": 10,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "文件名"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "首簇号"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "file1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "100"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "file2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "200"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "dir目录文件包含目录项：dir1（簇号48）；dir1目录文件包含目录项：file1（簇号100）、file2（簇号200）。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(2) FAT的最大长度为128KB，该文件系统支持的文件长度最大为256MB。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(3) file1的簇号106存放在FAT的100号表项中，簇号108存放在FAT的106号表项中。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "(4) 需要访问簇48和簇106。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

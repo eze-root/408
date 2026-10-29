@@ -1,0 +1,2417 @@
+{
+  "year": "2009",
+  "source_url": "https://zhenti.beokayy.club/paper/2009",
+  "source_sha256": "ccea73c5971cb2543372ed76b699345be13733b62116c01b1b1430e902ea6f41",
+  "paper_sha256": "93d949688a67e956d42da10f4b057685c02cac75191a6608bc4b608f2c602c98",
+  "choice_explanations": "answers/choices/2009.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）该方法不能求得最短路径。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）反例如下图所示："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "image",
+                  "path": "assets/answers/2009/greedy-counterexamples.svg",
+                  "width": 150,
+                  "height": 50.0,
+                  "sha256": "ffbc077913f142adc40f798c7e09a161d9f4b39145f18654303a3cfee173636b"
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "图（1）中，设初始顶点为 1、目标顶点为 4。顶点 1 到顶点 4 的最短路径长度显然为 2，但按题中方法求得的路径长度为 3，因此所得路径并不是最短路径。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "图（2）中，设初始顶点为 1、目标顶点为 3。按题中方法无法求出顶点 1 到顶点 3 的路径。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1）算法基本设计思想："
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "采用双指针法，一次遍历完成查找。设指针 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " p "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " q "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，初始均指向链表第一个结点（头结点之后）。"
+                    },
+                    {
+                      "kind": "math",
+                      "value": " p "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 先向前移动 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " k "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 步，若提前到达链表末尾则 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " k "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 值非法。之后 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " p "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 与 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " q "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 同时移动，当 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " p "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 越过最后一个结点、变为空指针时，"
+                    },
+                    {
+                      "kind": "math",
+                      "value": " q "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 所指即为倒数第 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " k "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个结点。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2）算法详细实现步骤："
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "① 初始化指针 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " p = list → link "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，"
+                    },
+                    {
+                      "kind": "math",
+                      "value": " q = list → link "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，计数器 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " count = 0 "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "② 当 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " p "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 不为空时循环："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "若 "
+                  },
+                  {
+                    "kind": "math",
+                    "value": " count < k "
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，则 "
+                  },
+                  {
+                    "kind": "math",
+                    "value": " p = p → link "
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，"
+                  },
+                  {
+                    "kind": "math",
+                    "value": " count = count + 1 "
+                  },
+                  {
+                    "kind": "text",
+                    "value": "；  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "否则，"
+                  },
+                  {
+                    "kind": "math",
+                    "value": " p = p → link "
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，"
+                  },
+                  {
+                    "kind": "math",
+                    "value": " q = q → link "
+                  },
+                  {
+                    "kind": "text",
+                    "value": "。  "
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "③ 循环结束后，若 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " count = k "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "，则 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " q "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 指向倒数第 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " k "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 个结点，输出 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " q → data "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 并返回 1；否则（"
+                    },
+                    {
+                      "kind": "math",
+                      "value": " count < k "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "），"
+                    },
+                    {
+                      "kind": "math",
+                      "value": " k "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 超出链表长度，返回 0。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3）算法实现（C语言）："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "typedef struct LNode {\n    int data;\n    struct LNode *link;\n} *LinkList;\n\nint Search_k(LinkList list, int k) {\n    if (k <= 0) return 0;\n    LinkList p = list->link, q = list->link;  // 初始指向第一个结点\n    int count = 0;\n    while (p != NULL) {\n        if (count < k) {       // p先前进k步\n            p = p->link;\n            count++;\n        } else {               // 之后p和q同步前进\n            p = p->link;\n            q = q->link;\n        }\n    }\n    if (count == k) {          // 链表长度≥k\n        printf(\"%d\", q->data);\n        return 1;\n    }\n    return 0;                  // k超出链表长度\n}",
+              "block": true,
+              "lang": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "markdown",
+          "value": "**（1）中断方式**"
+        },
+        {
+          "kind": "markdown",
+          "value": "每次传4 B，中断开销为 $5\\times18+5\\times2=100$ 个周期。每秒中断次数为 $0.5\\times10^6/4=125000$。"
+        },
+        {
+          "kind": "markdown",
+          "value": "CPU每秒用于I/O的周期数为 $125000\\times100=12.5\\times10^6$，时间占比为"
+        },
+        {
+          "kind": "markdown",
+          "value": "$$\\frac{12.5\\times10^6}{500\\times10^6}=2.5\\%.$$"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（2）DMA方式**"
+        },
+        {
+          "kind": "markdown",
+          "value": "数据速率为5 MB/s，每次传5000 B，所以每秒启动DMA $5\\times10^6/5000=1000$ 次。每次CPU处理500个周期，合计每秒 $0.5\\times10^6$ 个周期，占比为"
+        },
+        {
+          "kind": "markdown",
+          "value": "$$\\frac{0.5\\times10^6}{500\\times10^6}=0.1\\%.$$"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）指令执行阶段的基本方案（6个节拍）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 3,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "时钟节拍"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "功能"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "有效控制信号"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MAR ← (R1)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R1out, MARin"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C6"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDR ← M(MAR)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MemR, MDRinE"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C7"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "A ← (MDR)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDRout, Ain"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C8"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "AC ← (A) + (R0)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R0out, Add, ACin"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDR ← (AC)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ACout, MDRin"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 6,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C10"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 6,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "M(MAR) ← (MDR)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 6,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDRoutE, MemW"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）指令执行阶段的优化方案（5个节拍）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 3,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "时钟节拍"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "功能"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "有效控制信号"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C5"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MAR ← (R1)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "R1out, MARin"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C6"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDR ← M(MAR), A ← (R0)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MemR, MDRinE, R0out, Ain"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C7"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "AC ← (MDR) + (A)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDRout, Add, ACin"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C8"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDR ← (AC)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "ACout, MDRin"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "C9"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "M(MAR) ← (MDR)"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 5,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MDRoutE, MemW"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（1）信号量定义及含义："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "code",
+                    "value": "mutex",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（初值1）：互斥信号量，保证对缓冲区的互斥访问。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "odd",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（初值0）：同步信号量，表示缓冲区中奇数的个数，由P1生产后V操作，P2消费前P操作。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "even",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（初值0）：同步信号量，表示缓冲区中偶数的个数，由P1生产后V操作，P3消费前P操作。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "empty",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "（初值N）：同步信号量，表示缓冲区中空单元的个数，由P1生产前P操作，P2/P3消费后V操作。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（2）进程伪代码："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "semaphore mutex=1;\nsemaphore odd=0, even=0;\nsemaphore empty=N;\n\nmain() {\n    cobegin {\n        Process P1() {\n            while (True) {\n                x = produce();\n                P(empty);          // 申请一个空单元\n                P(mutex);          // 互斥进入缓冲区\n                Put();             // 放入缓冲区\n                V(mutex);          // 释放互斥锁\n                if (x % 2 == 0)    // 判断奇偶性\n                    V(even);       // 偶数，唤醒P3\n                else\n                    V(odd);        // 奇数，唤醒P2\n            }\n        }\n\n        Process P2() {\n            while (True) {\n                P(odd);            // 等待一个奇数\n                P(mutex);          // 互斥进入缓冲区\n                getodd();          // 取出奇数\n                V(mutex);          // 释放互斥锁\n                V(empty);          // 释放一个空单元\n                countodd();        // 统计奇数\n            }\n        }\n\n        Process P3() {\n            while (True) {\n                P(even);           // 等待一个偶数\n                P(mutex);          // 互斥进入缓冲区\n                geteven();         // 取出偶数\n                V(mutex);          // 释放互斥锁\n                V(empty);          // 释放一个空单元\n                counteven();       // 统计偶数\n            }\n        }\n    } coend\n}",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "（3）关键点："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "同步：P1通过"
+                  },
+                  {
+                    "kind": "code",
+                    "value": "odd",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "和"
+                  },
+                  {
+                    "kind": "code",
+                    "value": "even",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "信号量协调P2和P3的消费，确保生产与消费的奇偶匹配。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "互斥：所有进程通过"
+                  },
+                  {
+                    "kind": "code",
+                    "value": "mutex",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "信号量互斥访问缓冲区，避免竞争条件。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "流量控制："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "empty",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "信号量限制缓冲区占用，防止溢出。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）访问时间："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "访问2362H：页号2，TLB未命中（10ns），访问页表得页框号（100ns），访问内存（100ns），总时间210ns。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "访问1565H：页号1，TLB未命中（10ns），访问页表无效（100ns），缺页中断处理（"
+                  },
+                  {
+                    "kind": "math",
+                    "value": "10^{8} ns"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "），更新TLB后重新访问，TLB命中（10ns），访问内存（100ns），总时间100000220ns。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "访问25A5H：页号2，TLB命中（10ns），访问内存（100ns），总时间110ns。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）虚地址1565H的物理地址是101565H。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "理由：访问1565H时页号1缺页，驻留集固定为2，采用LRU算法，淘汰当前内存中的页号0（最近最少使用），将页号1装入并分配页框号101H，页内位移565H，故物理地址为101565H。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1）子网划分结果："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "子网1："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "202.118.1.0/25",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "子网2："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "202.118.1.128/25",
+                    "block": false,
+                    "lang": "text"
+                  }
+                ],
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "分配方案（两种均可）："
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "方案一：子网1分配给局域网1，子网2分配给局域网2。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "方案二：子网1分配给局域网2，子网2分配给局域网1。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "理由："
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 为满足每个局域网不少于120个主机地址的需求（"
+                  },
+                  {
+                    "kind": "math",
+                    "value": "2^{7}-2=126"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "），主机位需至少7位，子网位需1位，故子网掩码为 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "/25",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2）路由器 R1 的路由表："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "方案一（子网1对应局域网1，子网2对应局域网2）："
+                      }
+                    ]
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 4,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "目的网络 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "子网掩码"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "下一跳 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "接口"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.1.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "255.255.255.128"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "直接"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "E1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.1.128"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "255.255.255.128"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "直接"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "E2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.3.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "255.255.255.255"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.2.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "L0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0.0.0.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0.0.0.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.2.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "L0"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "方案二（子网1对应局域网2，子网2对应局域网1）："
+                      }
+                    ]
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 4,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "目的网络 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "子网掩码"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "下一跳 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "接口"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.1.128"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "255.255.255.128"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "直接"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "E1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.1.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "255.255.255.128"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "直接"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "E2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.3.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "255.255.255.255"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.2.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "L0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0.0.0.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "0.0.0.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.2.2"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 4,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "L0"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3）路由器 R2 到局域网1和局域网2的路由（采用路由聚合）："
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 4,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "目的网络 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "子网掩码"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "下一跳 IP 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "接口"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.1.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "255.255.255.0"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 2,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "202.118.2.1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 3,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "L0"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

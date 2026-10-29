@@ -1,0 +1,255 @@
+{
+  "reviewed_on": "2026-10-29",
+  "scope": "2009—2024配套答案整合与题面匹配",
+  "changes": [
+    {
+      "year": 2009,
+      "question": 17,
+      "decision": "修复“普遍”转录错字。",
+      "basis": "题库同年17题，与RISC控制方式设问一致。",
+      "after_sha256": "3572fac67eb552d9ca023a3527f40ab0d8c1086d4853d17230f0a05a6348c3a8"
+    },
+    {
+      "year": 2010,
+      "question": 23,
+      "decision": "补全D选项“原语”。",
+      "basis": "题库同年23题完整选项。",
+      "after_sha256": "0a3525f11bb9f3f5739d15a9cfafa9e9ad37a6d3b6d3eaf9e1b5b94f067c242b"
+    },
+    {
+      "year": 2010,
+      "question": 26,
+      "decision": "统一术语“就绪队列”。",
+      "basis": "操作系统进程状态术语。",
+      "after_sha256": "fafbb591c2e4d5d7980576acb62cc2781528b79cb5f81223ab9032079ed3adbc"
+    },
+    {
+      "year": 2011,
+      "question": 21,
+      "decision": "恢复L1设问并区分中断响应与处理优先级；答案D（01010）。",
+      "basis": "原扫描试题第2页将处理顺序写成响应顺序；解析第4页按L1屏蔽自身及L3推导，M3=M1=1。题库保留完整两种优先级条件。",
+      "after_sha256": "6a4d944f843bda89b8abdbe800499f84d369b7f17f3f7b299a4efd918976a61e"
+    },
+    {
+      "year": 2011,
+      "question": 41,
+      "decision": "恢复严格上三角的15个元素；∞不再误写成8。",
+      "basis": "扫描试题第5页；6×5/2=15项，关键路径0→1→2→3→5，长度16。",
+      "after_sha256": "c4c3a6a12992c815a5d85c24a84719b6818767e3df6228b8adc3528e2f38a62f"
+    },
+    {
+      "year": 2011,
+      "question": 44,
+      "decision": "重建TLB表的组号、四路及有效位，修复串列；保持八项完整。",
+      "basis": "扫描试题第6页，024BACH对应虚页024H、组0、标记012H，命中页框1FH。",
+      "after_sha256": "356add9a1b5d1be6aad43ec3520815cc8537cd16084bda6e9a6403e5a8caff81"
+    },
+    {
+      "year": 2011,
+      "question": 45,
+      "decision": "恢复完整顾客/营业员伪代码，合并被拆散的代码围栏并删除重复残句。",
+      "basis": "扫描试题第6—7页。",
+      "after_sha256": "b65f04d148efe3ce75eb5dccab9faca2ffbf33c9c8194884b6afafc22b1d5eef"
+    },
+    {
+      "year": 2012,
+      "question": 14,
+      "decision": "B、D选项的乘号改回减号；D为2^128−2^104。",
+      "basis": "扫描试题第2页；最大有限单精度数=(2−2^-23)×2^127。",
+      "after_sha256": "f926abfbe06b8870127cdd79e35230434d9a34ae286168468ac197f9a8c88578"
+    },
+    {
+      "year": 2012,
+      "question": 27,
+      "decision": "C选项恢复P2开头，消除重复P3。",
+      "basis": "扫描试题第4页。",
+      "after_sha256": "e2eee9b74e4ba553f84730fb9bd3a09aba22b40f01b51db0ae354452050c0923"
+    },
+    {
+      "year": 2012,
+      "question": 27,
+      "decision": "重建资源分配表表头，使六列资源与数据对应。",
+      "basis": "扫描试题第4页。",
+      "after_sha256": "e2eee9b74e4ba553f84730fb9bd3a09aba22b40f01b51db0ae354452050c0923"
+    },
+    {
+      "year": 2013,
+      "question": 10,
+      "decision": "补全D选项14。",
+      "basis": "扫描试题第2页。",
+      "after_sha256": "5b292699ab37a302424a61ab3d06868db191c169f39a73e826da9116146bc07b"
+    },
+    {
+      "year": 2013,
+      "question": 13,
+      "decision": "四个浮点数选项均补回负号；答案A=−12288。",
+      "basis": "扫描试题第2页；C6400000H符号位1、阶码140、尾数1.5。",
+      "after_sha256": "00150ba19d807d6b25c3841e395f4801126a414592f389a004b24f95ced19cd5"
+    },
+    {
+      "year": 2014,
+      "question": 29,
+      "decision": "补齐D选项的返回对象。",
+      "basis": "同年题库完整选项，文件打开流程设问。",
+      "after_sha256": "469e863118499ec7c8bef6c1689f65eb4551713907e3947f718e0274f99ba253"
+    },
+    {
+      "year": 2015,
+      "question": 32,
+      "decision": "补全D选项382。",
+      "basis": "扫描试题第4页。",
+      "after_sha256": "f0a6cde8a76bf0bcc2967a9c21ebec88c5d2741bbc4209650ed7c72ef5eaaab2"
+    },
+    {
+      "year": 2015,
+      "question": 38,
+      "decision": "选项接口名统一为S1、S2、E3、E4，答案C对应E3。",
+      "basis": "扫描试题第5页路由表为E3/E4而选项误作S3/S4；解析第5页及最长前缀匹配确定/27接口E3，题库选项亦为E3/E4。",
+      "after_sha256": "13ee351196ddf8239dcc2566c1c7a4a757969974aca2eba30f7615380699fede"
+    },
+    {
+      "year": 2016,
+      "question": 11,
+      "decision": "补全“归并排序”。",
+      "basis": "排序算法名称及题库同年11题。",
+      "after_sha256": "55f512896922dcd8d7d9bef3fba9c544e9ac5c5b2136d470b40130106bf7a3b3"
+    },
+    {
+      "year": 2017,
+      "question": 20,
+      "decision": "修复PCI-Express×16名称。",
+      "basis": "题库同年20题及接口通道记法。",
+      "after_sha256": "19137f270602c4f9b59c54091de2f16ff84a613fc0580a6f5249821634802c68"
+    },
+    {
+      "year": 2018,
+      "question": 11,
+      "decision": "补齐D选项最后一个序列的7、4、5。",
+      "basis": "扫描试题第2页。",
+      "after_sha256": "d76a8f65a8a03404e081ebd4cb99b5fcf6114307b5f81dd389294b2ab0f2a2a6"
+    },
+    {
+      "year": 2018,
+      "question": 13,
+      "decision": "B、C、D选项恢复32位八位十六进制数；正确差值FFFFFF9EH。",
+      "basis": "扫描试题第2页；−33−65=−98，32位补码FFFFFF9EH。",
+      "after_sha256": "20b8545fbc5326ead8222a0f48c48e5dbd0ecac2c5229deac5516fcbc1f93e53"
+    },
+    {
+      "year": 2019,
+      "question": 30,
+      "decision": "D选项最后一项由Ⅰ恢复为Ⅳ。",
+      "basis": "扫描试题第4页。",
+      "after_sha256": "46dd11c4797017eeeb145eecfa71b5274ec182fd9b874ee31805b5cca5185358"
+    },
+    {
+      "year": 2019,
+      "question": 38,
+      "decision": "移除被误并入D选项的图题。",
+      "basis": "图题不是选项文字；对应配图继续保留。",
+      "before_sha256": "138e48db3ba694a8ad42d825bdea23a9e0c3939a970a5341de80d9353386a213",
+      "after_sha256": "011f3ed598a91cfd8687d77278b1b2ce7e0a17511c4ce22b5101aec49cc71e7e"
+    },
+    {
+      "year": 2023,
+      "question": 2,
+      "decision": "恢复非尾结点条件与原题C选项；答案C。",
+      "basis": "扫描试题第2页与解析第1页；先保存原后继的prev=p，再将其prev指向s。旧C语句虽也能完成插入，但不是扫描原题的写法。",
+      "before_sha256": "61dc5ffcd16653f85197d52db3187b5a9875ef93b1f7bbb37991bd1bdc47047a",
+      "after_sha256": "f7702e69516fdd4cc3249b373be40e97e54391a6df248ce4198ed15c37ea5b57"
+    },
+    {
+      "year": 2023,
+      "question": 6,
+      "decision": "恢复选项顺序，B为“仅Ⅲ”；补齐无向连通图条件。",
+      "basis": "扫描试题第2页；等权图BFS层数即最短距离，任意MST不保证根到各点距离最短。",
+      "before_sha256": "a527fc2aecdb9c4940100d798e933bd2f036c3de3a0605ba7f9205b1e3a776c3",
+      "after_sha256": "8fb516be456dde6fd4c9af1276046008b3ef0ec3dc4bc0e581b3e2c84201d134"
+    },
+    {
+      "year": 2023,
+      "question": 10,
+      "decision": "恢复D选项III、IV、V。",
+      "basis": "扫描试题第3页顶部。",
+      "before_sha256": "1cfc8eddf4d67f38df25c83ad74edeac66b52794f839dba640d13e8cb2529f49",
+      "after_sha256": "2a5254f276d7a98d0a0b224539331c54831328e31faa0f4ab1b440348e758b1a"
+    },
+    {
+      "year": 2023,
+      "question": 41,
+      "decision": "图结构成员名与原题及配套答案代码一致。",
+      "basis": "扫描试题第6页及解析代码。",
+      "before_sha256": "e56283c7367af33f6a805e4f487baad2abdaafde1ccfc53fd6cf0028d154e5c0",
+      "after_sha256": "daf9d91f0b36ff9797797bc7ee3659f9c7211f4e95b5f5964d479ca889c58f1d"
+    },
+    {
+      "year": 2024,
+      "question": 31,
+      "decision": "D选项恢复“数据寄存器”。",
+      "basis": "扫描试题第5页。",
+      "before_sha256": "9fbc61d9ab49a2a9a7f5ccac33e476f7848febbde21ecfc5778f90dfe7c20dfa",
+      "after_sha256": "16bdf03e5d1efae1c893c208c78eaa1e95ababd5cb1d821dfaf4d4239a4c3262"
+    }
+  ],
+  "retained": [
+    {
+      "year": 2018,
+      "question": 37,
+      "decision": "保留本地A、B选项MAC地址00-a1-b2-c3-d4-62，题库00-1a-2b-3c-4d-62不采用。",
+      "basis": "扫描试题第5页，主机H2的MAC地址。"
+    },
+    {
+      "year": 2020,
+      "question": 7,
+      "decision": "保留本地C、D选项边序列；不采用题库另一组干扰项。",
+      "basis": "扫描试题第1—2页；正确答案A不变。"
+    }
+  ],
+  "answer_corrections": [
+    {
+      "year": 2012,
+      "question": 47,
+      "source_pages": [
+        11
+      ],
+      "decision": "删除被截断的原解析，补写完整三问；46 B、16 B、15个路由器。",
+      "basis": "原题第8页TCP/IP字段；确认号846B41D6H减首字节846B41C6H；TTL64−49。"
+    },
+    {
+      "year": 2015,
+      "question": 41,
+      "source_pages": [
+        6
+      ],
+      "decision": "Typedef 改为 typedef；原文比较表达式 *(q+m)==0 复核后保留。",
+      "basis": "C关键字区分大小写；原图放大核对。"
+    },
+    {
+      "year": 2023,
+      "question": 41,
+      "source_pages": [
+        8
+      ],
+      "decision": "完整替换入度／出度方向写反的解析代码；VerticesList与题目类型一致。",
+      "basis": "Edge[v][u]为边v→u；行和是出度，列和是入度；穷举65536种四顶点有向图验证输出及计数。"
+    },
+    {
+      "year": 2024,
+      "question": 41,
+      "source_pages": [
+        12
+      ],
+      "decision": "Count++ 改为 count++。",
+      "basis": "函数声明和返回判断使用count；C标识符区分大小写。"
+    },
+    {
+      "year": 2024,
+      "question": 45,
+      "source_pages": [
+        14
+      ],
+      "decision": "补齐移位括号并列出页表项地址完整计算。",
+      "basis": "页表项4B；虚拟地址分为10位页号与22位页内偏移。"
+    }
+  ]
+}

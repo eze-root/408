@@ -1,0 +1,1536 @@
+{
+  "year": "2015",
+  "source_url": "https://zhenti.beokayy.club/paper/2015",
+  "source_sha256": "6a3f68ebb55362841a5a6287b07ff3f15abe4693bbe4a9164af54430234234df",
+  "paper_sha256": "2e9815dd765c78b7f5438fefae2d44e7d0b0b7ce2843e37fa9aa42656df3a7d2",
+  "choice_explanations": "answers/choices/2015.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）算法的基本设计思想："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "使用一个辅助数组记录链表中已出现的绝对值，数组大小为 n+1，初始化为 0。遍历链表，对于每个结点的绝对值，若对应数组元素为 0，则保留结点并将数组元素置 1；否则删除该结点。这样只需一趟扫描，用空间换时间。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）单链表结点的数据类型定义："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "typedef struct node {\n    int data;\n    struct node *link;\n} NODE;\ntypedef NODE *PNODE;",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）算法描述（C语言）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "void func(PNODE h, int n) {\n    PNODE p = h, r;\n    int *q, m;\n    q = (int *)malloc(sizeof(int) * (n + 1)); // 申请 n+1 个位置的辅助空间\n    for (int i = 0; i < n + 1; i++) // 数组元素初值置 0\n        *(q + i) = 0;\n    while (p->link != NULL) {\n        // 取绝对值，检查是否已出现\n        m = p->link->data > 0 ? p->link->data : -p->link->data;\n        if (*(q + m) == 0) {\n            *(q + m) = 1; // 首次出现\n            p = p->link; // 保留\n        } else {\n            r = p->link; // 重复出现\n            p->link = r->link; // 删除\n            free(r);\n        }\n    }\n    free(q);\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）时间复杂度和空间复杂度："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "初始化标记数组需 O(n)，扫描链表需 O(m)，总时间复杂度为 O(m+n)；辅助空间复杂度为 O(n)。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）邻接矩阵 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " A "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "group",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "A = "
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "group",
+                      "children": [
+                        {
+                          "kind": "matrix",
+                          "rows": [
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ]
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "A^{2}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "group",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "A"
+                        },
+                        {
+                          "kind": "sup",
+                          "children": [
+                            {
+                              "kind": "text",
+                              "value": "2"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "text",
+                          "value": " = "
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "group",
+                      "children": [
+                        {
+                          "kind": "matrix",
+                          "rows": [
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "2"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "2"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "2"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "2"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "2"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "0"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ]
+                            ],
+                            [
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "2"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "2"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "1"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "text",
+                                  "value": "3"
+                                }
+                              ]
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "math",
+                      "value": "A^{2}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 中位于 0 行 3 列的元素值 3 表示从顶点 0 到顶点 3 之间长度为 2 的走法共有 3 条（允许重复顶点或边）。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）"
+                    },
+                    {
+                      "kind": "math",
+                      "value": " B^{m}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "（"
+                    },
+                    {
+                      "kind": "math",
+                      "value": " 2 \\le  m \\le  n "
+                    },
+                    {
+                      "kind": "text",
+                      "value": "）中非零元素的含义是：从顶点 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " i "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 到顶点 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " j "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 长度为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": " m "
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的走法条数（允许重复顶点或边）。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）程序员可见寄存器：通用寄存器R0～R3和PC。设置暂存器T的原因：用于暂时存放端口A的数据，以确保单总线结构下ALU的A、B端口能获得两个不同数据。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）ALUop至少需要3位；SRop至少需要2位。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）SRout控制的部件是一个三态门，用于控制移位器与总线之间数据通路的连接与断开。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）端口1、2、3、5、8须连接到控制部件输出端。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（5）连线1连接⑥和⑨；连线2连接⑦和④。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（6）每条指令16位，按字节编址，顺序执行时下条指令地址为(PC)+2。MUX输入端为2，便于执行(PC)+2操作。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(1) 该机指令系统最多可定义 128 条指令。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(2) 机器代码："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "inc R1: 0240H"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "shl R2,R1: 0488H"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "sub R3, (R1),R2: 06EAH"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(3) 控制信号："
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "① 0"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "② mov"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "③ mova"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "④ left"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "⑤ read"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "⑥ sub"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "⑦ mov"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "⑧ SRout"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "(4) 指令“sub R1, R3, (R2)”的执行阶段至少需要 4 个时钟周期；指令“inc R1”的执行阶段至少需要 2 个时钟周期。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）信号量定义及初值："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "code",
+                    "value": "semaphore Full_A = x;",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "  // A信箱中的邮件数"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "semaphore Empty_A = M - x;",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "  // A信箱中的空位数"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "semaphore Full_B = y;",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "  // B信箱中的邮件数"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "semaphore Empty_B = N - y;",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "  // B信箱中的空位数"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "semaphore mutex_A = 1;",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "  // 用于A信箱的互斥访问"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "semaphore mutex_B = 1;",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "  // 用于B信箱的互斥访问"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）A的同步过程："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "A {\n    while (TRUE) {\n        P(Full_A);        // 等待A信箱有邮件\n        P(mutex_A);       // 进入A信箱临界区\n        从A的信箱中取出一个邮件；\n        V(mutex_A);       // 离开A信箱临界区\n        V(Empty_A);       // A信箱空位加1\n        回答问题并提出一个新问题；\n        P(Empty_B);       // 等待B信箱有空位\n        P(mutex_B);       // 进入B信箱临界区\n        将新邮件放入B的信箱；\n        V(mutex_B);       // 离开B信箱临界区\n        V(Full_B);        // B信箱邮件数加1\n    }\n}",
+              "block": true,
+              "lang": "text"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）B的同步过程："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "B {\n    while (TRUE) {\n        P(Full_B);        // 等待B信箱有邮件\n        P(mutex_B);       // 进入B信箱临界区\n        从B的信箱中取出一个邮件；\n        V(mutex_B);       // 离开B信箱临界区\n        V(Empty_B);       // B信箱空位加1\n        回答问题并提出一个新问题；\n        P(Empty_A);       // 等待A信箱有空位\n        P(mutex_A);       // 进入A信箱临界区\n        将新邮件放入A的信箱；\n        V(mutex_A);       // 离开A信箱临界区\n        V(Full_A);        // A信箱邮件数加1\n    }\n}",
+              "block": true,
+              "lang": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "heading",
+              "children": [
+                {
+                  "kind": "text",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）页和页框的大小均为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "2^{12}=4096"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 字节（4KB）。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "进程的虚拟地址空间包含 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "2^{20}=1\\,048\\,576"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 页。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）页目录占 1 页，页表占 1024 页，共 1025 页。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "计算过程："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "页目录条目数："
+                  },
+                  {
+                    "kind": "math",
+                    "value": "2^{10}"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，每项 4 字节，大小 "
+                  },
+                  {
+                    "kind": "math",
+                    "value": "2^{10} \\times  4 = 4"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "KB，占 1 页。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "页表条目数："
+                  },
+                  {
+                    "kind": "math",
+                    "value": "2^{20}"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，每项 4 字节，大小 "
+                  },
+                  {
+                    "kind": "math",
+                    "value": "2^{20} \\times  4 = 4"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "MB，占 "
+                  },
+                  {
+                    "kind": "math",
+                    "value": "4MB / 4KB = 1024"
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 页。  "
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "总计："
+                  },
+                  {
+                    "kind": "math",
+                    "value": "1 + 1024 = 1025"
+                  },
+                  {
+                    "kind": "text",
+                    "value": " 页。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "3）共访问 1 个二级页表。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "text",
+                      "value": "理由：两个虚拟地址的页目录号（高 10 位）均为 4，指向同一个页目录项，因此对应同一个二级页表。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "1）DHCP服务器可为主机2～主机N动态分配IP地址的最大范围是111.123.15.5～111.123.15.254；主机2发送的DHCP Discover报文的源IP地址是0.0.0.0，目的IP地址是255.255.255.255。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "2）主机2访问Internet时，发出的第一个以太网帧的目的MAC地址是FF-FF-FF-FF-FF-FF；封装主机2发往Internet的IP分组的以太网帧的目的MAC地址是00-a1-a1-a1-a1-a1（图中标注的路由器内网接口MAC地址）。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "3）主机1能访问WWW服务器，但不能访问Internet。因为默认网关配置错误（配置为111.123.15.2，正确应为111.123.15.1），所以可以访问同一子网内的服务器，但访问Internet时IP分组会被错误路由。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

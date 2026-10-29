@@ -1,0 +1,1133 @@
+{
+  "year": "2021",
+  "source_url": "https://zhenti.beokayy.club/paper/2021",
+  "source_sha256": "f85704b11dd8d00ba3bb10bff23d793c3486b03019aaffcc1637c8ba48363948",
+  "paper_sha256": "abef23658db96476072bd36def787c095afd6179c4c922c3d792558bd0bb4e8e",
+  "choice_explanations": "answers/choices/2021.md",
+  "answers": [
+    {
+      "number": 1,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 2,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 3,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 4,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 5,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 6,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 7,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 8,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 9,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 10,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 11,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 12,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 13,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 14,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 15,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 16,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 17,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 18,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 19,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 20,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 21,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 22,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 23,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 24,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 25,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 26,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 27,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 28,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 29,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 30,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 31,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 32,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 33,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 34,
+      "choice": "A",
+      "nodes": []
+    },
+    {
+      "number": 35,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 36,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 37,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 38,
+      "choice": "B",
+      "nodes": []
+    },
+    {
+      "number": 39,
+      "choice": "D",
+      "nodes": []
+    },
+    {
+      "number": 40,
+      "choice": "C",
+      "nodes": []
+    },
+    {
+      "number": 41,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）基本设计思想：题设无向图连通，统计其中度数为奇数的顶点个数。若该个数为0或2，则存在包含所有边且长度为|E|的路径（即欧拉路径），返回1；否则返回0。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）算法描述（C/C++语言）："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "int IsExistEL(MGraph G) {\n    int degree, i, j, count = 0;\n    for (i = 0; i < G.numVertices; i++) {\n        degree = 0; // 初始化记录度的变量\n        for (j = 0; j < G.numVertices; j++) {\n            degree = degree + G.Edge[i][j]; // 记录各点的度\n        }\n        if (degree % 2 != 0)\n            count++; // 度为奇数的顶点计数\n    }\n    if (count == 0 || count == 2) // 度为奇数的点数量是0或2\n        return 1;\n    else\n        return 0;\n}",
+              "block": true,
+              "lang": "c"
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）时间复杂度：O(n²)，其中n为顶点数（numVertices）。空间复杂度：O(1)，仅使用常数额外空间。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1）"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 调用 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "cmpCountSort(a, b, 6)",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 后，数组 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "b",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的内容为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "{-10, 10, 11, 19, 25, 25}",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2）"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 算法执行过程中，元素之间的比较次数为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "n(n-1)/2",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "3）"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 该算法"
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "不是稳定的"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "理由"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：原数组中相同的元素（如两个 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "25",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "）在排序后相对顺序发生了改变（第一个 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "25",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 出现在第二个 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "25",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 之后）。"
+                    }
+                  ]
+                },
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "br",
+                      "children": []
+                    },
+                    {
+                      "kind": "strong",
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "修改为稳定排序算法的方法"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "text",
+                      "value": "：在比较 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "a[i]",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "a[j]",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 时，当两者相等时，应根据下标 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "i",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "j",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的大小来决定增加 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "count[i]",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 还是 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "count[j]",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。例如，可修改比较逻辑为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "value": "if (a[i] < a[j] || (a[i] == a[j] && i < j))\n    count[j]++;\nelse\n    count[i]++;",
+              "block": true,
+              "lang": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）ALU 宽度为 16 位；可寻址主存空间为 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "2^{20}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " B，即 1 MB；IR 为 16 位，MAR 为 20 位，MDR 为 8 位。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）R 型格式最多定义 16 种操作；I 型和 J 型格式总共最多定义 63 种操作；通用寄存器最多 4 个。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "code",
+                    "value": "01B2H",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "R[3] ← R[1] - R[2]",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，执行后 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "R[3]=B04AH",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，不溢出；"
+                  }
+                ],
+                [
+                  {
+                    "kind": "code",
+                    "value": "01B3H",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "："
+                  },
+                  {
+                    "kind": "code",
+                    "value": "R[3] ← R[1] × R[2]",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，执行后 "
+                  },
+                  {
+                    "kind": "code",
+                    "value": "R[3]=8290H",
+                    "block": false,
+                    "lang": "text"
+                  },
+                  {
+                    "kind": "text",
+                    "value": "，溢出。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（4）对 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "imm",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 进行符号扩展。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（5）采用 J 型格式。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "markdown",
+          "value": "**（1）虚拟地址划分**"
+        },
+        {
+          "kind": "markdown",
+          "value": "页大小4 KB，页内偏移12位。30位虚拟地址中，A₂₉～A₁₂为18位虚页号，A₁₁～A₀为页内偏移。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（2）TLB组号与标记**"
+        },
+        {
+          "kind": "markdown",
+          "value": "TLB有8组，需3位组号，取虚页号低3位，即A₁₄～A₁₂；标记取其余15位，即A₂₉～A₁₅。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（3）被替换的表项**"
+        },
+        {
+          "kind": "markdown",
+          "value": "虚页号4、12、20均映射到第4组。访问20时，组内已有4和12，且4为最近最久未使用者，因此替换虚页号4对应的表项。"
+        },
+        {
+          "kind": "markdown",
+          "value": "**（4）地址扩至32位**"
+        },
+        {
+          "kind": "markdown",
+          "value": "页大小及TLB组数不变，虚页号增至20位，标记增至17位；物理页号等字段不变，每个表项增加2位。"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）"
+                    },
+                    {
+                      "kind": "code",
+                      "value": "wait()",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 和 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "signal()",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 对共享信号量 S 的读、改、写必须作为原子操作执行，否则并发访问会造成 S 的值错误。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）方法 1 错误，方法 2 正确。方法 1 在 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "wait()",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的忙等期间始终关闭中断，当 "
+                    },
+                    {
+                      "kind": "math",
+                      "value": "S\\le  0"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 时，能够执行 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "signal()",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 的进程得不到运行机会，可能陷入死循环；方法 2 在等待期间重新开中断，并在修改 S 前再次关中断。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）不能。开/关中断指令是特权指令，只能在内核态执行。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "执行顺序"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：ROM中的引导程序 → 磁盘引导程序 → 分区引导程序 → 操作系统的初始化程序。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "操作顺序"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "：磁盘的物理格式化 → 对磁盘进行分区 → 逻辑格式化 → 操作系统的安装。"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                [
+                  {
+                    "kind": "strong",
+                    "children": [
+                      {
+                        "kind": "text",
+                        "value": "完成操作"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "text",
+                    "value": "："
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "kind": "text",
+                    "value": "磁盘扇区的划分在“磁盘的物理格式化”中完成。"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "value": "文件系统根目录的建立在“逻辑格式化”中完成。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "choice": null,
+      "nodes": [
+        {
+          "kind": "group",
+          "children": [
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（1）DNS 协议。封装顺序为：DNS 报文 → UDP 数据报 → IP 数据报 → 以太网帧。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（2）"
+                    },
+                    {
+                      "kind": "math",
+                      "value": "t_{1}"
+                    },
+                    {
+                      "kind": "text",
+                      "value": " 时刻 S 的交换表为："
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "group",
+              "children": [
+                {
+                  "kind": "table",
+                  "columns": 2,
+                  "cells": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "MAC 地址"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": true,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "端口"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "00-11-22-33-44-CC",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 1,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "00-11-22-33-44-BB",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 2,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 0,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "code",
+                          "value": "00-11-22-33-44-AA",
+                          "block": false,
+                          "lang": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "x": 1,
+                      "y": 3,
+                      "colspan": 1,
+                      "rowspan": 1,
+                      "header": false,
+                      "children": [
+                        {
+                          "kind": "text",
+                          "value": "2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "p",
+              "children": [
+                {
+                  "kind": "group",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "value": "（3）H2 至少接收到 2 个与此次访问相关的帧，均为 ARP 查询广播帧，目的 MAC 地址均为 "
+                    },
+                    {
+                      "kind": "code",
+                      "value": "FF-FF-FF-FF-FF-FF",
+                      "block": false,
+                      "lang": "text"
+                    },
+                    {
+                      "kind": "text",
+                      "value": "。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

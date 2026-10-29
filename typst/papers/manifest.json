@@ -1,97 +1,256 @@
 {
   "2009": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2009.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2010": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2010.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2011": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2011.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2012": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "essay_scores": [
+      10,
+      13,
+      11,
+      12,
+      7,
+      8,
+      9
+    ],
+    "reviewed_on": "2026-10-29",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2012-paper",
+      "scan-2012-answer",
+      "pgcode-2012"
+    ],
+    "answers": "answers/2012.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2013": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2013.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2014": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "essay_scores": [
+      13,
+      10,
+      9,
+      12,
+      11,
+      7,
+      8
+    ],
+    "reviewed_on": "2026-10-29",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2014-paper",
+      "scan-2014-answer",
+      "pgcode-2014"
+    ],
+    "answers": "answers/2014.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2015": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2015.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2016": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "essay_scores": [
+      9,
+      8,
+      15,
+      9,
+      14,
+      6,
+      9
+    ],
+    "reviewed_on": "2026-10-29",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2016-paper",
+      "scan-2016-answer",
+      "pgcode-2016"
+    ],
+    "answers": "answers/2016.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2017": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2017.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2018": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2018.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2019": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2019.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2020": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2020.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2021": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2021.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2022": {
-    "edition": "重排练习版",
-    "note": "依据所提供的试卷扫描与 OCR 资料整理，尚未经逐字校定。",
-    "incomplete_questions": []
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "answers": "answers/2022.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "reviewed_on": "2026-10-29",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2023": {
-    "edition": "回忆资料·待补全",
-    "note": "依据现有回忆资料重排，部分选项或图示缺失，不适合计分模拟。",
-    "incomplete_questions": [
-      18,
-      19,
-      32,
-      43,
-      44,
-      47
-    ]
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "essay_scores": [
+      13,
+      10,
+      14,
+      9,
+      7,
+      8,
+      9
+    ],
+    "reviewed_on": "2026-10-29",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2023-paper",
+      "scan-2023-answer"
+    ],
+    "answers": "answers/2023.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
   },
   "2024": {
-    "edition": "回忆资料·待补全",
-    "note": "依据现有回忆资料重排，部分选项或图示缺失，不适合计分模拟。",
-    "incomplete_questions": [
-      3,
-      19,
-      21,
-      22,
-      23,
-      39,
-      47
-    ]
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "essay_scores": [
+      13,
+      10,
+      13,
+      10,
+      7,
+      8,
+      9
+    ],
+    "reviewed_on": "2026-10-29",
+    "correction_log": "corrections-2026-10-15.json",
+    "sources": [
+      "scan-2024-paper",
+      "scan-2024-answer"
+    ],
+    "answers": "answers/2024.json",
+    "answer_format": "typst-native",
+    "answer_review": "answer-integration-2026-10-29.json",
+    "answer_typesetting_review": "../answers/typesetting-review.json"
+  },
+  "2025": {
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "essay_scores": [
+      13,
+      10,
+      12,
+      11,
+      7,
+      8,
+      9
+    ],
+    "answers": true,
+    "reviewed_on": "2026-10-29"
+  },
+  "2026": {
+    "edition": "历年真题",
+    "incomplete_questions": [],
+    "essay_scores": [
+      13,
+      10,
+      10,
+      13,
+      7,
+      8,
+      9
+    ],
+    "answers": true,
+    "reviewed_on": "2026-10-29",
+    "figure_widths": {
+      "assets/2026/3932c47621b206b2a388.svg": 132,
+      "assets/2026/41c86696d2623b31b922.svg": 146,
+      "assets/2026/5a918c080d933c08095f.svg": 146,
+      "assets/2026/85a45a7d85cc45e8e818.svg": 145,
+      "assets/2026/e34da35a03b0233d9f63.svg": 95
+    }
   }
 }

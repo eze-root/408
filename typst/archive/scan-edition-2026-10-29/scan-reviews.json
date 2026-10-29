@@ -1,0 +1,226 @@
+{
+  "2009": {
+    "choice_key": "BCDBCBADABCDDCDCAADBDADDCACBAABABBCADDCA",
+    "key_reference": "https://zhenti.beokayy.club/paper/2009",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 7,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2010": {
+    "choice_key": "DCDCBACBBDADBBDADBADADACBADBBCCBCCDCBDAA",
+    "key_reference": "https://zhenti.beokayy.club/paper/2010",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 8,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2011": {
+    "choice_key": "ABBCCDACDABDABDACDCCDCBADBDDACBCABBDDCCB",
+    "key_reference": "https://zhenti.beokayy.club/paper/2011",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 7,
+    "notes": [
+      "第21题区分中断响应与处理优先级；L1屏蔽自身和L3，屏蔽字为01010，选D。",
+      "第41题数组含15项，∞表示没有直接边；关键路径为0→1→2→3→5，长度为16。"
+    ],
+    "patches": [],
+    "supplements": []
+  },
+  "2012": {
+    "choice_key": "BAABCCCADADDBDDACCCDDBCBBADABCABBCABCADD",
+    "key_reference": "https://zhenti.beokayy.club/paper/2012",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 8,
+    "notes": [
+      "第14题最大正数为2^128−2^104，选D。第43、44题分值分别为11、12分。",
+      "第47题已补齐确认号差值和TTL计算，完整解答见本册末页。"
+    ],
+    "patches": [
+      {
+        "page": 11,
+        "rect": [
+          50,
+          573,
+          565,
+          815
+        ],
+        "text": ""
+      }
+    ],
+    "supplements": [
+      "answers/corrections/2012-47.md"
+    ]
+  },
+  "2013": {
+    "choice_key": "DCDBACCDCACCAACADCBBBDAACACBDBBBBADBABBA",
+    "key_reference": "https://zhenti.beokayy.club/paper/2013",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 6,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2014": {
+    "choice_key": "CBADCDDDDBCDCAADACCCDBABDAACBACDCBDCBABD",
+    "key_reference": "https://zhenti.beokayy.club/paper/2014",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 7,
+    "notes": [
+      "第45、46、47题分值分别为11、7、8分。"
+    ],
+    "patches": [],
+    "supplements": []
+  },
+  "2015": {
+    "choice_key": "ABDDDCACCCAABDCBBDCBBDBCDBAABCCCDABBACAC",
+    "key_reference": "https://zhenti.beokayy.club/paper/2015",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 6,
+    "notes": [
+      "第38题按最长前缀匹配选择/27接口E3，选C。",
+      "第41题代码的类型定义使用小写关键字typedef。"
+    ],
+    "patches": [
+      {
+        "page": 6,
+        "rect": [
+          104,
+          349,
+          258,
+          365
+        ],
+        "text": "typedef NODE *PNODE;",
+        "font_size": 11.5,
+        "code": true
+      }
+    ],
+    "supplements": []
+  },
+  "2016": {
+    "choice_key": "DDCBCDBBBADCDACCCBBAAAABCABDACDACCDBBDCC",
+    "key_reference": "https://zhenti.beokayy.club/paper/2016",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 8,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2017": {
+    "choice_key": "BCABBDBABBDCCADACBADDBDCBDBDBDBBADBADCAC",
+    "key_reference": "https://zhenti.beokayy.club/paper/2017",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 6,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2018": {
+    "choice_key": "BCAAACDBCDADCAABCBADBCCDBACDDADCBCDDDCBD",
+    "key_reference": "https://zhenti.beokayy.club/paper/2018",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 6,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2019": {
+    "choice_key": "BBCACADCBDBCADDDBCBCADBCCBCBCBACCABBBCDB",
+    "key_reference": "https://zhenti.beokayy.club/paper/2019",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 9,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2020": {
+    "choice_key": "CDACBBABCBABADDABACCBCBADDBDBDBCCBCDADCD",
+    "key_reference": "https://zhenti.beokayy.club/paper/2020",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 8,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2021": {
+    "choice_key": "DDBCBDACACBDDACADCCABABBCCDCBACCBABBDBDC",
+    "key_reference": "https://zhenti.beokayy.club/paper/2021",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 8,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2022": {
+    "choice_key": "BDBCDDBDDADABACACBDACCDACBCDADBABCBDBCDB",
+    "key_reference": "https://zhenti.beokayy.club/paper/2022",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 6,
+    "notes": [],
+    "patches": [],
+    "supplements": []
+  },
+  "2023": {
+    "choice_key": "DCABABBBCCDCAACBABCDDCDACDCDBCBDDCBCDABD",
+    "key_reference": "https://zhenti.beokayy.club/paper/2023",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 8,
+    "notes": [
+      "第2、6题选项已按原题恢复，答案分别为C、B。",
+      "第41题按邻接矩阵的行统计出度、列统计入度；成员名统一为VerticesList。"
+    ],
+    "patches": [
+      {
+        "page": 8,
+        "rect": [
+          48,
+          180,
+          550,
+          646
+        ],
+        "markdown": "answers/corrections/2023-41.md",
+        "font_size": 11
+      }
+    ],
+    "supplements": []
+  },
+  "2024": {
+    "choice_key": "DAABDADABCDBBCDDCBCBACAADAABACCCBCDBDDCD",
+    "key_reference": "https://zhenti.beokayy.club/paper/2024",
+    "reviewed_on": "2026-10-29",
+    "essay_start_page": 11,
+    "notes": [
+      "第4题顶点b、d的度分别为2、4，选B。第41题计数变量统一为count。",
+      "第45题地址运算补全移位括号，先计算页号×4，再加页表起始地址。"
+    ],
+    "patches": [
+      {
+        "page": 12,
+        "rect": [
+          111,
+          450,
+          174,
+          467
+        ],
+        "text": "count++;",
+        "font_size": 12,
+        "code": true,
+        "fill": "e9e9e9"
+      },
+      {
+        "page": 14,
+        "rect": [
+          50,
+          52,
+          560,
+          236
+        ],
+        "markdown": "answers/corrections/2024-45.md",
+        "font_size": 11
+      }
+    ],
+    "supplements": []
+  }
+}

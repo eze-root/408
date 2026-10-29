@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+"""Import the reviewed local answer-page images; never downloads or invokes OCR."""
+import hashlib
+import json
+from pathlib import Path
+import pymupdf
+
+ROOT = Path(__file__).resolve().parents[1]
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+def main():
+    source = ROOT / 'resources/xit'
+    records = json.loads((source / 'manifest.json').read_text())['files']
+    reviews = json.loads((ROOT / 'typst/answers/scan-reviews.json').read_text())
+    years = {}
+    for year, review in reviews.items():
+        record = next(r for r in records if str(r['year']) == year and r['kind'] == 'answers')
+        raw = (source / record['file']).read_bytes()
+        if digest(raw) != record['sha256']:
+            raise ValueError(f'{year}: source PDF checksum mismatch')
+        pages = []
+        with pymupdf.open(stream=raw, filetype='pdf') as doc:
+            for i, page in enumerate(doc):
+                images = page.get_images(full=True)
+                if len(images) != 1 or page.rotation:
+                    raise ValueError(f'{year} page {i+1}: inspect the changed page composition')
+                xref = images[0][0]
+                if not page.rect.contains(page.get_image_rects(xref)[0]):
+                    raise ValueError(f'{year} page {i+1}: image does not cover the source page')
+                image = doc.extract_image(xref)
+                if image['ext'] != 'jpeg':
+                    raise ValueError(f'{year} page {i+1}: expected original JPEG')
+                target = ROOT / f'typst/assets/answer-scans/{year}/{i+1:02}.jpg'
+                target.parent.mkdir(parents=True, exist_ok=True)
+                if target.exists() and target.read_bytes() != image['image']:
+                    raise ValueError(f'Refusing to overwrite edited source image: {target}')
+                target.write_bytes(image['image'])
+                pages.append({'source_page':i+1, 'path':target.relative_to(ROOT / 'typst').as_posix(),
+                              'sha256':digest(image['image']), 'width':page.rect.width,
+                              'height':page.rect.height, 'image_rect':list(page.get_image_rects(xref)[0]), 'pixels':[image['width'],image['height']]})
+        years[year] = {**review, 'source_url':record['url'], 'source_sha256':record['sha256'],
+                       'paper_sha256':digest((ROOT / f'typst/papers/{year}.md').read_bytes()),
+                       'pages':pages}
+    target = ROOT / 'typst/answers/scans.json'
+    target.write_text(json.dumps({'schema_version':1,'years':years}, ensure_ascii=False, indent=2)+'\n')
+    print(f'Imported {len(years)} years, {sum(len(y["pages"]) for y in years.values())} original page images')
+
+if __name__ == '__main__':
+    main()

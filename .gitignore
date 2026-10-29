@@ -15,6 +15,8 @@ source/_static/css/site.css
 # Generated downloads
 source/_static/pdfs/
 source/_static/files/papers/*.pdf
+source/_static/files/papers/*.zip
+/output/pdf/
 
 # Local configuration and editor files
 .env

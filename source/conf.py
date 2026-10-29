@@ -21,7 +21,8 @@ autosectionlabel_prefix_document = True
 source_suffix = {".md": "markdown"}
 root_doc = "index"
 language = "zh_CN"
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+# Download roles copy these attachments to _downloads; avoid a second static copy.
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "files/papers"]
 
 myst_enable_extensions = [
     "amsmath",

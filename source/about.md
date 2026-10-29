@@ -1,6 +1,6 @@
 ---
 title: "关于项目"
-date: 2026-09-23
+date: 2026-10-15
 author: "eze-root"
 tags: [408, 计算机考研, 关于]
 ---
@@ -10,7 +10,7 @@ tags: [408, 计算机考研, 关于]
 ```{article-info}
 :avatar-outline: muted
 :author: eze-root updated on
-:date: 2026-09-23
+:date: 2026-10-15
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```
 
@@ -25,10 +25,10 @@ tags: [408, 计算机考研, 关于]
 
 - {doc}`四科复习提纲 </lectures/index>`：各科主要章节和练习重点；
 - {doc}`专项训练 </labs/index>`：选择题、计算题和算法题的练习方法；
-- {doc}`历年真题 </assignments/index>`：2009—2024 年试题册与答题纸；
-- {doc}`真题复盘模板 </assignments/review-template>`：记录得分、用时和错题原因。
+- {doc}`历年真题 </assignments/index>`：2009—2026 年试题册与答题纸；
+- {doc}`作答与订正记录 </assignments/review-template>`：记录答案来源、用时和错题。
 
-试卷经过重新排版，尚未逐字校对。2023、2024 年资料有缺项，下载页面列出了已知问题。
+真题库覆盖 2009—2026 年，每年均配有试题册、答案与解析、答题纸。题目修订见 {doc}`/assignments/paper-review`。站内有 2025 年考纲转录稿；2027 年版本及四科内容对照见 {doc}`考纲核对记录 </resources/syllabus-review-2027>`。
 
 ## 报考前确认考试科目
 
@@ -44,14 +44,6 @@ tags: [408, 计算机考研, 关于]
 
 这则公告仅适用于上述院校、专业和年份。
 
-## 资料来源与使用
+## 资料维护
 
-本站是非官方学习资料站，与文中院校没有隶属或授权关系。资料来自扫描件、回忆资料和公开网页，可能存在识别、抄录或整理错误。考试政策以主管部门和院校发布的正式文件为准。
-
-学习、打印或转载资料前，请确认相应的使用权限。发现来源、内容或版权方面的问题，可以在 [GitHub Issues](https://github.com/eze-root/408/issues) 中反馈。
-
-## 补充资料与勘误
-
-提交真题勘误时，请写明年份、题号、错误位置和建议改法，并附上可核对的来源。补充考纲、招生通知或笔记时，请注明来源链接、发布日期及适用年份。
-
-提交前请确认资料可以公开使用，并移除姓名、联系方式等个人信息。
+试题修订记录保存在 {doc}`/assignments/paper-review`。反馈题目问题时，请在 [GitHub Issues](https://github.com/eze-root/408/issues) 中注明年份、题号和具体差异。

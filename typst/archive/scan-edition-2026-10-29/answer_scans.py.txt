@@ -1,0 +1,46 @@
+"""Validate portable scan assets and package annual study materials."""
+import hashlib
+import json
+import re
+import zipfile
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def load_scans(year, paper_path):
+    scans = json.loads((ROOT / 'typst/answers/scans.json').read_text())['years'].get(year)
+    if scans is None:
+        return None
+    if hashlib.sha256(paper_path.read_bytes()).hexdigest() != scans['paper_sha256']:
+        raise ValueError(f'{year}: questions changed after answer pairing; review and update the pairing checksum')
+    if not re.fullmatch('[ABCD]{40}', scans['choice_key']):
+        raise ValueError(f'{year}: expected forty answer letters')
+    if [p['source_page'] for p in scans['pages']] != list(range(1, len(scans['pages']) + 1)):
+        raise ValueError(f'{year}: missing or duplicated answer scan page')
+    for page in scans['pages']:
+        asset = (ROOT / 'typst' / page['path']).resolve()
+        if not asset.is_relative_to(ROOT / 'typst/assets/answer-scans'):
+            raise ValueError(f'{year}: nonportable answer image path')
+        if hashlib.sha256(asset.read_bytes()).hexdigest() != page['sha256']:
+            raise ValueError(f'{year}: changed answer image {asset.name}')
+    for patch in scans['patches']:
+        page = scans['pages'][patch['page']-1]
+        x0,y0,x1,y1 = patch['rect']
+        if not (0 <= x0 < x1 <= page['width'] and 0 <= y0 < y1 <= page['height']):
+            raise ValueError(f'{year}: correction falls outside the source page')
+    for name in scans['supplements'] + [p['markdown'] for p in scans['patches'] if 'markdown' in p]:
+        path = (ROOT / 'typst' / name).resolve()
+        if not path.is_relative_to(ROOT / 'typst/answers/corrections') or not path.is_file():
+            raise ValueError(f'{year}: missing or nonportable correction {name}')
+    return scans
+
+
+def package_downloads(folder, years):
+    target = folder / '408-2009-2026-papers-and-answers.zip'
+    with zipfile.ZipFile(target, 'w', compression=zipfile.ZIP_DEFLATED) as archive:
+        for year in years:
+            for kind in ('paper', 'answers', 'answer-sheet'):
+                path = folder / f'{year}-408-{kind}.pdf'
+                archive.write(path, f'{year}/{path.name}')
+    return target

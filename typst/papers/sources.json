@@ -1,0 +1,644 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": {
+    "noob-2014": {
+      "url": "https://www.noobdream.com/media/upload/2019/11/15/2014408.pdf",
+      "resolved_url": "https://noobdream.com/media/upload/2019/11/15/2014408.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 1061463,
+      "sha256": "7b0bf60471b9829c651b34f3dd5e4f6fe7869ea97e2b8a54102dab056cd9d35b",
+      "local_file": "resources/核对/2026-10-15/noob-2014.pdf",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "noob-2024": {
+      "url": "https://noobdream.com/Practice/exam_solution/40548/",
+      "resolved_url": "https://noobdream.com/Practice/exam_solution/40548/",
+      "accessed": "2026-10-15",
+      "bytes": 451871,
+      "sha256": "c213ce0a6c0513ec3156dc079bc722152519ce62acecb9cb8d8330fb170e7837",
+      "local_file": "resources/核对/2026-10-15/noob-2024.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "juying-2024": {
+      "url": "https://www.juyingonline.com/news/354468.html",
+      "resolved_url": "https://www.juyingonline.com/news/354468.html",
+      "accessed": "2026-10-15",
+      "bytes": 31667,
+      "sha256": "931d20fd4e3f22cb9c009e5d716e8688839c9294bd9ffc38a9bcc6bf7235d43c",
+      "local_file": "resources/核对/2026-10-15/juying-2024.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "juying-2027": {
+      "url": "https://m.juyingonline.com/news/358443.html",
+      "resolved_url": "https://m.juyingonline.com/news/358443.html",
+      "accessed": "2026-10-15",
+      "bytes": 22402,
+      "sha256": "da9c8fa5bf64d3dbb32ae2def6cc435033ec2211dde67ce1638ef43b1ca2f6bc",
+      "local_file": "resources/核对/2026-10-15/juying-2027.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "qihang-2027": {
+      "url": "https://m-jixun.iqihang.com/index.php?a=show&c=index&catid=1786&id=805971&m=content",
+      "resolved_url": "https://m-jixun.iqihang.com/index.php?a=show&c=index&catid=1786&id=805971&m=content",
+      "accessed": "2026-10-15",
+      "bytes": 108511,
+      "sha256": "1bc124483090ca48d740f4bb04ea7075d19f15e747ebce782743bb0365d03d8d",
+      "local_file": "resources/核对/2026-10-15/qihang-2027.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "juying-2023": {
+      "url": "https://m.juyingonline.com/news/349731.html",
+      "resolved_url": "https://m.juyingonline.com/news/349731.html",
+      "accessed": "2026-10-15",
+      "bytes": 20329,
+      "sha256": "99fa070458a8f1e43e21f7336b75e2b4ed82d00f700aa40528bb5270d601d5de",
+      "local_file": "resources/核对/2026-10-15/juying-2023.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "juying-2024-mobile": {
+      "url": "https://m.juyingonline.com/upload/202312/25/202312251637566285.pdf",
+      "resolved_url": "https://m.juyingonline.com/upload/202312/25/202312251637566285.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 413550,
+      "sha256": "6a432a621d0d57ac3959d73a3b020432586b3cca10a72624076b85607ebafe50",
+      "local_file": "resources/核对/2026-10-15/juying-2024-mobile.pdf",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "scan-2012-paper": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2012%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2012%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 4665643,
+      "sha256": "dfb23fc8d469bc65f8092fb7098090cf668964f43ba438a7ecd5fa04e31b89d0",
+      "local_file": "resources/核对/2026-10-15/scan-2012-paper.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2012-answer": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2012%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2012%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 7156808,
+      "sha256": "00c2dcb0c368146c7e40f5df2e2e1de47dab2939b59ae8ab24c173fba1aa8bba",
+      "local_file": "resources/核对/2026-10-15/scan-2012-answer.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2014-paper": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2014%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2014%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 4034020,
+      "sha256": "93b466b982be74c7b025301e784f46358164fb10d13d1d7a8958edc58bc4a155",
+      "local_file": "resources/核对/2026-10-15/scan-2014-paper.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2014-answer": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2014%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2014%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 8639012,
+      "sha256": "d835bc73647eac05b55d8ba136da2e8355a1b70acde1fa5890bb673048fea5cc",
+      "local_file": "resources/核对/2026-10-15/scan-2014-answer.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2016-paper": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2016%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2016%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 4176539,
+      "sha256": "67d722ec87e449c4c3949f7965bb325a63c085d1d186561f6b71058a8d9a559b",
+      "local_file": "resources/核对/2026-10-15/scan-2016-paper.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2016-answer": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2016%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2016%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 7650724,
+      "sha256": "1dafb5000e9b36ed4f9e3f5131011c04acddd89859d45b2093819bb14ca217ab",
+      "local_file": "resources/核对/2026-10-15/scan-2016-answer.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2023-paper": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2023%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2023%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 5176912,
+      "sha256": "e168bc9aa4663316ec3c5dd7051a060e08c4f708ff7ef0c555c41ff34f8a7433",
+      "local_file": "resources/核对/2026-10-15/scan-2023-paper.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2023-answer": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2023%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2023%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 8903017,
+      "sha256": "cc99d1005e1a330f558912b710eeded2698b04ef978302cf7baf70e3e389f493",
+      "local_file": "resources/核对/2026-10-15/scan-2023-answer.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2024-paper": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2024%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2024%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 5568489,
+      "sha256": "2ac71c0b344b62bfe5735af5aa1804abc5e494cd58efefc4234b4af947693548",
+      "local_file": "resources/核对/2026-10-15/scan-2024-paper.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "scan-2024-answer": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2024%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/SyHang-hash/408-----/f446c4d46e5992ff677a8118eaaeb2e4409df9d4/%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98pdf/2024%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+      "accessed": "2026-10-15",
+      "bytes": 6628856,
+      "sha256": "7ed01e612ee53eb3d99d22c3d2a54470462e381a24ce6a1e57bbf083820700a9",
+      "local_file": "resources/核对/2026-10-15/scan-2024-answer.pdf",
+      "kind": "公开转载试卷/参考解析，非官方发布"
+    },
+    "outline-2027-beokayy": {
+      "url": "https://zhenti.beokayy.club/outline",
+      "resolved_url": "https://zhenti.beokayy.club/outline",
+      "accessed": "2026-10-15",
+      "bytes": 137801,
+      "sha256": "a3581ca29dafac6d6c4e625c1425dda33a541a7698f69cad05b490318506dd0a",
+      "local_file": "resources/核对/2026-10-15/outline-2027-beokayy.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "pgcode-2012": {
+      "url": "https://pgcode.cn/exams/408/years/2012/preview",
+      "resolved_url": "https://pgcode.cn/exams/408/years/2012/preview",
+      "accessed": "2026-10-15",
+      "bytes": 884843,
+      "sha256": "9340e2d80df6a9dfacfa49352e5c09a8e30d10636980970815dc16ec80c5def7",
+      "local_file": "resources/核对/2026-10-15/pgcode-2012.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "pgcode-2014": {
+      "url": "https://pgcode.cn/exams/408/years/2014/preview",
+      "resolved_url": "https://pgcode.cn/exams/408/years/2014/preview",
+      "accessed": "2026-10-15",
+      "bytes": 963981,
+      "sha256": "4220bb1cb5f76b478f9c331597f2bebcf1fb7cf7a967ad3bdbed49a8e1438eb5",
+      "local_file": "resources/核对/2026-10-15/pgcode-2014.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "pgcode-2016": {
+      "url": "https://pgcode.cn/exams/408/years/2016/preview",
+      "resolved_url": "https://pgcode.cn/exams/408/years/2016/preview",
+      "accessed": "2026-10-15",
+      "bytes": 1159214,
+      "sha256": "8f4a8305c351446c03402de2efde68e294529725a2a70095b2ffa95ea0d734a6",
+      "local_file": "resources/核对/2026-10-15/pgcode-2016.html",
+      "kind": "第三方网页或机构整理资料"
+    },
+    "2025-paper-20261029": {
+      "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2025.pdf",
+      "accessed": "2026-10-29",
+      "bytes": 1053731,
+      "sha256": "28f4fd31bb5ee1a72a839c939b713ef1729271e676d99291df0df26f8ef90b37",
+      "local_file": "resources/核对/2026-10-29/2025-paper.pdf",
+      "kind": "重排试题；题头分值与题面交叉核对"
+    },
+    "2025-answer-20261029": {
+      "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/answers/2025-answer.pdf",
+      "accessed": "2026-10-29",
+      "bytes": 1248632,
+      "sha256": "06bb902c4f7a5421ed4dd616acd4ca6cc52570ff54f75b9d01bf8f2e6fe6e8a4",
+      "local_file": "resources/核对/2026-10-29/2025-answer.pdf",
+      "kind": "考试大纲附录参考答案扫描页，印刷页码85—89"
+    },
+    "2026-scan-20261029": {
+      "url": "https://github.com/user-attachments/files/33049541/2026.408.pdf",
+      "accessed": "2026-10-29",
+      "bytes": 16588933,
+      "sha256": "b2e17e332d1ab6d3923d6f33c0d6337dd14d8f86e46280bd63682ceb434547ac",
+      "local_file": "resources/核对/2026-10-29/2026-scan.pdf",
+      "kind": "2027年考试大纲附录中2026年试题及答案扫描页"
+    },
+    "2012-rebuild-20261029": {
+      "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2012.pdf",
+      "accessed": "2026-10-29",
+      "bytes": 800206,
+      "sha256": "b5e5304be94e547e38b89b374b6a7cb18a377483ed530919a2335b477feef8f2",
+      "local_file": "resources/核对/2026-10-29/2012-rebuild.pdf",
+      "kind": "重排试题，核对43、44题题头分值"
+    },
+    "2014-rebuild-20261029": {
+      "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2014.pdf",
+      "accessed": "2026-10-29",
+      "bytes": 925216,
+      "sha256": "ae9a35cdf1e765cc80e4a14e4c15bc6ba9ceabcde1cb1f65d0c839d7a3f4f3c0",
+      "local_file": "resources/核对/2026-10-29/2014-rebuild.pdf",
+      "kind": "重排试题，核对45—47题题头分值"
+    },
+    "2025-scan-20261029": {
+      "url": "https://raw.githubusercontent.com/SyHang-hash/408-----/main/历年真题pdf/2025年408计算机考研真题.pdf",
+      "accessed": "2026-10-29",
+      "bytes": 4978253,
+      "sha256": "3cc0a8d2871c5767048b8971c4db307f7c0b532b63face59f07fb94171e3dd0a",
+      "local_file": "resources/核对/2026-10-29/2025-scan.pdf",
+      "kind": "考后整理稿；分值及部分程序与重排卷不同"
+    },
+    "xit-2009-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/618b4fe5-ead0-448e-acbf-062f10b213e5.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 7034955,
+      "sha256": "272682ace37062a3824a857c9b363ada30c491cbab18bc330995ea9702b71e0d",
+      "pages": 12,
+      "local_file": "resources/xit/2009/2009-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2009-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/66ce0023-8b4c-4398-8ff0-eb8dcd06f1d3.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 3821790,
+      "sha256": "5f949038c29fe74d6f7d8a6d4e4c6455939935835333ead646cd902339d90592",
+      "pages": 7,
+      "local_file": "resources/xit/2009/2009-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2010-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/21dc65b0-0cec-42fe-a792-1a214eb38e0d.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 7031428,
+      "sha256": "abc99d871aaae0a0683c9ccf0fe53cd6bda88cb86d80c25c2581f8d976b39fb3",
+      "pages": 11,
+      "local_file": "resources/xit/2010/2010-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2010-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/da779a9f-b064-4f39-aea8-3e4b847cde4a.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4059129,
+      "sha256": "3eb7949d7cfd69c0bd7178e51189fdca276182be209bd314ebb148125eb4f17e",
+      "pages": 8,
+      "local_file": "resources/xit/2010/2010-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2011-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/176ed299-5a6d-435a-bdc1-5c0e53ff7b26.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 7504530,
+      "sha256": "91be83c9ad41ad096c7c1181fbdeb956dfdee33e4ad8a1e89fb1bcb2aeefebc8",
+      "pages": 12,
+      "local_file": "resources/xit/2011/2011-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2011-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/e6f8fe8e-5bc9-42a6-b59c-70f1665b2496.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4296344,
+      "sha256": "78253e91a7f521c3386a25467c71311a0e8934101755a9c2b4eea29e8c74abd5",
+      "pages": 8,
+      "local_file": "resources/xit/2011/2011-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2012-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0b4d0eaa-ca05-4dd2-a918-436597a366d2.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 7156808,
+      "sha256": "00c2dcb0c368146c7e40f5df2e2e1de47dab2939b59ae8ab24c173fba1aa8bba",
+      "pages": 11,
+      "local_file": "resources/xit/2012/2012-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2012-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/aa16fad1-1b4a-443d-8371-f1ca40cfaf76.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4665643,
+      "sha256": "dfb23fc8d469bc65f8092fb7098090cf668964f43ba438a7ecd5fa04e31b89d0",
+      "pages": 8,
+      "local_file": "resources/xit/2012/2012-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2013-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0356daa4-0d15-45cb-8e95-fe8054f2e8f5.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 6114573,
+      "sha256": "513ec867087a940e31b0281f4cb51347e4ad404559beb09164e197cb33a23e44",
+      "pages": 11,
+      "local_file": "resources/xit/2013/2013-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2013-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/1952f795-2b5d-4d17-8f4c-77cc5a6d6ebb.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4973584,
+      "sha256": "5e5462442db6218eb6828de17e79695652f56d717899fa29c441442f4aa112bd",
+      "pages": 8,
+      "local_file": "resources/xit/2013/2013-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2014-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/ff7be588-bd3a-49aa-a543-2597a1696a93.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 8639012,
+      "sha256": "d835bc73647eac05b55d8ba136da2e8355a1b70acde1fa5890bb673048fea5cc",
+      "pages": 14,
+      "local_file": "resources/xit/2014/2014-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2014-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/becf4a64-f52d-4e03-bf57-edd1e6d9bb11.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4034020,
+      "sha256": "93b466b982be74c7b025301e784f46358164fb10d13d1d7a8958edc58bc4a155",
+      "pages": 7,
+      "local_file": "resources/xit/2014/2014-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2015-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/456188ea-8304-4f97-a3e2-8020d6d0c2d8.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4602963,
+      "sha256": "8775dde32c5b06f2addbd3fe4d5b401569586ba96362eb688568bac97821d85d",
+      "pages": 8,
+      "local_file": "resources/xit/2015/2015-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2015-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/1da8d963-0e88-469e-89b9-62a34b7219c3.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4328699,
+      "sha256": "7d02d04d6bb686731992aba04f480275d8e4b331fcafb21c08d7734bdcb3533b",
+      "pages": 9,
+      "local_file": "resources/xit/2015/2015-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2016-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/48f7876e-c40f-4a30-8d39-779582d064ad.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 7650724,
+      "sha256": "1dafb5000e9b36ed4f9e3f5131011c04acddd89859d45b2093819bb14ca217ab",
+      "pages": 12,
+      "local_file": "resources/xit/2016/2016-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2016-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/a62b9584-568c-4139-aaa8-3cba0bfc8f80.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4176539,
+      "sha256": "67d722ec87e449c4c3949f7965bb325a63c085d1d186561f6b71058a8d9a559b",
+      "pages": 8,
+      "local_file": "resources/xit/2016/2016-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2017-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/a71b5884-650c-455f-ad52-213b14ee08d2.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 5873786,
+      "sha256": "1e779b8f4aae742317f0318e6ed0584f69d96e0d154289c78a5107a1910e7630",
+      "pages": 10,
+      "local_file": "resources/xit/2017/2017-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2017-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/66dcf908-f2cb-4c7b-a74d-8275fa9dd227.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4195426,
+      "sha256": "16f9c9afac663bc64e4057fe666d4563091349f71ba4113c26f58a66ea449883",
+      "pages": 8,
+      "local_file": "resources/xit/2017/2017-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2018-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/d715b8d5-2a32-4336-93f2-9b1c989e1f12.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 5751461,
+      "sha256": "64241257a958308a4c3837c1c30f458ba425dd15e1ee43b861b67d7002453506",
+      "pages": 9,
+      "local_file": "resources/xit/2018/2018-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2018-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/6e797e11-6c0f-4ddd-9327-acc22436beaa.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 3988878,
+      "sha256": "f2eb2138bd7a2ce31d921c2b787b6b75945965c0c2af861c4960864e58baf296",
+      "pages": 8,
+      "local_file": "resources/xit/2018/2018-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2019-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/fb8fe66c-510f-4777-ad42-09e83fb453ee.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 7764210,
+      "sha256": "d03a793037a382e6984c311c27e2d8abecc82538865c0b208d3a35091b2e0577",
+      "pages": 12,
+      "local_file": "resources/xit/2019/2019-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2019-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/2613a8c5-0439-4e51-9f13-e664fdcac6c7.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 3574370,
+      "sha256": "86a92ec93232b461f7b4685f69c3b58a2a7ffbab8c2d15ee8ebe04b11af5adf9",
+      "pages": 7,
+      "local_file": "resources/xit/2019/2019-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2020-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/b52850dc-4e36-4de0-aabf-4090099011b3.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 6799802,
+      "sha256": "f85fe0c922f4f026a711885682f06f2f867a648d612219f629bd912103d02113",
+      "pages": 12,
+      "local_file": "resources/xit/2020/2020-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2020-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/300f0704-d7ac-4e84-8970-4b26f5114faa.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4364670,
+      "sha256": "77cbc6fa04ab17c8da9df900a1680dc5ce4e3c5f76c69cdf7c8fe67de94858bb",
+      "pages": 9,
+      "local_file": "resources/xit/2020/2020-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2021-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/c91803b1-1234-4d8e-a5cb-a00267356e6a.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 6290950,
+      "sha256": "45e4eb5d403d3a012ad7a2d38989e9a394d59294be8b695ba473df02e5504666",
+      "pages": 11,
+      "local_file": "resources/xit/2021/2021-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2021-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0e9fd86a-0d3e-48b9-91a1-485e61cc9cc3.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4374284,
+      "sha256": "d932a05d911745cfb531dafa044fa97fa00f336864c72e9982316334af95f85f",
+      "pages": 9,
+      "local_file": "resources/xit/2021/2021-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2022-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/418c776b-257c-4f7e-a7f7-258c0e7b84b6.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 7070194,
+      "sha256": "1c4a11bec6a5e8b20a3ba292adae6989a23298a750c11f618370040df333a877",
+      "pages": 10,
+      "local_file": "resources/xit/2022/2022-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2022-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/aea64e47-90e0-4cb1-8e12-10eed1a3c5f7.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 5056279,
+      "sha256": "35b6cbf54f92a354327317ed9be482404426c68d69fda48bc3bd343da5caf98a",
+      "pages": 8,
+      "local_file": "resources/xit/2022/2022-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2023-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0c9174d9-ad00-44e1-b19b-eb497d24c89b.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 8903017,
+      "sha256": "cc99d1005e1a330f558912b710eeded2698b04ef978302cf7baf70e3e389f493",
+      "pages": 11,
+      "local_file": "resources/xit/2023/2023-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2023-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/ac8ae739-b5ab-4d8e-b5cf-441525833872.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 5176912,
+      "sha256": "e168bc9aa4663316ec3c5dd7051a060e08c4f708ff7ef0c555c41ff34f8a7433",
+      "pages": 8,
+      "local_file": "resources/xit/2023/2023-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2024-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/a8cb9e6f-c4a0-4c42-a4b1-b1d78afc8e77.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 6628856,
+      "sha256": "7ed01e612ee53eb3d99d22c3d2a54470462e381a24ce6a1e57bbf083820700a9",
+      "pages": 15,
+      "local_file": "resources/xit/2024/2024-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2024-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/6b611f5c-55d9-4612-8ff9-30b028731314.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 5568489,
+      "sha256": "2ac71c0b344b62bfe5735af5aa1804abc5e494cd58efefc4234b4af947693548",
+      "pages": 17,
+      "local_file": "resources/xit/2024/2024-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2025-answers": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/c6287c77-4dc8-499a-a6d1-71cebf9e822a.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 10587949,
+      "sha256": "087eebe73dbb8457f579da9fbaaedaae0b50f7632b25a364498eebc1efdc5314",
+      "pages": 31,
+      "local_file": "resources/xit/2025/2025-408-answers-original.pdf",
+      "kind": "厦门工学院公开附件"
+    },
+    "xit-2025-paper": {
+      "url": "https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/d9fce855-72bd-4e00-9a48-5d4ec5ef6f72.pdf",
+      "source_page": "https://www.xit.edu.cn/yjsfk/kyzykwtkw/list.htm",
+      "accessed": "2026-10-29",
+      "bytes": 4978253,
+      "sha256": "3cc0a8d2871c5767048b8971c4db307f7c0b532b63face59f07fb94171e3dd0a",
+      "pages": 12,
+      "local_file": "resources/xit/2025/2025-408-paper-original.pdf",
+      "kind": "厦门工学院公开附件"
+    }
+  },
+  "assets": [
+    {
+      "path": "typst/assets/2023/q41-directed-graph.png",
+      "source": "scan-2023-paper",
+      "page": 6,
+      "crop_fraction_xyxy": [
+        0.745,
+        0.421,
+        0.915,
+        0.555
+      ],
+      "sha256": "77885c3bf827dd3aa85fdfff8d7dd1006b58305ee1bfd9bb2620f7fd2e77c60c"
+    },
+    {
+      "path": "typst/assets/2023/q47-network.png",
+      "source": "scan-2023-paper",
+      "page": 8,
+      "crop_fraction_xyxy": [
+        0.27,
+        0.548,
+        0.75,
+        0.608
+      ],
+      "sha256": "d242301ab02ccecf18c30a4641f60237321e51c8a81ef47513d86bfb2991d4c5"
+    },
+    {
+      "path": "typst/assets/2024/q35-vlan.png",
+      "source": "scan-2024-paper",
+      "page": 7,
+      "crop_fraction_xyxy": [
+        0.12,
+        0.045,
+        0.86,
+        0.24
+      ],
+      "sha256": "4ac3f33320a14b7323f6659cf082236cb50d2dc62feb202365ad9fa252d04dbb"
+    },
+    {
+      "path": "typst/assets/2024/q47-autonomous-systems.png",
+      "source": "scan-2024-paper",
+      "page": 15,
+      "crop_fraction_xyxy": [
+        0.19,
+        0.21,
+        0.81,
+        0.483
+      ],
+      "sha256": "f7c26206f30d0d33fed3a08bd5cbb8b3e02490a60cb999afe4320dc6836431dd"
+    },
+    {
+      "path": "typst/assets/2023/q38-nat.png",
+      "source": "scan-2023-paper",
+      "page": 5,
+      "crop_fraction_xyxy": [
+        0.18,
+        0.845,
+        0.92,
+        0.92
+      ],
+      "sha256": "59b3d1986cd80f3df3dfaaf20619ba03b48e56614839482dd3895418253d0622"
+    }
+  ]
+}
